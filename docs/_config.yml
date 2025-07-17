@@ -31,13 +31,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 # Tali informazioni appariranno nel Footer del sito.
 github_repo:
   - name: "SoBigData Master's projects Template"
-    url: "https://github.com/danielefadda/master-projects-template-2025/"
+    url: "https://github.com/ScordinoD1994/g1-2025-website/"
 
 markdown: kramdown
 
-baseurl: "/master-projects-template-2025"
+baseurl: "/g1-2025-website"
 #baseurl: ""
-url: "https://danielefadda.github.io"
+url: "https://ScordinoD1994.github.io"
 
 #################################
 #    Navigation configuration   #
