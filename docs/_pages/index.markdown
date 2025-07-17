@@ -37,11 +37,14 @@ Then came 2017, the year Steam removed almost all gatekeeping. With Steam Direct
  
 In just a decade, Steam transitioned from a curated digital store to an open bazaar—one where creativity thrives but discoverability becomes a brutal contest.
 
-![steam 1](assets/images/steamdb_game_releases_per_year.png)
+<img src='assets/images/steamdb_game_releases_per_year.png' width = 400>
 
 ![steam 2](assets/images/steamdb_game_releases_per_month.png)
 
 <div class = "didascalia"> Didascalia </div>
+
+Ciao
+{ : .didascalia }
 
 
 To ensure the relevance and interpretability of the results, this study focuses on Steam games that have a corresponding Metacritic page. This constraint helps isolate games that have surpassed a threshold of public and critical visibility, allowing the analysis to focus on factors associated with appreciation among both critics and players. While this approach may exclude certain under-the-radar indie successes, it enables a more consistent and interpretable comparison set. Future work may expand this scope to include the long tail of the Steam catalogue.
