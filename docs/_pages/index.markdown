@@ -42,4 +42,8 @@ In just a decade, Steam transitioned from a curated digital store to an open baz
 ![steam 2](assets/images/steamdb_game_releases_per_month.png)
 
 
+<div style="height: 400px">
+<vegachart schema-url="/master-projects-template-2025/assets/charts/metacritic.json" style="width: 100%; height: 100%"></vegachart>
+</div>
+
 
