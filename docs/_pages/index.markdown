@@ -11,34 +11,186 @@ vega: true
     <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
-To develop the *Progettone* website  we will use a **Static Site Generator** (SSG), which allows you to create fast-loading websites without the need for complex backend systems or databases.
-In particular, we will use one of the most popular SSGs: Jekyll and GitHub Pages.
-{: .lead }
 
-**Jekyll** is a simple, blog-aware, static site generator that takes your content, renders it into a static website, and serves it. Combined with GitHub Pages, it allows you to host your website for free, making it an ideal choice for personal projects, portfolios, and documentation sites.
-{: .lead }
+# Game Popularity & Appreciation: Website Structure
+ 
+## Menu Structure and Navigation
+ 
+- **Introduction**
+- **Popularity & Appreciation Scores**
+- **Indie vs Non-Indie**
+- **Tag Analysis**
+- **Predictive Modeling**
+- **Text Analysis**
+- **Technical Details** (either as a section or expandable content throughout)
+- **Conclusions & Next Steps**
+ 
+---
+ 
+## Section 1: Introduction
+ 
+### H1: A Crowded Market
+- Paragraph: Discuss Steam's explosion of content and increasing game volume.
+- Visuals:
+  - Games released per year
+  - Games reaching Metacritic per year
+ 
+### H2: How Players Engage
+- Paragraph: Talk about playtime, ownership, review counts.
+- Visuals:
+  - Distribution of owners
+  - Playtime over time
+  - Number of reviews per game over time
+ 
+### H2: Measuring Appreciation
+- Paragraph: Discuss existing metrics
+  - Metacritic critic scores
+  - Metacritic user scores
+  - Steam positive review ratios
+- Visuals:
+  - Distributions of all three scores
+  - Critic score vs User score
+- Ending note: Introduce need for composite metrics
+ 
+### H2: Toward Quantifying Success
+- Paragraph: Propose idea of defining **popularity** and **appreciation** with condensed scores
+ 
+---
+ 
+## Section 2: Popularity & Appreciation Scores
+ 
+### H1: Defining the Scores
+- Paragraph: Explain how scores are computed
+- Optional: Collapsible "Technical Details"
+ 
+### H2: Score Distributions
+- Visuals:
+  - Histogram of popularity scores
+  - Histogram of appreciation scores
+ 
+### H2: Trends Over Time
+- Visuals:
+  - Median popularity score by year
+  - Median appreciation score by year
+- Paragraph: Discuss trends, saturation, indie influence
+ 
+### H2: Mapping the Game Landscape
+- Visual:
+  - Popularity vs Appreciation scatter (quadrant layout)
+- Paragraph: Four quadrant explanation
+ 
+### H2: The Underrated and Overlooked
+- Paragraph: Focus on Low Popularity / High Appreciation
+- Visuals:
+  - Share of indie games per quadrant
+- Transition: Lead into indie analysis
+ 
+---
+ 
+## Section 3: Indie vs Non-Indie
+ 
+### H1: A Tale of Two Markets
+- Visual: Volume and share of indie vs non-indie over time
+- Paragraph: Growth and role of indie scene
+ 
+### H2: Popularity and Appreciation Compared
+- Visuals:
+  - Distributions of scores by category
+  - Average score bar plots
+- Paragraph: Interpretation
+ 
+### H2: Best of Both Worlds
+- Visuals:
+  - Top 15 most popular indie games
+  - Top 15 most appreciated indie games
+  - Same for non-indie
+- Paragraph: Narrative comparison
+ 
+### H2: A Case Study: Freud's Bones
+- Visuals:
+  - Position in popularity/appreciation space
+- Paragraph: Interview highlights
+ 
+---
+ 
+## Section 4: Tag Analysis
+ 
+### H1: Introduction to Tags
+- Paragraph: Explain Steam tagging system
+ 
+### H2: Most Frequent Tags
+- Visual: Tag frequency bar charts
+- Paragraph: Initial insight
+ 
+### H2: Categories
+- Primary Genres
+- Gameplay Mechanics
+- Subgenres
+- Player Perspective
+- Narrative Elements
+- Settings
+- Player Modes
+ 
+### H2: Tag Popularity vs. Appreciation
+- Visuals: Scatter/box plots of tag effects on scores
+ 
+### H2: Tag Combinations and Synergies
+- Visual: Heatmaps or pairwise combo analysis
+ 
+### H2: Indie vs Non-Indie by Tag
+- Visual: Tag frequency comparison
+ 
+---
+ 
+## Section 5: Predictive Modeling
+ 
+### H1: Predicting Popularity and Appreciation
+- Paragraph: What was done and why
+- Visuals:
+  - Feature importance
+  - Model performance metrics
+- Paragraph: Interpretation of findings
+ 
+---
+ 
+## Section 6: Text Analysis
+ 
+### H1: Review Analysis
+- Paragraph: What reviews can tell us
+- Focus areas:
+  - High Pop / Low Apprec
+  - Low Pop / High Apprec
+  - Critic vs User mismatch
+  - Indie standouts
+  - Freud's Bones deep dive
+- Visuals: Word clouds, topic models, sentiment distributions
+ 
+---
+ 
+## Section 7: Technical Details (optional)
+ 
+### Option A: Standalone Section
+- Detailed descriptions of score computation, modeling, NLP pipelines, etc.
+ 
+### Option B: Embedded Boxes
+- Use expandable/collapsible subparagraphs ("Technical Detail") throughout the site
+ 
+---
+ 
+## Section 8: Conclusions & Next Steps
+ 
+### H1: No One Formula
+- Paragraph: Wrap-up of key findings
+ 
+### H2: Future Work
+- Marketing and visibility data
+- Player community analysis
 
-**GitHub Pages** is a service provided by GitHub that allows you to host static websites directly from a GitHub repository. It supports Jekyll out of the box, making it easy to deploy your Jekyll site with just a few clicks.
-{: .lead }
 
-<br>
 
-# What you need to start
 
-- [ ] 🐙 **A GitHub account** - If you don't have one, you can [create it for free](https://github.com/)
-- [ ] 📝 **A well-structured draft of your project** - This can be a Word document or any other format you prefer. It should include the main ideas, structure, and content you want to present on your website.
-- [ ] 📊 **A folder with your saved Charts** - You can use the charts you created saving them as .json files in the `assets/charts` folder.
-- [ ] 📂 **A folder with all the images** you want to use on your website: you can save them in the `assets/images` folder.
-{: .bg-color-full  .px-3 .lead}
 
-<br>
 
-# How to start
 
-The development of the website can be done in two ways:
-1. **Completely online, using GitHub and GitHub Pages.**
-2. Locally, using Jekyll and then pushing the changes to GitHub.
 
-In the guide, we will focus on the first option, which is the easiest way to create a website. 
-However, if you want to develop the website locally, you need to install Jekyll on your computer. 
-You can find the instructions on how to do it [in the official guide](https://jekyllrb.com/docs/installation/) or in the [local development section]({{ site.baseurl }}/local-development/).
+

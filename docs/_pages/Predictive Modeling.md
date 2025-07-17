@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Test page"
-subtitle: "Example page"
+title: "Predictive Model"
+subtitle: ""
 ---
 
 # Titolo 1

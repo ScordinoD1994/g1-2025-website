@@ -50,27 +50,17 @@ navbar:
     img: "./assets/images/Logo_masthead.png" # don't change this
     url: /
   nav:
-    - title: Guide
-      url: /guide.html
-    - title: Example page
-      url: /example.html
-    - title: Another page
-      url: /new_page.html
     - title: in-depth
       child:
-        - title: Local development
-          url: /local-development.html
-        - title: Markdown
-          url: /markdown.html
-        - title: Charts
-          url: /charts.html
-        - title: Folium
-          url: /folium.html
-        - title: Sliders
-          url: /slider.html
-
+        - title: Tag Analysis
+          url: /Tag Analysis.html
+        - title: Predictive Modeling
+          url: /Predictive Modeling.html
+        - title: Text Analysis
+          url: /Text Analysis.html
     - title: SBD Master # this must be always the last item in the navbar, don't change it
       url: https://masterbigdata.it/
+
 
 ###########################
 #    General appearance   #
