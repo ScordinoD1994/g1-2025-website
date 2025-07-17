@@ -4,7 +4,7 @@ title: "Home"
 show_sidetoc: true
 header_type: hero
 header_img: assets/images/folium_map.webp
-header_title: "Example Page"
+header_title: "Group 1 test"
 subtitle: "An Example Page for the SoBigData Big Data Project Template"
 ---
 
