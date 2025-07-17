@@ -1,0 +1,156 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "Project Template"
+subtitle: "This is a template for SoBigData Master's projects"
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+
+# Riportare il github del gruppo di progetto e quello del sito web (se differente).
+# Tali informazioni appariranno nel Footer del sito.
+github_repo:
+  - name: "SoBigData Master's projects Template"
+    url: "https://github.com/danielefadda/master-projects-template-2025/"
+
+markdown: kramdown
+
+baseurl: "/master-projects-template-2025"
+#baseurl: ""
+url: "https://danielefadda.github.io"
+
+#################################
+#    Navigation configuration   #
+#################################
+
+navbar:
+  style :  dual #don't change this, it is used to set the navbar style.
+  brand: # this is the brand of the navbar, it will be displayed on the left side.
+    title :  "SoBigData Master's projects Template"
+    img: "./assets/images/Logo_masthead.png" # don't change this
+    url: /
+  nav:
+    - title: Guide
+      url: /guide.html
+    - title: Example page
+      url: /example.html
+    - title: in-depth
+      child:
+        - title: Local development
+          url: /local-development.html
+        - title: Markdown
+          url: /markdown.html
+        - title: Charts
+          url: /charts.html
+        - title: Folium
+          url: /folium.html
+        - title: Sliders
+          url: /slider.html
+
+    - title: SBD Master # this must be always the last item in the navbar, don't change it
+      url: https://masterbigdata.it/
+
+###########################
+#    General appearance   #
+###########################
+
+#googlefonts:
+#  - url: "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+#  - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+#  - url: "https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap"
+
+## Google Fonts example to import Space Mono
+googlefonts:
+  - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+
+chulapa-skin:
+  skin:  "sbd" # "sbd" "pixel " "graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "minty" "lux" "journal" "deeply"
+  vars:
+    # font-family-base:  "Space Mono"
+
+
+#chulapa-skin:
+#  autothemer  :  true
+#  vars:
+#    primary: "#07286E"
+
+
+
+##################################################
+#    Don't change anything below this line    #
+##################################################
+
+# Build settings
+#theme: chulapa-jekyll # va usato il remote-theme!!!
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+footer:
+  links:
+  - label: "LinkedIn"
+    icon: "fab fa-linkedin"
+    url: https://www.linkedin.com/company/sobigdata
+  - label: "Twitter"
+    icon: "fab fa-twitter"
+    url: https://www.twitter.com/sobigdata
+  copyright: "2025 SoBigData RI"
+
+
+sass:
+  quiet_deps: true
+
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+ - .sass-cache/
+ - .jekyll-cache/
+ - gemfiles/
+ - Gemfile
+ - Gemfile.lock
+ - node_modules/
+ - vendor/bundle/
+ - vendor/cache/
+ - vendor/gems/
+ - vendor/ruby/
+ - .idea/
+
+
+livereload: true
+
+remote_theme: dieghernan/chulapa
+
+future: true
+
+defaults:
+  - scope:
+      path: "assets/images/thumb-charts"
+    values:
+      image_col: charts
