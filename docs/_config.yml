@@ -89,7 +89,6 @@ chulapa-skin:
   skin:  "pixel" # "sbd" "pixel " "graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "minty" "lux" "journal" "deeply"
   vars:
     # font-family-base:  "Space Mono"
-    body-bg: purple
 
 
 #chulapa-skin:
