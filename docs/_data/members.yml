@@ -23,21 +23,21 @@
   role: tutor
   home: true
 
-- name: First Name Last Name
+- name: Gioele Eterno
   github: https://kdd.isti.cnr.it/people/student-1
   role: student
-- name: First Name Last Name
+- name: Elvira Papaleo
   github: https://kdd.isti.cnr.it/people/student-2
   role: student
-- name: First Name Last Name
+- name: Giancarlo Padula
   github: https://kdd.isti.cnr.it/people/student-3
   role: student
-- name: First Name Last Name
+- name: Guangrui Shi
   github: https://kdd.isti.cnr.it/people/student-4
   role: student
-- name: First Name Last Name
+- name: Domenico Scordino
   github: https://kdd.isti.cnr.it/people/student-5
   role: student
-- name: First Name Last Name
+- name: Francesco Fida
   github: https://kdd.isti.cnr.it/people/student-6
   role: student
