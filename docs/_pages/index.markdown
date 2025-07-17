@@ -17,11 +17,11 @@ vega: true
 
 **Navigation**
 
-1. [Introduction](##Introduction)
-2. [Popularity & Appreciation Scores](##Popularity-&-Appreciation-Scores)
-3. [Indie vs Non-Indie](##Indie-vs-Non-Indie)
-4. [Tag Analysis](##Tag-Analysis)
-5. [Conclusions & Next Steps](##Conclusions-&-Next-Steps)
+1. [Introduction](#1-Introduction)
+2. [Popularity & Appreciation Scores](#2-Popularity-&-Appreciation-Scores)
+3. [Indie vs Non-Indie](#3-Indie-vs-Non-Indie)
+4. [Tag Analysis](#4-Tag-Analysis)
+5. [Conclusions & Next Steps](#5-Conclusions-&-Next-Steps)
  
 ---
  
