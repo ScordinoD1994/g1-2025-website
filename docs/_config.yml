@@ -54,6 +54,8 @@ navbar:
       url: /guide.html
     - title: Example page
       url: /example.html
+    - title: Another page
+      url: /new_page.html
     - title: in-depth
       child:
         - title: Local development
