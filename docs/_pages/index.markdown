@@ -41,9 +41,12 @@ In just a decade, Steam transitioned from a curated digital store to an open baz
 
 ![steam 2](assets/images/steamdb_game_releases_per_month.png)
 
+To ensure the relevance and interpretability of the results, this study focuses on Steam games that have a corresponding Metacritic page. This constraint helps isolate games that have surpassed a threshold of public and critical visibility, allowing the analysis to focus on factors associated with appreciation among both critics and players. While this approach may exclude certain under-the-radar indie successes, it enables a more consistent and interpretable comparison set. Future work may expand this scope to include the long tail of the Steam catalogue.
 
-<div style="height: 400px">
-<vegachart schema-url="/g1-2025-website/assets/charts/metacritic.json" style="width: 100%; height: 100%"></vegachart>
-</div>
+Of the games that reached Metacritic, not all of them managed to spark conversation. Many were released, reviewed by critics, and then seemingly disappeared into the digital void. To focus our analysis on games that actually reached players and provoked reactions, we removed any title that received zero user reviews.
+ 
+This step helped us narrow the dataset down to games that were not just visible—but engaged with. After all, it’s hard to measure appreciation or popularity without a single player speaking up. Whether it’s praise, critique, or outright fury, we wanted games that left a footprint in the form of player feedback.
+ 
+
 
 
