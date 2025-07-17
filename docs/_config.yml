@@ -30,7 +30,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # Riportare il github del gruppo di progetto e quello del sito web (se differente).
 # Tali informazioni appariranno nel Footer del sito.
 github_repo:
-  - name: "SoBigData Master's projects Template"
+  - name: "GAMEBREAKING"
     url: "https://github.com/ScordinoD1994/g1-2025-website/"
 
 markdown: kramdown

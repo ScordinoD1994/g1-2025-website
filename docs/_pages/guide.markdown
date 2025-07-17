@@ -7,7 +7,7 @@ title: "Home"
 vega: true
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/header.svg
-header_title: "A guide to develop your<br> Progettone website"
+header_title: "UNLOCKING THE DATA BEHIND A GAME’S SUCCESS"
 
 ---
 
