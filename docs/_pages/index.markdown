@@ -12,22 +12,20 @@ vega: true
 </div>
 
 
-# Game Popularity & Appreciation: Website Structure
- 
-## Menu Structure and Navigation
- 
-- **Introduction**
-- **Popularity & Appreciation Scores**
-- **Indie vs Non-Indie**
-- **Tag Analysis**
-- **Predictive Modeling**
-- **Text Analysis**
-- **Technical Details** (either as a section or expandable content throughout)
-- **Conclusions & Next Steps**
+# GAMEBRAKING
+## Unlocking the data behind a videogame's success
+
+**Navigation**
+
+1. [Introduction](##Introduction)
+2. [Popularity & Appreciation Scores](##Popularity-&-Appreciation-Scores)
+3. [Indie vs Non-Indie](##Indie-vs-Non-Indie)
+4. [Tag Analysis](##Tag-Analysis)
+5. [Conclusions & Next Steps](##Conclusions-&-Next-Steps)
  
 ---
  
-## Section 1: Introduction
+## Introduction
  
 ### H1: A Crowded Market
 - Paragraph: Discuss Steam's explosion of content and increasing game volume.
@@ -57,7 +55,7 @@ vega: true
  
 ---
  
-## Section 2: Popularity & Appreciation Scores
+## Popularity & Appreciation Scores
  
 ### H1: Defining the Scores
 - Paragraph: Explain how scores are computed
@@ -87,7 +85,7 @@ vega: true
  
 ---
  
-## Section 3: Indie vs Non-Indie
+## Indie vs Non-Indie
  
 ### H1: A Tale of Two Markets
 - Visual: Volume and share of indie vs non-indie over time
@@ -113,7 +111,7 @@ vega: true
  
 ---
  
-## Section 4: Tag Analysis
+## Tag Analysis
  
 ### H1: Introduction to Tags
 - Paragraph: Explain Steam tagging system
@@ -177,7 +175,7 @@ vega: true
  
 ---
  
-## Section 8: Conclusions & Next Steps
+## Conclusions & Next Steps
  
 ### H1: No One Formula
 - Paragraph: Wrap-up of key findings
