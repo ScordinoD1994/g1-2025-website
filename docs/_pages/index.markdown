@@ -43,7 +43,7 @@ In just a decade, Steam transitioned from a curated digital store to an open baz
 
 
 <div style="height: 400px">
-<vegachart schema-url="/master-projects-template-2025/assets/charts/metacritic.json" style="width: 100%; height: 100%"></vegachart>
+<vegachart schema-url="/g1-2025-website/assets/charts/metacritic.json" style="width: 100%; height: 100%"></vegachart>
 </div>
 
 
