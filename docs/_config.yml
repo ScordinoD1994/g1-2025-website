@@ -46,7 +46,7 @@ url: "https://ScordinoD1994.github.io"
 navbar:
   style :  dual #don't change this, it is used to set the navbar style.
   brand: # this is the brand of the navbar, it will be displayed on the left side.
-    title :  "SoBigData Master's projects Template"
+    title :  "GAMEBREAKING"
     img: "./assets/images/Logo_masthead.png" # don't change this
     url: /
   nav:
