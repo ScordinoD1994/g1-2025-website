@@ -17,6 +17,7 @@ vega: true
  <h4 class = "full-width-wrapper superSubTitle"> Unlocking the data behind a videogame's success </h4>
 
 
+
 <nav>
     <b> Table of content </b>
     <ol>
