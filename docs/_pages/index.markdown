@@ -167,7 +167,7 @@ We used ***Principal Component Analysis (PCA)*** to synthesize these variables i
 The top 15 most appreciated games highlight story-driven, critically acclaimed titles. ***Baldur’s Gate 3*** leads, with classics like ***Half-Life 2***, ***Portal 2***, and ***BioShock*** close behind. Several entries from long-running franchises (***Final Fantasy***, ***Persona***, ***The Elder Scrolls***) appear alongside modern hits like ***Red Dead Redemption 2*** and ***God of War***. This ranking underscores how narrative quality, innovation, and lasting impact drive appreciation, regardless of release date.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/appreciation_distribution.json" style = "text-align: center;" ></vegachart>
+  <vegachart schema-url="/g1-2025-website/assets/charts/appreciation_distribution.json" style="width: 100%; height: 100%" ></vegachart>
   <figcaption class = "figcaption_class">Fig.14 - Appreciation score distribution and Kernel Density Estimation.</figcaption>
 </figure>
 
