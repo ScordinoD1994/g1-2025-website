@@ -66,12 +66,14 @@ Once a game is released on Steam, how do players actually engage with it? We exa
 When we look at average playtime over time, a subtle but important shift emerges: newer games tend to see shorter engagement windows compared to older titles. Whether due to time constraints, the abundance of available alternatives, or changing player habits, it's clear that player attention is fragmenting.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json" style="width: 100%; height: 100%" class = "figcaption_class"></vegachart>
+  <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json" style="width: 100%; height: 100%; align-items: center;"></vegachart>
   <figcaption class = "figcaption_class">Fig.4 - Total average estimated owners (left plot) and average playtime per year (right plot).</figcaption>
 </figure>
 
+Some noticeable spikes in the data trace back to landmark releases. The peaks in average playtime seen in years like 1998, 2000, 2001, 2003, and 2004 align with the launches of enduring classics like *Half-Life*, *Counter-Strike* *Half-Life: Blue Shift*, *Day of Defeat*, and *Counter-Strike: Source*. These titles have maintained active player bases over decades, skewing the average upward. Similarly, the sharp rise in estimated ownership in 2013 is largely attributable to *Dota 2*, a free-to-play phenomenon that brought millions of players onto Steam and became a pillar of its ecosystem.
+
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/explain_spikes.json" style="width: 100%; height: 100%" class = "figcaption_class"></vegachart>
+  <vegachart schema-url="/g1-2025-website/assets/charts/explain_spikes.json" style="width: 100%; height: 100%" ></vegachart>
   <figcaption class = "figcaption_class">Fig.5 - Spikes breakdown.</figcaption>
 </figure>
 
@@ -79,7 +81,7 @@ Finally, we explored review activity by looking at the distribution of the numbe
 Together, these trends reveal how player engagement is both growing and concentrating, offering opportunities for breakout hits, but also highlighting the steep climb most games face after launch.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/reviews_distribution_plus_reviews_bucket_per_released_games.json" style="width: 100%; height: 100%" class = "figcaption_class"></vegachart>
+  <vegachart schema-url="/g1-2025-website/assets/charts/reviews_distribution_plus_reviews_bucket_per_released_games.json" style="width: 100%; height: 100%"></vegachart>
   <figcaption class = "figcaption_class">Fig.6 - Review distribution.</figcaption>
 </figure>
 
