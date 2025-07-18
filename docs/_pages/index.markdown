@@ -101,7 +101,7 @@ Then there’s the Steam positive ratio, which differs not just in scale but in 
 
 These differences highlight the challenge of evaluating player sentiment in a consistent way. Each metric provides a piece of the puzzle, but none offers the full picture. This tension points to the need for more robust, composite measurements—an effort we take up in the next section, where we move toward defining appreciation and popularity as integrated, quantifiable outcomes.
 
-<figure style = "float:left; margin - right:1em;">
+<figure style = "float:left; margin - right:1em; padding:1em;">
   <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_score_difference.json" style="width: 100%; height: 100%"></vegachart>
   <figcaption class = "figcaption_class">Fig.9 - Difference between critic and user metacritic scores.</figcaption>
 </figure>
