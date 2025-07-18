@@ -123,6 +123,7 @@ body {
 }
 
 .superSubTitle{
+  display: block;
   font-size: 2rem;
   font-style: italic;
   //display: flex;
@@ -138,12 +139,7 @@ a:hover {
   color: purple;
 }
 
-#primary-navigation{
-  display: flex;
-  align-content: flex-start;
-  border: 10px;
-  border-color: purple;
-  border-radius: 5px;
-  padding-bottom: 20px;
+.toc{
+  //display: block;
 }
 
