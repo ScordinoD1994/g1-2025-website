@@ -113,13 +113,21 @@ body {
 }
 
 .superH1{
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  //justify-content: center;
+  justify-content: center;
+  padding: 40px;
 }
 
 .superSubTitle{
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  //justify-content: center;
+  justify-content: center;
+  padding: 40px;
 }
 
 
