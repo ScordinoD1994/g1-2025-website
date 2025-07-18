@@ -138,18 +138,38 @@ Because these numbers can vary wildly between indie darlings and AAA blockbuster
 
 <figure style = "float:right; margin - right:1em; padding:0.5em;">
   <vegachart schema-url="/g1-2025-website/assets/charts/top_15_popularity.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption class = "figcaption_class">Fig.11 - Top 15 games with respect to our *Popularity Score*.</figcaption>
+  <figcaption class = "figcaption_class">Fig.11 - Top 15 games with respect to our <i>Popularity Score</i>.</figcaption>
 </figure>
 
-The top 15 games by our popularity score feature a mix of blockbuster titles and enduring multiplayer hits. ***GTA V*** leads the pack, followed closely by ***ELDEN RING*** and ***Cyberpunk 2077***. Multiplayer staples like ***CS:GO***, ****Left 4 Dead 2***, and ***PAYDAY 2*** show strong staying power, while narrative-rich games (***Red Dead Redemption 2***, ***The Witcher 3***, ***Baldur’s Gate 3***) and indie successes (***Stardew Valley***, ***Terraria***) demonstrate the wide range of what "popular" can mean on Steam.
+The top 15 games by our popularity score feature a mix of blockbuster titles and enduring multiplayer hits. ***GTA V*** leads the pack, followed closely by ***ELDEN RING*** and ***Cyberpunk 2077***. Multiplayer staples like ***CS:GO***, ***Left 4 Dead 2***, and ***PAYDAY 2*** show strong staying power, while narrative-rich games (***Red Dead Redemption 2***, ***The Witcher 3***, ***Baldur’s Gate 3***) and indie successes (***Stardew Valley***, ***Terraria***) demonstrate the wide range of what "popular" can mean on Steam.
 
-
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/popularity_distribution.json" style="width: 100%; height: 100%"></vegachart>
+  <figcaption class = "figcaption_class">Fig.12 - Popularity score distribution and Kernel Density Estimation.</figcaption>
+</figure>
 
 
 ## Appreciation Score
 
+While popularity tells us which games are getting the most attention, appreciation is about how deeply players value their time spent. To distill that sentiment into a measurable score, we combined three distinct signals of game quality:
+ 
+- **Steam review ratio**: a grassroots signal of user satisfaction
+- **Metacritic critic score**: a curated, professional assessment
+- **Metacritic user score**: broader public sentiment outside Steam’s ecosystem
 
+We used ***Principal Component Analysis (PCA)*** to synthesize these variables into a single score (which is then normalized between 0 and 1), one that cuts through isolated metrics and offers a more holistic picture of how a game is received across communities. This approach lets us identify not just the most played games, but the most loved.
 
+<figure style = "float:right; margin - right:1em; padding:0.5em;">
+  <vegachart schema-url="/g1-2025-website/assets/charts/top_15_appreciation.json" style="width: 100%; height: 100%"></vegachart>
+  <figcaption class = "figcaption_class">Fig.13 - Top 15 games with respect to our <i>Appreciation Score</i>.</figcaption>
+</figure>
+
+The top 15 most appreciated games highlight story-driven, critically acclaimed titles. ***Baldur’s Gate 3*** leads, with classics like ***Half-Life 2***, ***Portal 2***, and ***BioShock*** close behind. Several entries from long-running franchises (***Final Fantasy***, ***Persona***, ***The Elder Scrolls***) appear alongside modern hits like ***Red Dead Redemption 2*** and ***God of War***. This ranking underscores how narrative quality, innovation, and lasting impact drive appreciation, regardless of release date.
+
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/appreciation_distribution.json" style="width: 100%; height: 100%"></vegachart>
+  <figcaption class = "figcaption_class">Fig.14 - Appreciation score distribution and Kernel Density Estimation.</figcaption>
+</figure>
 
 
 
