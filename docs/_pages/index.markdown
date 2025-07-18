@@ -17,9 +17,9 @@ vega: true
  <p class = "superSubTitle"> Unlocking the data behind a videogame's success </p>
 
 
-**Table of content**
 
-<nav aria-label = "primary-navigation">
+<nav id = "primary-navigation">
+    <h3> Table of content </h3>
     <ol>
         <li> <a href="#A crowded market"> A crowded market </a> </li>
         <li> <a href="#Measuring Popularity & Apprection"> Measuring Popularity & Apprection </a> </li>
