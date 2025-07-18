@@ -27,14 +27,14 @@
   github: https://kdd.isti.cnr.it/people/student-1
   role: student
 - name: Giancarlo Padula
-  github: https://kdd.isti.cnr.it/people/student-3
-- name: Elvira Papaleo
   github: https://kdd.isti.cnr.it/people/student-2
   role: student
+- name: Elvira Papaleo
+  github: https://kdd.isti.cnr.it/people/student-3
   role: student
 - name: Domenico Scordino
-  github: https://kdd.isti.cnr.it/people/student-5
+  github: https://kdd.isti.cnr.it/people/student-4
   role: student
 - name: Guangrui Shi
-  github: https://kdd.isti.cnr.it/people/student-4
+  github: https://kdd.isti.cnr.it/people/student-5
   role: student
