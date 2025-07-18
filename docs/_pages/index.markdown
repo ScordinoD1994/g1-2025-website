@@ -177,6 +177,10 @@ The top 15 most appreciated games highlight story-driven, critically acclaimed t
 
 
 
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/black_graph.json" style="width: 100%; height: 100%" ></vegachart>
+  <figcaption class = "figcaption_class">Fig.14 - Appreciation score distribution and Kernel Density Estimation.</figcaption>
+</figure>
 
 
 
