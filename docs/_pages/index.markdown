@@ -13,8 +13,8 @@ vega: true
 
 
 
- <h1 class = "full-width-wrapper"> GAMEBREAKING </h1>
- <h4 class = "full-width-wrapper"> Unlocking the data behind a videogame's success </h4>
+ <h1 class = "full-width-wrapper superH1"> GAMEBREAKING </h1>
+ <h4 class = "full-width-wrapper superSubTitle"> Unlocking the data behind a videogame's success </h4>
 
 
 <nav class="toc">
