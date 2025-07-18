@@ -19,7 +19,7 @@ vega: true
 <nav aria-label = "primary-navigation">
     <ol>
         <li> <a href="#A crowded market"> A crowded market </a> </li>
-        <li> <a href="#Popularity & Appreciation Scores"> Popularity & Appreciation Scores </a> </li>
+        <li> <a href="#Measuring Popularity & Apprection"> Measuring Popularity & Apprection </a> </li>
         <li> <a href="#Tag Analysis"> Tag Analysis </a> </li>
         <li> <a href="#Conclusions & Next Steps"> Conclusions & Next Steps </a> </li>
     </ol>
@@ -64,12 +64,12 @@ Once a game is released on Steam, how do players actually engage with it? We exa
 
 When we look at average playtime over time, a subtle but important shift emerges: newer games tend to see shorter engagement windows compared to older titles. Whether due to time constraints, the abundance of available alternatives, or changing player habits, it's clear that player attention is fragmenting.
 
-<figure>
+<figure class="full-width-image">
   <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json" style="width: 100%; height: 100%; align-items: center;"></vegachart>
   <figcaption class = "figcaption_class">Fig.4 - Total average estimated owners (left plot) and average playtime per year (right plot).</figcaption>
 </figure>
 
-Some noticeable spikes in the data trace back to landmark releases. The peaks in average playtime seen in years like 1998, 2000, 2001, 2003, and 2004 align with the launches of enduring classics like *Half-Life*, *Counter-Strike* *Half-Life: Blue Shift*, *Day of Defeat*, and *Counter-Strike: Source*. These titles have maintained active player bases over decades, skewing the average upward. Similarly, the sharp rise in estimated ownership in 2013 is largely attributable to *Dota 2*, a free-to-play phenomenon that brought millions of players onto Steam and became a pillar of its ecosystem.
+Some noticeable spikes in the data trace back to landmark releases. The peaks in average playtime seen in years like 1998, 2000, 2001, 2003, and 2004 align with the launches of enduring classics like ***Half-Life***, ***Counter-Strike***, ***Half-Life: Blue Shift***, ***Day of Defeat***, and ***Counter-Strike: Source***. These titles have maintained active player bases over decades, skewing the average upward. Similarly, the sharp rise in estimated ownership in 2013 is largely attributable to *Dota 2*, a free-to-play phenomenon that brought millions of players onto Steam and became a pillar of its ecosystem.
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/explain_spikes.json" style="width: 100%; height: 100%" ></vegachart>
@@ -79,7 +79,7 @@ Some noticeable spikes in the data trace back to landmark releases. The peaks in
 Finally, we explored review activity by looking at the distribution of the number of user reviews per game. The pattern here is starkly unequal: most games receive very few reviews, while a select few attract thousands. This distribution — like ownership and playtime — reflects a highly competitive ecosystem, where visibility and player feedback are dominated by a small percentage of releases.
 Together, these trends reveal how player engagement is both growing and concentrating, offering opportunities for breakout hits, but also highlighting the steep climb most games face after launch.
 
-<figure>
+<figure class="full-width-image">
   <vegachart schema-url="/g1-2025-website/assets/charts/reviews_distribution_plus_reviews_bucket_per_released_games.json" style="width: 100%; height: 100%"></vegachart>
   <figcaption class = "figcaption_class">Fig.6 - Review distribution.</figcaption>
 </figure>
@@ -109,16 +109,21 @@ These differences highlight the challenge of evaluating player sentiment in a co
 Beyond the general trends, some games exhibit striking discrepancies between critic and user evaluations. In our dataset, we found a substantial number of titles where the difference between the two scores exceeds 20 points on a 100-point scale—sometimes even more than 30. These outliers can reflect cases where critics and players approached the game from entirely different perspectives: technical polish vs. emotional resonance, innovation vs. nostalgia, or even divergent expectations shaped by marketing.
 Analyzing these outliers in more detail could offer valuable insights into the dynamics of reception—what drives such a divide, and what it reveals about the varying standards of professional reviewers and general audiences.
 
-<figure>
+<figure class="full-width-image">
   <vegachart schema-url="/g1-2025-website/assets/charts/user_vs_critic_score_by_difference.json" style="width: 100%; height: 100%"></vegachart>
   <figcaption class = "figcaption_class">Fig.10 - Users vs critic score on Metacritic.</figcaption>
 </figure>
 
 
+# Measuring Popularity & Apprection
+
+With thousands of games released each year and player attention more fragmented than ever, relying on a single metric to evaluate a game’s success is increasingly limiting. A high number of owners doesn’t necessarily mean players liked the experience; a strong review ratio might come from a niche but passionate fanbase. Conversely, a critically acclaimed title might fail to attract a meaningful audience. In such a complex ecosystem, success is multidimensional and it becomes crucial to disentangle its components.
+
+To this end, we introduce two composite indicators: ***popularity*** and ***appreciation***. These scores aim to synthesize multiple signals into meaningful, interpretable dimensions. Popularity combines a game’s visibility, reach, and commercial uptake (through ownership, wishlisting, and review counts), while appreciation reflects how well a game is received once it's played (via various types of ratings).
+
+This dual-axis approach allows for a more nuanced understanding of a game's position in the market: whether it's beloved but overlooked, widely played but polarizing, or among that group that is both popular and appreciated. In the sections that follow, we explore how these metrics behave, what patterns emerge, and what features seem to shape a game's trajectory across these axes.
 
 
-
-## Measuring Popularity & Apprection
 
 
 
