@@ -63,22 +63,25 @@ In other words, as the flood of new releases grows, fewer of them are breaking t
 
 Once a game is released on Steam, how do players actually engage with it? We examined three key signals: **estimated ownership**, **average playtime**, **review counts**, each revealing a different aspect of how attention and interest unfold. First, the total estimated number of owners has increased steadily over the years, showing that even as the platform grows more crowded, many games are still managing to reach players — often helped by bundles, deep discounts, or seasonal promotions. However, the gains are far from evenly distributed.
 
-<figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption class = "figcaption_class">Fig.4 - Total average estimated owners (left plot) and average playtime per year (right plot).</figcaption>
-</figure>
-
 When we look at average playtime over time, a subtle but important shift emerges: newer games tend to see shorter engagement windows compared to older titles. Whether due to time constraints, the abundance of available alternatives, or changing player habits, it's clear that player attention is fragmenting.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/explain_spikes.json" style="width: 100%; height: 100%"></vegachart>
+  <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json" style="width: 100%; height: 100%" class = "figcaption_class"></vegachart>
+  <figcaption class = "figcaption_class">Fig.4 - Total average estimated owners (left plot) and average playtime per year (right plot).</figcaption>
+</figure>
+
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/explain_spikes.json" style="width: 100%; height: 100%" class = "figcaption_class"></vegachart>
   <figcaption class = "figcaption_class">Fig.5 - Spikes breakdown.</figcaption>
 </figure>
 
 Finally, we explored review activity by looking at the distribution of the number of user reviews per game. The pattern here is starkly unequal: most games receive very few reviews, while a select few attract thousands. This distribution — like ownership and playtime — reflects a highly competitive ecosystem, where visibility and player feedback are dominated by a small percentage of releases.
 Together, these trends reveal how player engagement is both growing and concentrating, offering opportunities for breakout hits, but also highlighting the steep climb most games face after launch.
 
-
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/reviews_distribution_plus_reviews_bucket_per_released_games.json" style="width: 100%; height: 100%" class = "figcaption_class"></vegachart>
+  <figcaption class = "figcaption_class">Fig.6 - Review distribution.</figcaption>
+</figure>
 
 
 # Popularity & Appreciation Scores
