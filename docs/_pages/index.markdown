@@ -52,7 +52,7 @@ To focus on titles that have reached some degree of exposure, we narrowed our da
 But even within this more visible subset, the numbers tell a revealing story. While the absolute number of games with Metacritic pages has been steadily rising — nearly tripling since 2015 — their proportion relative to the total number of Steam releases has been declining. 
 
 <figure>
-  <img src='assets/images/metacritic_games_per_year.png' width = 500>
+  <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_games_per_year.json" style="width: 100%; height: 100%"></vegachart>
   <figcaption class = "figcaption_class">Fig.3 - Metacritic games per year.</figcaption>
 </figure>
 
@@ -61,32 +61,22 @@ In other words, as the flood of new releases grows, fewer of them are breaking t
 
 ## How players engage
 
-Once a game is released on Steam, how do players actually engage with it? We examined three key signals: 
-
-- estimated ownership, 
-- average playtime, 
-- review counts, 
-
-each revealing a different aspect of how attention and interest unfold. First, the total estimated number of owners has increased steadily over the years, showing that even as the platform grows more crowded, many games are still managing to reach players — often helped by bundles, deep discounts, or seasonal promotions. However, the gains are far from evenly distributed.
+Once a game is released on Steam, how do players actually engage with it? We examined three key signals: **estimated ownership**, **average playtime**, **review counts**, each revealing a different aspect of how attention and interest unfold. First, the total estimated number of owners has increased steadily over the years, showing that even as the platform grows more crowded, many games are still managing to reach players — often helped by bundles, deep discounts, or seasonal promotions. However, the gains are far from evenly distributed.
 
 <figure>
-  <img src='assets/images/total_average_estimated_owners_per_year_per_year.png' width = 500>
-  <figcaption class = "figcaption_class">Fig.4 - SteamDB game releases per month.</figcaption>
+  <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json" style="width: 100%; height: 100%"></vegachart>
+  <figcaption class = "figcaption_class">Fig.4 - Total average estimated owners (left plot) and average playtime per year (right plot).</figcaption>
 </figure>
 
 When we look at average playtime over time, a subtle but important shift emerges: newer games tend to see shorter engagement windows compared to older titles. Whether due to time constraints, the abundance of available alternatives, or changing player habits, it's clear that player attention is fragmenting.
 
 <figure>
-  <img src='assets/images/average_playtime_per_year.png' width = 500>
-  <figcaption class = "figcaption_class">Fig.5 - SteamDB game releases per month.</figcaption>
+  <vegachart schema-url="/g1-2025-website/assets/charts/explain_spikes.json" style="width: 100%; height: 100%"></vegachart>
+  <figcaption class = "figcaption_class">Fig.5 - Spikes breakdown.</figcaption>
 </figure>
 
 Finally, we explored review activity by looking at the distribution of the number of user reviews per game. The pattern here is starkly unequal: most games receive very few reviews, while a select few attract thousands. This distribution — like ownership and playtime — reflects a highly competitive ecosystem, where visibility and player feedback are dominated by a small percentage of releases.
 Together, these trends reveal how player engagement is both growing and concentrating, offering opportunities for breakout hits, but also highlighting the steep climb most games face after launch.
-
-
-
-
 
 
 
