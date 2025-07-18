@@ -125,7 +125,6 @@ body {
 .superSubTitle{
   font-size: 2rem;
   font-style: italic;
-  //color: palevioletred;
   display: flex;
   //flex-direction: column;
   align-items: center;
@@ -139,5 +138,8 @@ a:hover {
   color: red;
 }
 
-
+#primary-navigation{
+  border: 1px, purple;
+  border-radius: 1px;
+}
 
