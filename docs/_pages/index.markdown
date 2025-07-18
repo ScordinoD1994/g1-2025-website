@@ -19,7 +19,7 @@ vega: true
 
 
 <nav id = "primary-navigation">
-    <h3> Table of content </h3>
+    <b> Table of content </b>
     <ol>
         <li> <a href="#A crowded market"> A crowded market </a> </li>
         <li> <a href="#Measuring Popularity & Apprection"> Measuring Popularity & Apprection </a> </li>
