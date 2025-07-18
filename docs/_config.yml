@@ -50,7 +50,7 @@ navbar:
     img: "./assets/images/Logo_masthead.png" # don't change this
     url: /
   nav:
-    - title: in-depth
+    - title: Technical Discussions
       child:
         - title: Tag Analysis
           url: /Tag Analysis.html

@@ -12,17 +12,20 @@ vega: true
 </div>
 
 
-# GAMEBRAKING
-## Unlocking the data behind a videogame's success
+# GAMEBRAKING - Unlocking the data behind a videogame's success
 
-**Navigation**
+**Table of content**
 
-1. [Introduction](#1-Introduction)
-2. [Popularity & Appreciation Scores](#2-Popularity-&-Appreciation-Scores)
-3. [Indie vs Non-Indie](#3-Indie-vs-Non-Indie)
-4. [Tag Analysis](#4-Tag-Analysis)
-5. [Conclusions & Next Steps](#5-Conclusions-&-Next-Steps)
- 
+<nav aria-label = "primary-navigation">
+    <ol>
+        <li> <a href="#Introduction"> Introduction </a> </li>
+        <li> <a href="#Popularity & Appreciation Scores"> Popularity & Appreciation Scores </a> </li>
+        <li> <a href="#Tag Analysis"> Tag Analysis </a> </li>
+        <li> <a href="#Conclusions & Next Steps"> Conclusions & Next Steps </a> </li>
+    </ol>
+</nav>
+
+
 ---
 
 # Introduction
@@ -58,18 +61,48 @@ In other words, as the flood of new releases grows, fewer of them are breaking t
 
 ## How players engage
 
-Visibility is just the beginning. Among the games that are noticed, how do players actually engage with them?
-We look at several metrics — like ownership counts, average playtime, and review volume — to measure different layers of engagement. While some games manage to draw large audiences and sustain long-term interest, many others are briefly sampled or abandoned altogether.
+Once a game is released on Steam, how do players actually engage with it? We examined three key signals: 
 
-For example, a large share of games show very short average playtimes, with only a small fraction achieving sustained user engagement over time.
+- estimated ownership, 
+- average playtime, 
+- review counts, 
 
-**NOTA**: qui mettiamo un plot a griglia che contiene total_avg_estimated_owners_per_year, tempo_medio_di_gioco_per_anno
+each revealing a different aspect of how attention and interest unfold. First, the total estimated number of owners has increased steadily over the years, showing that even as the platform grows more crowded, many games are still managing to reach players — often helped by bundles, deep discounts, or seasonal promotions. However, the gains are far from evenly distributed.
 
-Similarly, review activity tends to be highly concentrated: most games receive only a handful of reviews, while a few outliers collect thousands.
-
-<figure style = "float:left; margin - right:1em;">
-  <img src='assets/images/total_average_estimated_owners_per_year_plus_average_playtime_per_year.png' width = 500>
+<figure>
+  <img src='assets/images/total_average_estimated_owners_per_year_per_year.png' width = 500>
   <figcaption class = "figcaption_class">Fig.4 - SteamDB game releases per month.</figcaption>
 </figure>
+
+When we look at average playtime over time, a subtle but important shift emerges: newer games tend to see shorter engagement windows compared to older titles. Whether due to time constraints, the abundance of available alternatives, or changing player habits, it's clear that player attention is fragmenting.
+
+<figure>
+  <img src='assets/images/average_playtime_per_year.png' width = 500>
+  <figcaption class = "figcaption_class">Fig.5 - SteamDB game releases per month.</figcaption>
+</figure>
+
+Finally, we explored review activity by looking at the distribution of the number of user reviews per game. The pattern here is starkly unequal: most games receive very few reviews, while a select few attract thousands. This distribution — like ownership and playtime — reflects a highly competitive ecosystem, where visibility and player feedback are dominated by a small percentage of releases.
+Together, these trends reveal how player engagement is both growing and concentrating, offering opportunities for breakout hits, but also highlighting the steep climb most games face after launch.
+
+
+
+
+
+
+
+
+# Popularity & Appreciation Scores
+
+Lorem ipsum...
+
+
+# Tag Analysis
+
+Lorem ipsum...
+
+
+# Conclusions & Next Steps
+
+Lorem ipsum...
 
 
