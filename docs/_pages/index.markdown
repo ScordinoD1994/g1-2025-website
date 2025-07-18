@@ -12,7 +12,10 @@ vega: true
 </div>
 
 
-# GAMEBRAKING - Unlocking the data behind a videogame's success
+
+ <h1 class = "superH1"> GAMEBRAKING </h1>
+ <p class = "superSubTitle"> Unlocking the data behind a videogame's success </p>
+
 
 **Table of content**
 
