@@ -36,11 +36,11 @@ Steam’s growth over the past decade has been staggering. In 2023 alone, over 1
 
 <figure style = "float:left; margin - right:1em;">
   <img src='assets/images/steamdb_game_releases_per_year.png' width = 500>
-  <figcaption>Fig.1 - SteamDB game releases per year.</figcaption>
+  <figcaption>Fig.1 - Game releases per year. Image from [SteamDB](https://steamdb.info/stats/releases/).</figcaption>
 </figure>
-<figure style = "float:left; margin - right:1em;">
+<figure style = "float:right; margin - left:1em;">
   <img src='assets/images/steamdb_game_releases_per_month.png' width = 500>
-  <figcaption>Fig.2 - SteamDB game releases per month.</figcaption>
+  <figcaption>Fig.2 - Game releases per month. Image from [SteamDB](https://steamdb.info/stats/releases/).</figcaption>
 </figure>
 
 
@@ -49,8 +49,8 @@ To focus on titles that have reached some degree of exposure, we narrowed our da
 But even within this more visible subset, the numbers tell a revealing story. While the absolute number of games with Metacritic pages has been steadily rising — nearly tripling since 2015 — their proportion relative to the total number of Steam releases has been declining. 
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_games_per_year.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption>Fig.3 - Metacritic games per year Vegachart.</figcaption>
+  <img src='assets/images/metacritic_games_per_year.png' width = 500>
+  <figcaption>Fig.3 - Metacritic games per year.</figcaption>
 </figure>
 
 In other words, as the flood of new releases grows, fewer of them are breaking through to earn critical attention.
@@ -68,7 +68,7 @@ For example, a large share of games show very short average playtimes, with only
 Similarly, review activity tends to be highly concentrated: most games receive only a handful of reviews, while a few outliers collect thousands.
 
 <figure style = "float:left; margin - right:1em;">
-  <img src='assets/images/total_average_estimated_owners_per_year_plus_average_playtime_per_year.png.png' width = 500>
+  <img src='assets/images/total_average_estimated_owners_per_year_plus_average_playtime_per_year.png' width = 500>
   <figcaption>Fig.4 - SteamDB game releases per month.</figcaption>
 </figure>
 
