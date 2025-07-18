@@ -36,11 +36,11 @@ Steam’s growth over the past decade has been staggering. In 2023 alone, over 1
 
 <figure style = "float:left; margin - right:1em;">
   <img src='assets/images/steamdb_game_releases_per_year.png' width = 500>
-  <figcaption>Fig.1 - Game releases per year. Image from [SteamDB](https://steamdb.info/stats/releases/).</figcaption>
+  <figcaption class = "figcaption_class">Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>.</figcaption>
 </figure>
-<figure style = "float:right; margin - left:1em;">
+<figure style = "float:left; margin - right:1em;">
   <img src='assets/images/steamdb_game_releases_per_month.png' width = 500>
-  <figcaption>Fig.2 - Game releases per month. Image from [SteamDB](https://steamdb.info/stats/releases/).</figcaption>
+  <figcaption class = "figcaption_class">Fig.2 - Game releases per month. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>.</figcaption>
 </figure>
 
 
@@ -50,7 +50,7 @@ But even within this more visible subset, the numbers tell a revealing story. Wh
 
 <figure>
   <img src='assets/images/metacritic_games_per_year.png' width = 500>
-  <figcaption>Fig.3 - Metacritic games per year.</figcaption>
+  <figcaption class = "figcaption_class">Fig.3 - Metacritic games per year.</figcaption>
 </figure>
 
 In other words, as the flood of new releases grows, fewer of them are breaking through to earn critical attention.
@@ -69,7 +69,7 @@ Similarly, review activity tends to be highly concentrated: most games receive o
 
 <figure style = "float:left; margin - right:1em;">
   <img src='assets/images/total_average_estimated_owners_per_year_plus_average_playtime_per_year.png' width = 500>
-  <figcaption>Fig.4 - SteamDB game releases per month.</figcaption>
+  <figcaption class = "figcaption_class">Fig.4 - SteamDB game releases per month.</figcaption>
 </figure>
 
 
