@@ -34,10 +34,10 @@ vega: true
   <h6> Table of content </h6>
   <nav class = "toc">
       <ol>
-          <li> <a href="#A crowded market"> A crowded market </a> </li>
-          <li> <a href="#Measuring Popularity & Apprection"> Measuring Popularity & Apprection </a> </li>
-          <li> <a href="#Tag Analysis"> Tag Analysis </a> </li>
-          <li> <a href="#Conclusions & Next Steps"> Conclusions & Next Steps </a> </li>
+          <li> <a href="#A crowded market">A crowded market</a> </li>
+          <li> <a href="#Measuring Popularity & Apprection">Measuring Popularity & Apprection</a> </li>
+          <li> <a href="#Tag Analysis">Tag Analysis</a> </li>
+          <li> <a href="#Conclusions & Next Steps">Conclusions & Next Steps</a> </li>
       </ol>
   </nav>
 </div>
