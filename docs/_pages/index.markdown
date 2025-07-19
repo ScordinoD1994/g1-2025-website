@@ -231,6 +231,21 @@ The bottom end of the popularity–appreciation spectrum paints a picture of tit
 
 Lorem ipsum...
 
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_by_year.json" style="width: 100%; height: 100%" ></vegachart>
+  <figcaption class = "figcaption_class"> Fig.18 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
+</figure>
+
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_popularity.json" style="width: 100%; height: 100%" ></vegachart>
+  <figcaption class = "figcaption_class"> Fig.19 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
+</figure>
+
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_appreciation.json" style="width: 100%; height: 100%" ></vegachart>
+  <figcaption class = "figcaption_class"> Fig.20 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
+</figure>
+
 
 
 <h1 id = "Tag Analysis"> Tag Analysis </h1>
