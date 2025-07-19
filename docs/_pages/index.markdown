@@ -32,7 +32,7 @@ vega: true
 </div>
 
 
-<div class = "toc_container">
+<div class = "full-width-wrapper toc_container">
   <nav class = "toc">
   <h5>Table of content</h5>
       <ol>
