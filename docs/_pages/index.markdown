@@ -140,12 +140,14 @@ This dual-axis approach allows for a more nuanced understanding of a game's posi
 
 Popularity in the gaming world is more than just raw sales. It’s a combination of visibility, engagement, and community presence. To capture this complex reality, we created a composite ***Popularity Score*** using data from both Steam and gaming databases like Metacritic and Backloggd.
 We began with ten core indicators of attention, ranging from how many people bought or played a game, to how often it was reviewed or recommended. These included:
- 
-- Player activity metrics like peak concurrent users (24h and all-time)
-- Estimated number of owners
-- Steam review counts (total and recommendations)
-- Engagement on Backloggd (plays, backlogs, reviews)
-- Number of critic and user reviews on Metacritic
+
+<ul class = "in_text_list">
+  <li> Player activity metrics like peak concurrent users (24h and all-time) </li>
+  <li> Estimated number of owners </li>
+  <li> Steam review counts (total and recommendations) </li>
+  <li> Engagement on Backloggd (plays, backlogs, reviews) </li>
+  <li> Number of critic and user reviews on Metacritic </li>
+</ul>
 
 Because these numbers can vary wildly between indie darlings and AAA blockbusters, we applied a logarithmic transformation to scale them more evenly. Then, we used ***Principal Component Analysis (PCA)*** to synthesize these features into a single, unified score (which is then normalized between 0 and 1). This score doesn’t just tell us how many people bought a game. It reflects how visible, discussed, and socially present a game is in the gaming ecosystem.
 
@@ -174,10 +176,13 @@ Tracking each year's most popular game outlines a parallel history of standout r
 ## Appreciation Score
 
 While popularity tells us which games are getting the most attention, appreciation is about how deeply players value their time spent. To distill that sentiment into a measurable score, we combined three distinct signals of game quality:
- 
-- **Steam review ratio**: a grassroots signal of user satisfaction
-- **Metacritic critic score**: a curated, professional assessment
-- **Metacritic user score**: broader public sentiment outside Steam’s ecosystem
+
+<ul class = "in_text_list">
+  <li> Steam review ratio: a grassroots signal of user satisfaction </li>
+  <li> Metacritic critic score: a curated, professional assessment </li>
+  <li> Metacritic user score: broader public sentiment outside Steam’s ecosystem </li>
+</ul>
+
 
 We used ***Principal Component Analysis (PCA)*** to synthesize these variables into a single score (which is then normalized between 0 and 1), one that cuts through isolated metrics and offers a more holistic picture of how a game is received across communities. This approach lets us identify not just the most played games, but the most loved.
 
