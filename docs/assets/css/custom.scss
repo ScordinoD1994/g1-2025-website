@@ -146,8 +146,13 @@ ol, ul {
   border: 2px, solid, #d4028e;
   border-radius: 10px;
   padding: 30px;
+}
+
+.toc_container {
   background-color: black;
+  padding: 25px;
   position: sticky;
+  top: 0;
 }
 
 .toc {
