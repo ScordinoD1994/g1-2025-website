@@ -17,7 +17,7 @@ vega: true
  <h4 class = "full-width-wrapper superSubTitle"> Unlocking the data behind a videogame's success </h4>
 
 
-<nav class = "navigation">
+<nav class = "toc">
     <b> Table of content </b>
     <ol>
         <li> <a href="#A crowded market"> A crowded market </a> </li>
