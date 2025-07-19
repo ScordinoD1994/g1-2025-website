@@ -15,7 +15,7 @@ vega: true
  <h1 class = "full-width-wrapper superH1"> GAMEBREAKING </h1>
  <h4 class = "full-width-wrapper superSubTitle"> Unlocking the data behind a videogame's success </h4>
 
-<div style = "display: flex; align-items: center;">
+<div class = "full-width-wrapper" style = "display: flex; align-items: center;">
 
 <div class = "toc_container">
   <nav class = "toc">
@@ -200,9 +200,11 @@ The scatter plot below positions games according to their appreciation (horizont
 
 The top 15 titles that excel in both popularity and appreciation reflect a compelling mix of blockbuster hits and standout indie successes. Games like ***Baldur’s Gate 3***, ***GTA V***, and ***Elden Ring*** dominate thanks to massive reach and critical acclaim. But beloved indies such as ***Stardew Valley***, ***Hollow Knight***, ***Terraria***, and ***Undertale*** hold their ground, proving that emotional impact and craftsmanship can rival even the biggest AAA productions.
 
-High popularity & low appercation games managed to draw substantial attention but not much love. Big budget titles like ***Battlefield 2042***, ***Fallout 76***, and ***NBA 2K21*** rank high in visibility yet falter in player satisfaction, as reflected by significantly lower appreciation scores. The list is almost entirely dominated by large publishers, hinting at a recurring pattern: strong marketing and brand recognition can drive popularity even when the final product disappoints. It's a stark reminder that hype alone doesn't guarantee lasting success.
+High popularity & low appercation games managed to draw substantial attention but not much love. Big budget titles like ***Battlefield 2042***, ***Fallout 76***, and ***NBA 2K21*** rank high in visibility yet falter in player satisfaction, as reflected by significantly lower appreciation scores. The list is almost entirely dominated by large publishers, hinting at a recurring pattern: strong marketing and brand recognition can drive popularity even when the final product disappoints. It's a stark reminder that **hype alone doesn't guarantee lasting success**.
 
+The bottom end of the popularity–appreciation spectrum paints a picture of titles that struggled to gain traction both commercially and critically. Games like ***Wild West Online*** and ***Shadow Harvest: Phantom Ops*** saw limited player interest and failed to win over those who did engage. Interestingly, many of these are smaller indie efforts or low-profile AA titles, suggesting either **underdeveloped experiences** or **misaligned expectations**. The mix of obscure failures and forgotten experiments underlines how crowded and unforgiving the Steam market can be.
 
+High appreciation & low popularity games represent the hidden gems of the Steam catalog—titles that flew under the radar but resonated deeply with those who played them. Mostly indie and niche productions, like ***Worm Jazz***, ***Depixtion***, and ***DERU - The Art of Cooperation***, these games boast remarkably high appreciation scores despite modest popularity. Their presence suggests that while marketing power can drive visibility, creative vision and satisfying gameplay can quietly build strong player loyalty, even without mainstream attention.
 
 
 <h1 id = "Tag Analysis"> Tag Analysis </h1>
