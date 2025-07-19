@@ -31,8 +31,8 @@ vega: true
 </div>
 
 <div class = "toc_container">
+  <h6> Table of content </h6>
   <nav class = "toc">
-      <b> Table of content </b>
       <ol>
           <li> <a href="#A crowded market"> A crowded market </a> </li>
           <li> <a href="#Measuring Popularity & Apprection"> Measuring Popularity & Apprection </a> </li>
@@ -187,7 +187,7 @@ The top 15 most appreciated games highlight story-driven, critically acclaimed t
 
 ## Appreciation-Popularity Plane
 
-Lorem ipsum...
+The scatter plot below positions games according to their appreciation (horizontal axis) and popularity (vertical axis) scores. With median lines dividing the space, four distinct profiles emerge. Games in the top-right quadrant — such as ***Red Dead Redemption 2*** or ***The Witcher 3*** — combine strong admiration with widespread reach. The top-left captures popular games with more mixed reception, while the bottom-right shows beloved titles with narrower appeal. The bottom-left hosts games that struggled to resonate broadly on either front. This quadrant framework helps decode the landscape of critical and commercial impact in a single glance.
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/popularity_vs_appreciation.json" style="width: 100%; height: 100%" ></vegachart>
