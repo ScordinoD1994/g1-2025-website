@@ -137,11 +137,6 @@ h2 {
   padding: 20px;
 }
 
-ol, ul {
-  font-size: 1.2rem;
-  //font-family: Arial, Helvetica, sans-serif;
-}
-
 .container_abstract {
   border: 2px, solid, #d4028e;
   border-radius: 10px;
@@ -157,4 +152,10 @@ ol, ul {
 .toc {
     padding: 30px;
 }
+
+.toc ol {
+  font-size: 1.2rem;
+  //font-family: Arial, Helvetica, sans-serif;
+}
+
 

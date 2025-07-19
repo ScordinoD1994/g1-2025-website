@@ -191,7 +191,7 @@ The scatter plot below positions games according to their appreciation (horizont
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/popularity_vs_appreciation.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.15 - Games distribution on the Appreciation and Popularity score plane. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.15 - Games distribution on the Appreciation and Popularity score plane. Most "extreme" games in each quadrant are marked with yellow circles. </figcaption>
 </figure>
 
 
