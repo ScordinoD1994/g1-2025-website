@@ -30,7 +30,8 @@ vega: true
   </div>
 </div>
 
-<div class = "toc_container">
+
+<div class = "full-width-wrapper toc_container">
   <nav class = "toc">
       <b> Table of content </b>
       <ol>
@@ -42,17 +43,18 @@ vega: true
   </nav>
 </div>
 
+
 <h1 id = "A crowded market"> A crowded market </h1>
 
 Steam’s growth over the past decade has been staggering. In 2023 alone, over 11,000 games were released on the platform — that’s **more than 30 games per day**. 
 
 <figure style = "float:left; margin - right:1em;">
   <img src='assets/images/steamdb_game_releases_per_year.png' width = 500>
-  <figcaption class = "figcaption_class">Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
 </figure>
 <figure style = "float:left; margin - right:1em;">
   <img src='assets/images/steamdb_game_releases_per_month.png' width = 500>
-  <figcaption class = "figcaption_class">Fig.2 - Game releases per month. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.2 - Game releases per month. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
 </figure>
 
 This deluge of content has created fierce competition for attention. For many games, even getting noticed is a monumental challenge.
@@ -61,7 +63,7 @@ But even within this more visible subset, the numbers tell a revealing story. Wh
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_games_per_year.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption class = "figcaption_class">Fig.3 - Metacritic games per year.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.3 - Metacritic games per year. </figcaption>
 </figure>
 
 In other words, as the flood of new releases grows, fewer of them are breaking through to earn critical attention.
@@ -75,14 +77,14 @@ When we look at average playtime over time, a subtle but important shift emerges
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json" style="width: 100%; height: 100%; align-items: left;"></vegachart>
-  <figcaption class = "figcaption_class">Fig.4 - Total average estimated owners (left plot) and average playtime per year (right plot).</figcaption>
+  <figcaption class = "figcaption_class"> Fig.4 - Total average estimated owners (left plot) and average playtime per year (right plot). </figcaption>
 </figure>
 
 Some noticeable spikes in the data trace back to landmark releases. The peaks in average playtime seen in years like 1998, 2000, 2001, 2003, and 2004 align with the launches of enduring classics like ***Half-Life***, ***Counter-Strike***, ***Half-Life: Blue Shift***, ***Day of Defeat***, and ***Counter-Strike: Source***. These titles have maintained active player bases over decades, skewing the average upward. Similarly, the sharp rise in estimated ownership in 2013 is largely attributable to *Dota 2*, a free-to-play phenomenon that brought millions of players onto Steam and became a pillar of its ecosystem.
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/explain_spikes.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class">Fig.5 - Spikes breakdown.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.5 - Spikes breakdown. </figcaption>
 </figure>
 
 Finally, we explored review activity by looking at the distribution of the number of user reviews per game. The pattern here is starkly unequal: most games receive very few reviews, while a select few attract thousands. This distribution — like ownership and playtime — reflects a highly competitive ecosystem, where visibility and player feedback are dominated by a small percentage of releases.
@@ -90,7 +92,7 @@ Together, these trends reveal how player engagement is both growing and concentr
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/reviews_distribution_plus_reviews_bucket_per_released_games.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption class = "figcaption_class">Fig.6 - Review distribution.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.6 - Review distribution. </figcaption>
 </figure>
 
 Understanding how much a game is liked is not as straightforward as it might seem. Appreciation can’t be distilled into a single number, but the industry has long leaned on a few core metrics. On Metacritic, two scores are typically available: the critic score, based on professional reviews, and the user score, submitted by players. On Steam, the main visible indicator of satisfaction is the positive review ratio—the share of user reviews marked as “positive”. 
@@ -98,21 +100,21 @@ Each of these metrics, however, tells a slightly different story. Critic scores 
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/critic_plus_user_score.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption class = "figcaption_class">Fig.7 - Metacritic critic score (left plot) and user score (right plot) distributions.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.7 - Metacritic critic score (left plot) and user score (right plot) distributions. </figcaption>
 </figure>
 
 Then there’s the Steam positive ratio, which differs not just in scale but in nature. Steam reviews operate on a binary system —“thumbs up” or “thumbs down”— which strips away nuance and skews the distribution dramatically. Most games that gather reviews at all tend to be favored, so the ratio is heavily biased toward high values. In many cases, even moderately liked games can end up with “Very Positive” labels, suggesting that this metric alone might not capture the full spectrum of appreciation.
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/steam_positive_review_ratio.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption class = "figcaption_class">Fig.8 - Steam positive review ration distribution with review segmentation.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.8 - Steam positive review ration distribution with review segmentation. </figcaption>
 </figure>
 
 These differences highlight the challenge of evaluating player sentiment in a consistent way. Each metric provides a piece of the puzzle, but none offers the full picture. This tension points to the need for more robust, composite measurements—an effort we take up in the next section, where we move toward defining appreciation and popularity as integrated, quantifiable outcomes.
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_score_difference.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption class = "figcaption_class">Fig.9 - Difference between critic and user metacritic scores.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.9 - Difference between critic and user metacritic scores. </figcaption>
 </figure>
 
 Beyond the general trends, some games exhibit striking discrepancies between critic and user evaluations. In our dataset, we found a substantial number of titles where the difference between the two scores exceeds 20 points on a 100-point scale—sometimes even more than 30. These outliers can reflect cases where critics and players approached the game from entirely different perspectives: technical polish vs. emotional resonance, innovation vs. nostalgia, or even divergent expectations shaped by marketing.
@@ -120,7 +122,7 @@ Analyzing these outliers in more detail could offer valuable insights into the d
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/user_vs_critic_score_by_difference.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption class = "figcaption_class">Fig.10 - Users vs critic score on Metacritic.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.10 - Users vs critic score on Metacritic. </figcaption>
 </figure>
 
 
@@ -147,14 +149,14 @@ Because these numbers can vary wildly between indie darlings and AAA blockbuster
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/top_15_popularity.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption class = "figcaption_class">Fig.11 - Top 15 games with respect to our <i>Popularity Score</i>.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.11 - Top 15 games with respect to our <i>Popularity Score</i>. </figcaption>
 </figure>
 
 The top 15 games by our popularity score feature a mix of blockbuster titles and enduring multiplayer hits. ***GTA V*** leads the pack, followed closely by ***ELDEN RING*** and ***Cyberpunk 2077***. Multiplayer staples like ***CS:GO***, ***Left 4 Dead 2***, and ***PAYDAY 2*** show strong staying power, while narrative-rich games (***Red Dead Redemption 2***, ***The Witcher 3***, ***Baldur’s Gate 3***) and indie successes (***Stardew Valley***, ***Terraria***) demonstrate the wide range of what "popular" can mean on Steam.
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/popularity_distribution.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption class = "figcaption_class">Fig.12 - Popularity score distribution and Kernel Density Estimation.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.12 - Popularity score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
 
@@ -170,14 +172,14 @@ We used ***Principal Component Analysis (PCA)*** to synthesize these variables i
 
 <figure">
   <vegachart schema-url="/g1-2025-website/assets/charts/top_15_appreciation.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption class = "figcaption_class">Fig.13 - Top 15 games with respect to our <i>Appreciation Score</i>.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.13 - Top 15 games with respect to our <i>Appreciation Score</i>. </figcaption>
 </figure>
 
 The top 15 most appreciated games highlight story-driven, critically acclaimed titles. ***Baldur’s Gate 3*** leads, with classics like ***Half-Life 2***, ***Portal 2***, and ***BioShock*** close behind. Several entries from long-running franchises (***Final Fantasy***, ***Persona***, ***The Elder Scrolls***) appear alongside modern hits like ***Red Dead Redemption 2*** and ***God of War***. This ranking underscores how narrative quality, innovation, and lasting impact drive appreciation, regardless of release date.
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/appreciation_distribution.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class">Fig.14 - Appreciation score distribution and Kernel Density Estimation.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.14 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
 
@@ -188,7 +190,7 @@ Lorem ipsum...
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/popularity_vs_appreciation.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class">Fig.15 - Games distribution on the Appreciation and Popularity score plane.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.15 - Games distribution on the Appreciation and Popularity score plane. </figcaption>
 </figure>
 
 
@@ -201,7 +203,7 @@ Lorem ipsum...
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/black_graph.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class">Fig.14 - Appreciation score distribution and Kernel Density Estimation.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.14 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
 
