@@ -38,6 +38,7 @@ vega: true
       <ol>
           <li> <a href="#A crowded market">A crowded market</a> </li>
           <li> <a href="#Measuring Popularity & Apprection">Measuring Popularity & Apprection</a> </li>
+          <li> <a href="#Indie vs Non-Indie">Indie vs Non-Indie</a> </li>
           <li> <a href="#Tag Analysis">Tag Analysis</a> </li>
           <li> <a href="#Conclusions & Next Steps">Conclusions & Next Steps</a> </li>
       </ol>
@@ -160,6 +161,15 @@ The top 15 games by our popularity score feature a mix of blockbuster titles and
   <figcaption class = "figcaption_class"> Fig.12 - Popularity score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
+The median popularity of games by release year reveals how audience focus has evolved. In the late ’90s and early 2000s, median scores often exceeded 0.6, driven by landmark titles like ***Half-Life*** and ***Counter-Strike***. But from 2006 onward, scores declined to around 0.35–0.45, reflecting the rise of digital platforms, indie games, and a fragmented attention economy. A slight uptick in recent years hints at pandemic-era engagement and viral hits, though overall visibility per title has diminished as the market swells.
+
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/median_popularity_and_max_popularity_by_year.json" style="width: 100%; height: 100%" ></vegachart>
+  <figcaption class = "figcaption_class"> Fig.13 - Median (left plot) and maximum (right plot) popularity by year. </figcaption>
+</figure>
+
+Tracking each year's most popular game outlines a parallel history of standout releases. Valve dominated early on, followed by a mix of cult hits (***Psychonauts***, ***Stardew Valley***) and AAA blockbusters (***GTA V***, ***ELDEN RING***). These games not only captured attention at launch but they’ve remained culturally and playably relevant, setting them apart in an increasingly saturated landscape.
+
 
 ## Appreciation Score
 
@@ -173,15 +183,24 @@ We used ***Principal Component Analysis (PCA)*** to synthesize these variables i
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/top_15_appreciation.json" style="width: 100%; height: 100%"></vegachart>
-  <figcaption class = "figcaption_class"> Fig.13 - Top 15 games with respect to our <i>Appreciation Score</i>. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.14 - Top 15 games with respect to our <i>Appreciation Score</i>. </figcaption>
 </figure>
 
 The top 15 most appreciated games highlight story-driven, critically acclaimed titles. ***Baldur’s Gate 3*** leads, with classics like ***Half-Life 2***, ***Portal 2***, and ***BioShock*** close behind. Several entries from long-running franchises (***Final Fantasy***, ***Persona***, ***The Elder Scrolls***) appear alongside modern hits like ***Red Dead Redemption 2*** and ***God of War***. This ranking underscores how narrative quality, innovation, and lasting impact drive appreciation, regardless of release date.
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/appreciation_distribution.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.14 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.15 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
 </figure>
+
+Tracking the evolution of appreciation scores reveals how perceptions of quality have shifted in tandem with Steam’s growth. From the late '90s through the 2000s, median scores remained high, reflecting a more selective release environment — where titles like ***Half-Life*** and ***Half-Life 2*** weren’t just popular but deeply respected. The post-2010 period, however, saw a dip, particularly around 2014–2016, as the platform opened to a flood of indie games — some exceptional, many less polished. Yet from 2020 onward, appreciation begins a modest recovery, suggesting developers have adapted to a crowded market, and players to better filtering tools. 
+
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/median_appreciation_and_max_appreciation_by_year.json" style="width: 100%; height: 100%" ></vegachart>
+  <figcaption class = "figcaption_class"> Fig.16 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
+</figure>
+
+Overlaying top appreciated games by year reinforces this: alongside AAA milestones like ***The Witcher 3*** and ***Baldur’s Gate 3***, we find emotionally resonant indies like ***Celeste***, ***Hollow Knight***, and ***Pizza Tower***. These titles show that lasting impact isn’t tied to budget, but to originality, depth, and connection.
 
 
 
@@ -191,7 +210,7 @@ The scatter plot below positions games according to their appreciation (horizont
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/popularity_vs_appreciation.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.15 - Games distribution on the Appreciation and Popularity score plane. Most "extreme" games in each quadrant are marked with yellow circles. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.17 - Games distribution on the Appreciation and Popularity score plane. Most "extreme" games in each quadrant are marked with yellow circles. </figcaption>
 </figure>
 
 The top 15 titles that excel in both popularity and appreciation reflect a compelling mix of blockbuster hits and standout indie successes. Games like ***Baldur’s Gate 3***, ***GTA V***, and ***Elden Ring*** dominate thanks to massive reach and critical acclaim. But beloved indies such as ***Stardew Valley***, ***Hollow Knight***, ***Terraria***, and ***Undertale*** hold their ground, proving that emotional impact and craftsmanship can rival even the biggest AAA productions.
@@ -202,6 +221,11 @@ The bottom end of the popularity–appreciation spectrum paints a picture of tit
 
 High appreciation & low popularity games represent the hidden gems of the Steam catalog—titles that flew under the radar but resonated deeply with those who played them. Mostly indie and niche productions, like ***Worm Jazz***, ***Depixtion***, and ***DERU - The Art of Cooperation***, these games boast remarkably high appreciation scores despite modest popularity. Their presence suggests that while marketing power can drive visibility, creative vision and satisfying gameplay can quietly build strong player loyalty, even without mainstream attention.
 
+<h1 id = "Indie vs Non-Indie"> Indie vs Non-Indie </h1>
+
+Lorem ipsum...
+
+
 
 <h1 id = "Tag Analysis"> Tag Analysis </h1>
 
@@ -209,7 +233,7 @@ Lorem ipsum...
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/MentionsByTopic_plus_SentimentBySubset.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.14 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.18 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
 
