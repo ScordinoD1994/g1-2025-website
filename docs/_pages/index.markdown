@@ -16,7 +16,7 @@ vega: true
 <h4 class = "full-width-wrapper superSubTitle"> Unlocking the data behind a videogame's success </h4>
 
 
-<div class = "container_abstract">
+<div class = "full-width-wrapper container_abstract">
   <div style = "padding: 15px;">
     <p>
       Steam, the world’s largest PC gaming platform, has transformed how games are made, discovered, and consumed. With thousands of titles launching every year, players and developers alike face a daunting question:
