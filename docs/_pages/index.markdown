@@ -27,11 +27,11 @@ vega: true
     </ol>
 </nav>
 
-
-Steam, the world’s largest PC gaming platform, has transformed how games are made, discovered, and consumed. With thousands of titles launching every year, players and developers alike face a daunting question: **what makes a game successful**?
-Success in gaming is no longer just about quality or even popularity alone. Some games attract massive player bases but struggle to earn positive reception. Others fly under the radar despite glowing reviews. Navigating this landscape requires moving beyond simple metrics like playtime or critic scores to understand the multidimensional dynamics of game performance.
-In this article, we explore this question by analyzing a [curated dataset of Steam games](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset) — specifically those that have a Metacritic page from 1997 to 2023. This criterion sets a minimum threshold of visibility, ensuring that we study games that have at least broken through the initial barrier of recognition and discourse.
-
+<p class="abstract">
+  Steam, the world’s largest PC gaming platform, has transformed how games are made, discovered, and consumed. With thousands of titles launching every year, players and developers alike face a daunting question: **what makes a game successful**?
+  Success in gaming is no longer just about quality or even popularity alone. Some games attract massive player bases but struggle to earn positive reception. Others fly under the radar despite glowing reviews. Navigating this landscape requires moving beyond simple metrics like playtime or critic scores to understand the multidimensional dynamics of game performance.
+  In this article, we explore this question by analyzing a [curated dataset of Steam games](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset) — specifically those that have a Metacritic page from 1997 to 2023. This criterion sets a minimum threshold of visibility, ensuring that we study games that have at least broken through the initial barrier of recognition and discourse.
+</p>
 
 <h1 id = "A crowded market"> A crowded market </h1>
 
@@ -64,10 +64,10 @@ Once a game is released on Steam, how do players actually engage with it? We exa
 
 When we look at average playtime over time, a subtle but important shift emerges: newer games tend to see shorter engagement windows compared to older titles. Whether due to time constraints, the abundance of available alternatives, or changing player habits, it's clear that player attention is fragmenting.
 
-<figure>
+<figure class="full-width-wrapper">
   <center>
     <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json" style="width: 100%; height: 100%; align-items: center;"></vegachart>
-    <figcaption>Fig.4 - Total average estimated owners (left plot) and average playtime per year (right plot).</figcaption>
+    <figcaption class = "figcaption_class">Fig.4 - Total average estimated owners (left plot) and average playtime per year (right plot).</figcaption>
   </center>
 </figure>
 
