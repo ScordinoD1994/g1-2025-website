@@ -30,16 +30,17 @@ vega: true
   </div>
 </div>
 
-<nav class = "toc">
-    <b> Table of content </b>
-    <ol>
-        <li> <a href="#A crowded market"> A crowded market </a> </li>
-        <li> <a href="#Measuring Popularity & Apprection"> Measuring Popularity & Apprection </a> </li>
-        <li> <a href="#Tag Analysis"> Tag Analysis </a> </li>
-        <li> <a href="#Conclusions & Next Steps"> Conclusions & Next Steps </a> </li>
-    </ol>
-</nav>
-
+<div class = "toc_container">
+  <nav class = "toc">
+      <b> Table of content </b>
+      <ol>
+          <li> <a href="#A crowded market"> A crowded market </a> </li>
+          <li> <a href="#Measuring Popularity & Apprection"> Measuring Popularity & Apprection </a> </li>
+          <li> <a href="#Tag Analysis"> Tag Analysis </a> </li>
+          <li> <a href="#Conclusions & Next Steps"> Conclusions & Next Steps </a> </li>
+      </ol>
+  </nav>
+</div>
 
 <h1 id = "A crowded market"> A crowded market </h1>
 
