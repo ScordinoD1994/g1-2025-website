@@ -17,7 +17,7 @@ vega: true
 
 
 
-<div class = "full-width-wrapper">
+<div>
 
   <div class = "toc_container">
     <nav class = "toc">
@@ -45,8 +45,6 @@ vega: true
       </p>
     </div>
   </div>
-
-  <div> </div>
 
 </div>
 
