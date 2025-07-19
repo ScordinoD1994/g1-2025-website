@@ -165,7 +165,7 @@ The median popularity of games by release year reveals how audience focus has ev
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/median_popularity_and_max_popularity_by_year.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.13 - Median (left plot) and maximum (right plot) popularity by year. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.16 - Median (left plot) and maximum (right plot) popularity by year. </figcaption>
 </figure>
 
 Tracking each year's most popular game outlines a parallel history of standout releases. Valve dominated early on, followed by a mix of cult hits (***Psychonauts***, ***Stardew Valley***) and AAA blockbusters (***GTA V***, ***ELDEN RING***). These games not only captured attention at launch but they’ve remained culturally and playably relevant, setting them apart in an increasingly saturated landscape.
@@ -197,7 +197,7 @@ Tracking the evolution of appreciation scores reveals how perceptions of quality
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/median_appreciation_and_max_appreciation_by_year.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.16 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.16 - Median (left plot) and maximum (right plot) appreciation by year. </figcaption>
 </figure>
 
 Overlaying top appreciated games by year reinforces this: alongside AAA milestones like ***The Witcher 3*** and ***Baldur’s Gate 3***, we find emotionally resonant indies like ***Celeste***, ***Hollow Knight***, and ***Pizza Tower***. These titles show that lasting impact isn’t tied to budget, but to originality, depth, and connection.
@@ -217,9 +217,10 @@ The top 15 titles that excel in both popularity and appreciation reflect a compe
 
 High popularity & low appercation games managed to draw substantial attention but not much love. Big budget titles like ***Battlefield 2042***, ***Fallout 76***, and ***NBA 2K21*** rank high in visibility yet falter in player satisfaction, as reflected by significantly lower appreciation scores. The list is almost entirely dominated by large publishers, hinting at a recurring pattern: strong marketing and brand recognition can drive popularity even when the final product disappoints. It's a stark reminder that **hype alone doesn't guarantee lasting success**.
 
+High appreciation & low popularity games represent the hidden gems of the Steam catalog—titles that flew under the radar but resonated deeply with those who played them. Mostly indie and niche productions, like ***Worm Jazz***, ***Depixtion***, and ***DERU - The Art of Cooperation***, these games boast remarkably high appreciation scores despite modest popularity. Their presence suggests that while marketing power can drive visibility, creative vision and satisfying gameplay can quietly build strong player loyalty, even without mainstream attention.
+
 The bottom end of the popularity–appreciation spectrum paints a picture of titles that struggled to gain traction both commercially and critically. Games like ***Wild West Online*** and ***Shadow Harvest: Phantom Ops*** saw limited player interest and failed to win over those who did engage. Interestingly, many of these are smaller indie efforts or low-profile AA titles, suggesting either **underdeveloped experiences** or **misaligned expectations**. The mix of obscure failures and forgotten experiments underlines how crowded and unforgiving the Steam market can be.
 
-High appreciation & low popularity games represent the hidden gems of the Steam catalog—titles that flew under the radar but resonated deeply with those who played them. Mostly indie and niche productions, like ***Worm Jazz***, ***Depixtion***, and ***DERU - The Art of Cooperation***, these games boast remarkably high appreciation scores despite modest popularity. Their presence suggests that while marketing power can drive visibility, creative vision and satisfying gameplay can quietly build strong player loyalty, even without mainstream attention.
 
 <h1 id = "Indie vs Non-Indie"> Indie vs Non-Indie </h1>
 
