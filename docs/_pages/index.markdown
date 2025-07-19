@@ -16,6 +16,18 @@ vega: true
  <h4 class = "full-width-wrapper superSubTitle"> Unlocking the data behind a videogame's success </h4>
 
 <div class = "container_abstract">
+  <div class = "toc_container">
+    <nav class = "toc">
+    <h5>Table of content</h5>
+        <ol>
+            <li> <a href="#A crowded market">A crowded market</a> </li>
+            <li> <a href="#Measuring Popularity & Apprection">Measuring Popularity & Apprection</a> </li>
+            <li> <a href="#Tag Analysis">Tag Analysis</a> </li>
+            <li> <a href="#Conclusions & Next Steps">Conclusions & Next Steps</a> </li>
+        </ol>
+    </nav>
+  </div>
+  
   <div style = "padding: 15px;">
     <p>
       Steam, the world’s largest PC gaming platform, has transformed how games are made, discovered, and consumed. With thousands of titles launching every year, players and developers alike face a daunting question:
@@ -30,17 +42,7 @@ vega: true
   </div>
 </div>
 
-<div class = "toc_container">
-  <nav class = "toc">
-  <h5>Table of content</h5>
-      <ol>
-          <li> <a href="#A crowded market">A crowded market</a> </li>
-          <li> <a href="#Measuring Popularity & Apprection">Measuring Popularity & Apprection</a> </li>
-          <li> <a href="#Tag Analysis">Tag Analysis</a> </li>
-          <li> <a href="#Conclusions & Next Steps">Conclusions & Next Steps</a> </li>
-      </ol>
-  </nav>
-</div>
+
 
 
 
