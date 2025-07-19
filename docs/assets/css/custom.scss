@@ -149,8 +149,6 @@ h2 {
 .toc_container {
   background-color: black;
   padding: 25px;
-  position: sticky;
-  top: 20px;
 }
 
 
@@ -164,10 +162,8 @@ h2 {
 }
 
 .toc_ab_container {
-  display: flex;
-  flex-direction: column;
+  display: block;
   justify-content: space-between;
-  margin-top: 10px;
 }
 
 
