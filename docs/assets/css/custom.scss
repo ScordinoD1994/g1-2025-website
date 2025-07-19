@@ -133,9 +133,6 @@ h1 {
   padding-top: 30px;
 }
 
-.toc {
-    padding: 20px;
-}
 
 ol, ul {
   font-size: 1.2rem;
@@ -144,10 +141,12 @@ ol, ul {
 
 .container_abstract {
   border: 3px, solid, #d4028e;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 20px;
 }
 
-
+.toc {
+    padding: 30px;
+}
 
 
