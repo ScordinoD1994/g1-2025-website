@@ -40,7 +40,6 @@ vega: true
           <li><h6><a href="#Conclusions & Next Steps">Conclusions & Next Steps</a></li></h6>
       </ol>
   </nav>
-
 </div>
 
 
