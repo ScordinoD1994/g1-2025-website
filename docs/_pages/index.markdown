@@ -30,14 +30,15 @@ vega: true
   </div>
 </div>
 
+
 <div class = "full-width-wrapper toc_container">
   <nav class = "toc">
-      <h4 style = "padding: 5px;"> Table of content </h4>
+      <b> Table of content </b>
       <ol>
-          <li><h6><a href="#A crowded market">A crowded market</a></li></h6>
-          <li><h6><a href="#Measuring Popularity & Apprection">Measuring Popularity & Apprection</a></li></h6>
-          <li><h6><a href="#Tag Analysis">Tag Analysis</a></li></h6>
-          <li><h6><a href="#Conclusions & Next Steps">Conclusions & Next Steps</a></li></h6>
+          <li> <a href="#A crowded market"> A crowded market </a> </li>
+          <li> <a href="#Measuring Popularity & Apprection"> Measuring Popularity & Apprection </a> </li>
+          <li> <a href="#Tag Analysis"> Tag Analysis </a> </li>
+          <li> <a href="#Conclusions & Next Steps"> Conclusions & Next Steps </a> </li>
       </ol>
   </nav>
 </div>
