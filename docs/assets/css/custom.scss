@@ -162,7 +162,11 @@ h2 {
 }
 
 .toc_ab_container {
-  display: flex; 
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-top: 10px;
 }
+
+
