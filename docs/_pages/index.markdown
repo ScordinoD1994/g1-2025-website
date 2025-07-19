@@ -33,7 +33,7 @@ Success in gaming is no longer just about quality or even popularity alone. Some
 In this article, we explore this question by analyzing a [curated dataset of Steam games](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset) — specifically those that have a Metacritic page from 1997 to 2023. This criterion sets a minimum threshold of visibility, ensuring that we study games that have at least broken through the initial barrier of recognition and discourse.
 
 
-# A crowded market
+<h1 id = "A crowded market"> A crowded market </h1>
 
 Steam’s growth over the past decade has been staggering. In 2023 alone, over 11,000 games were released on the platform — that’s **more than 30 games per day**. 
 
@@ -115,7 +115,7 @@ Analyzing these outliers in more detail could offer valuable insights into the d
 </figure>
 
 
-# Measuring Popularity & Apprection
+<h1 id = "Measuring Popularity & Apprection"> Measuring Popularity & Apprection </h1>
 
 With thousands of games released each year and player attention more fragmented than ever, relying on a single metric to evaluate a game’s success is increasingly limiting. A high number of owners doesn’t necessarily mean players liked the experience; a strong review ratio might come from a niche but passionate fanbase. Conversely, a critically acclaimed title might fail to attract a meaningful audience. In such a complex ecosystem, success is multidimensional and it becomes crucial to disentangle its components.
 
@@ -187,20 +187,18 @@ The top 15 most appreciated games highlight story-driven, critically acclaimed t
 
 
 
-
-
-# Tag Analysis
+<h1 id = "Tag Analysis"> Tag Analysis </h1>
 
 Lorem ipsum...
 
 
-# Popularity & Appreciation Scores
+<h1 id = "Popularity & Appreciation Scores"> Popularity & Appreciation Scores </h1>
 
 Lorem ipsum...
 
 
-# Conclusions & Next Steps
 
+<h1 id = "Conclusions & Next Steps"> Conclusions & Next Steps </h1>
 Lorem ipsum...
 
 
