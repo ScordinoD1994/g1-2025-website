@@ -28,20 +28,22 @@ vega: true
       In this article, we explore this question by analyzing a <a href = "https://www.kaggle.com/datasets/fronkongames/steam-games-dataset">curated dataset of Steam games</a> and specifically those that have a Metacritic page from 1997 to 2023. This criterion sets a minimum threshold of visibility, ensuring that we study games that have at least broken through the initial barrier of recognition and discourse.
     </p>
   </div>
+
+  <div class = "toc_container">
+    <nav class = "toc">
+        <b> Table of content </b>
+        <ol>
+            <li> <a href="#A crowded market"> A crowded market </a> </li>
+            <li> <a href="#Measuring Popularity & Apprection"> Measuring Popularity & Apprection </a> </li>
+            <li> <a href="#Tag Analysis"> Tag Analysis </a> </li>
+            <li> <a href="#Conclusions & Next Steps"> Conclusions & Next Steps </a> </li>
+        </ol>
+    </nav>
+  </div>
 </div>
 
 
-<div class = "full-width-wrapper toc_container">
-  <nav class = "toc">
-      <b> Table of content </b>
-      <ol>
-          <li> <a href="#A crowded market"> A crowded market </a> </li>
-          <li> <a href="#Measuring Popularity & Apprection"> Measuring Popularity & Apprection </a> </li>
-          <li> <a href="#Tag Analysis"> Tag Analysis </a> </li>
-          <li> <a href="#Conclusions & Next Steps"> Conclusions & Next Steps </a> </li>
-      </ol>
-  </nav>
-</div>
+
 
 
 <h1 id = "A crowded market"> A crowded market </h1>
