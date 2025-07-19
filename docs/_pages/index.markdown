@@ -101,7 +101,7 @@ Then there’s the Steam positive ratio, which differs not just in scale but in 
 
 These differences highlight the challenge of evaluating player sentiment in a consistent way. Each metric provides a piece of the puzzle, but none offers the full picture. This tension points to the need for more robust, composite measurements—an effort we take up in the next section, where we move toward defining appreciation and popularity as integrated, quantifiable outcomes.
 
-<figure style = "float:left; margin - right:1em; padding:0.5em;">
+<figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_score_difference.json" style="width: 100%; height: 100%"></vegachart>
   <figcaption class = "figcaption_class">Fig.9 - Difference between critic and user metacritic scores.</figcaption>
 </figure>
@@ -136,7 +136,7 @@ We began with ten core indicators of attention, ranging from how many people bou
 
 Because these numbers can vary wildly between indie darlings and AAA blockbusters, we applied a logarithmic transformation to scale them more evenly. Then, we used ***Principal Component Analysis (PCA)*** to synthesize these features into a single, unified score (which is then normalized between 0 and 1). This score doesn’t just tell us how many people bought a game. It reflects how visible, discussed, and socially present a game is in the gaming ecosystem.
 
-<figure style = "float:right; margin - right:1em; padding:0.5em;">
+<figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/top_15_popularity.json" style="width: 100%; height: 100%"></vegachart>
   <figcaption class = "figcaption_class">Fig.11 - Top 15 games with respect to our <i>Popularity Score</i>.</figcaption>
 </figure>
@@ -159,7 +159,7 @@ While popularity tells us which games are getting the most attention, appreciati
 
 We used ***Principal Component Analysis (PCA)*** to synthesize these variables into a single score (which is then normalized between 0 and 1), one that cuts through isolated metrics and offers a more holistic picture of how a game is received across communities. This approach lets us identify not just the most played games, but the most loved.
 
-<figure style = "float:right; margin - right:1em; padding:0.5em;">
+<figure">
   <vegachart schema-url="/g1-2025-website/assets/charts/top_15_appreciation.json" style="width: 100%; height: 100%"></vegachart>
   <figcaption class = "figcaption_class">Fig.13 - Top 15 games with respect to our <i>Appreciation Score</i>.</figcaption>
 </figure>
@@ -179,7 +179,7 @@ Lorem ipsum...
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/popularity_vs_appreciation.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class">Fig.14 - Appreciation score distribution and Kernel Density Estimation.</figcaption>
+  <figcaption class = "figcaption_class">Fig.15 - Games distribution on the Appreciation and Popularity score plane.</figcaption>
 </figure>
 
 
