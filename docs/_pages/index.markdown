@@ -16,6 +16,7 @@ vega: true
  <h4 class = "full-width-wrapper superSubTitle"> Unlocking the data behind a videogame's success </h4>
 
 <div class = "full-width-wrapper toc_container">
+  
   <div class = "container_abstract">
     <div style = "padding: 15px;">
       <p>
@@ -31,7 +32,6 @@ vega: true
     </div>
   </div>
 
-
   <nav class = "toc">
       <h4 style = "padding: 5px;"> Table of content </h4>
       <ol>
@@ -41,6 +41,7 @@ vega: true
           <li> <a href="#Conclusions & Next Steps"> Conclusions & Next Steps </a> </li>
       </ol>
   </nav>
+
 </div>
 
 
