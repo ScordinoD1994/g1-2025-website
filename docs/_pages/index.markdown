@@ -171,7 +171,7 @@ While popularity tells us which games are getting the most attention, appreciati
 
 We used ***Principal Component Analysis (PCA)*** to synthesize these variables into a single score (which is then normalized between 0 and 1), one that cuts through isolated metrics and offers a more holistic picture of how a game is received across communities. This approach lets us identify not just the most played games, but the most loved.
 
-<figure">
+<figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/top_15_appreciation.json" style="width: 100%; height: 100%"></vegachart>
   <figcaption class = "figcaption_class"> Fig.13 - Top 15 games with respect to our <i>Appreciation Score</i>. </figcaption>
 </figure>
