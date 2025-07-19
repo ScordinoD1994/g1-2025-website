@@ -195,9 +195,6 @@ Lorem ipsum...
 </figure>
 
 
-
-
-
 <h1 id = "Tag Analysis"> Tag Analysis </h1>
 
 Lorem ipsum...
