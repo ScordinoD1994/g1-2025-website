@@ -31,8 +31,8 @@ vega: true
 </div>
 
 <div class = "toc_container">
-  <h6> Table of content </h6>
   <nav class = "toc">
+  <h5>Table of content</h5>
       <ol>
           <li> <a href="#A crowded market">A crowded market</a> </li>
           <li> <a href="#Measuring Popularity & Apprection">Measuring Popularity & Apprection</a> </li>
