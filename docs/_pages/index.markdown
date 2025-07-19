@@ -17,7 +17,7 @@ vega: true
 
 
 
-<div class = "full-width-wrapper toc_ab_container">
+<div class = "full-width-wrapper">
 
   <div class = "toc_container">
     <nav class = "toc">
@@ -216,7 +216,7 @@ High appreciation & low popularity games represent the hidden gems of the Steam 
 Lorem ipsum...
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/black_graph.json" style="width: 100%; height: 100%" ></vegachart>
+  <vegachart schema-url="/g1-2025-website/assets/charts/MentionsByTopic_plus_SentimentBySubset.json" style="width: 100%; height: 100%" ></vegachart>
   <figcaption class = "figcaption_class"> Fig.14 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
