@@ -15,19 +15,21 @@ vega: true
  <h1 class = "full-width-wrapper superH1"> GAMEBREAKING </h1>
  <h4 class = "full-width-wrapper superSubTitle"> Unlocking the data behind a videogame's success </h4>
 
+<div style = "display: flex; align-items: center;">
+
+<div class = "toc_container">
+  <nav class = "toc">
+  <h5>Table of content</h5>
+      <ol>
+          <li> <a href="#A crowded market">A crowded market</a> </li>
+          <li> <a href="#Measuring Popularity & Apprection">Measuring Popularity & Apprection</a> </li>
+          <li> <a href="#Tag Analysis">Tag Analysis</a> </li>
+          <li> <a href="#Conclusions & Next Steps">Conclusions & Next Steps</a> </li>
+      </ol>
+  </nav>
+</div>
+
 <div class = "container_abstract">
-  <div class = "toc_container">
-    <nav class = "toc">
-    <h5>Table of content</h5>
-        <ol>
-            <li> <a href="#A crowded market">A crowded market</a> </li>
-            <li> <a href="#Measuring Popularity & Apprection">Measuring Popularity & Apprection</a> </li>
-            <li> <a href="#Tag Analysis">Tag Analysis</a> </li>
-            <li> <a href="#Conclusions & Next Steps">Conclusions & Next Steps</a> </li>
-        </ol>
-    </nav>
-  </div>
-  
   <div style = "padding: 15px;">
     <p>
       Steam, the world’s largest PC gaming platform, has transformed how games are made, discovered, and consumed. With thousands of titles launching every year, players and developers alike face a daunting question:
@@ -42,7 +44,7 @@ vega: true
   </div>
 </div>
 
-
+</div>
 
 
 
@@ -195,6 +197,12 @@ The scatter plot below positions games according to their appreciation (horizont
   <vegachart schema-url="/g1-2025-website/assets/charts/popularity_vs_appreciation.json" style="width: 100%; height: 100%" ></vegachart>
   <figcaption class = "figcaption_class"> Fig.15 - Games distribution on the Appreciation and Popularity score plane. Most "extreme" games in each quadrant are marked with yellow circles. </figcaption>
 </figure>
+
+The top 15 titles that excel in both popularity and appreciation reflect a compelling mix of blockbuster hits and standout indie successes. Games like ***Baldur’s Gate 3***, ***GTA V***, and ***Elden Ring*** dominate thanks to massive reach and critical acclaim. But beloved indies such as ***Stardew Valley***, ***Hollow Knight***, ***Terraria***, and ***Undertale*** hold their ground, proving that emotional impact and craftsmanship can rival even the biggest AAA productions.
+
+High popularity & low appercation games managed to draw substantial attention but not much love. Big budget titles like ***Battlefield 2042***, ***Fallout 76***, and ***NBA 2K21*** rank high in visibility yet falter in player satisfaction, as reflected by significantly lower appreciation scores. The list is almost entirely dominated by large publishers, hinting at a recurring pattern: strong marketing and brand recognition can drive popularity even when the final product disappoints. It's a stark reminder that hype alone doesn't guarantee lasting success.
+
+
 
 
 <h1 id = "Tag Analysis"> Tag Analysis </h1>
