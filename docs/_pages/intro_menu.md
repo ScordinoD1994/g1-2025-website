@@ -12,7 +12,7 @@ vega: false
 </div>
 
 <div class = "container_abstract">
-    <h1 class = "superH1"> GAMEBREAKING </h1>
+    <h1 class = "superH1" style = "font-size: 2.5rem;"> GAMEBREAKING </h1>
     <div style = "padding: 15px;">
     <p>
         Steam, the world’s largest PC gaming platform, has transformed how games are made, discovered, and consumed. With thousands of titles launching every year, players and developers alike face a daunting question:
@@ -26,7 +26,7 @@ vega: false
     </p>
     </div>
     <div class="start_reading">
-    <h5> <a href = "https://ScordinoD1994.github.io/g1-2025-website/_pages/index.markdown">Start Reading</a> </h5>
+    <h5> <a href = "https://ScordinoD1994.github.io/g1-2025-website/_pages/index.html">Start Reading</a> </h5>
     </div>
 </div>
 
