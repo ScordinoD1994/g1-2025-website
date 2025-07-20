@@ -4,8 +4,7 @@ title: "Text Analysis"
 subtitle: ""
 ---
 
-<h1> Text Analysis </h1>
-
+<h1 class = "full-width-wrapper superH1"> Text Analysis </h1>
 
 ## Goal and data
 
@@ -40,8 +39,12 @@ The number of reviews left, particularly by users, for certain games was extreme
 ## Hugging Face Models
 
 With our text analysis we were looking for two things:
- - topic discussed by the reviewer
- - sentiment associated to each topic discussed
+
+<ul class = "in_text_list">
+  <li> Topic discussed by the reviewer </li>
+  <li> Sentiment associated to each topic discussed </li>
+</ul>
+
 In order to achieve this we have used two different Hugging Face models
 
 ### BART - large
@@ -64,7 +67,9 @@ The model returned then a list of topics found in each review and a confidence s
 This is a BERT-based model fine-tuned for sentiment analysis. We chose this particular model because it was trained on Twitter data, making it more suitable to the kind of informal language often found in video game reviews.
 All reviews with identified topics (with a confidence level > 0.6) were passed to the ***twitter-roBERTa*** model using this focussed prompt: 
 
-<q>In this review, the sentiment about {topic} is: {topic_review}.</q> 
+<p style = "text-align: center; padding: 10px; font-size: 1.6rem; font-style: italic; font-weight: bold;"> 
+    <code> In this review, the sentiment about {topic} is: {topic_review}. </code>
+</p> 
 
 So we were able to obtain a sentiment (positive, negative, neutral) for each topic in the review.
 
