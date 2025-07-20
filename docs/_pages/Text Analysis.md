@@ -64,14 +64,14 @@ BART (Bidirectional Autoregressive Transformer) is a transformer encoder-decoder
 The model returned then a list of topics found in each review and a confidence score associated to each topic. To establish an appropriate confidence score we inspected a number of reviews and their extracted topics and found that a threshold of 0.6 was the best compromise between recognising significant topics and discarding potentially misclassified (misrecognised?) ones.
 
 ### twitter-XLM-roBERTa-base
-This is a BERT-based model fine-tuned for sentiment analysis. We chose this particular model because it was trained on Twitter data, making it more suitable to the kind of informal language often found in video game reviews.
+This is a ***BERT***-based model fine-tuned for sentiment analysis. We chose this particular model because it was trained on Twitter data, making it more suitable to the kind of informal language often found in video game reviews.
 All reviews with identified topics (with a confidence level > 0.6) were passed to the ***twitter-roBERTa*** model using this focussed prompt: 
 
 <p style = "text-align: center; padding: 10px; font-size: 1.2rem;"> 
     <code> In this review, the sentiment about {topic} is: {topic_review}. </code>
 </p> 
 
-So we were able to obtain a sentiment (positive, negative, neutral) for each topic in the review.
+So we were able to obtain a sentiment (**positive**, **neutral**, **negative**) for each topic in the review.
 
 To check the performance of this model for sentiment analysis and to improve the explainability of our results we also extracted supporting sentences for each identified topic. For each extracted topic, the supporting sentences in each review were found with a keyword search. This was implemented using a dictionary containing a list keywords associated to each topic.
 
@@ -90,6 +90,5 @@ The graph below shows a visualisation of the total mentions per topic, per game,
   <img src='assets/images/final output of the text analysis on one review.png' width = 500>
   <figcaption class = "figcaption_class"> Fig.2 - Total mentions per topic, per game. </figcaption>
 </figure>
-
 
 
