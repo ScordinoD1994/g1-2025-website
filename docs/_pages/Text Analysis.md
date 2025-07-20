@@ -91,4 +91,7 @@ Aggregating the results from all the analysed reviews for each game, we were abl
   <figcaption class = "figcaption_class"> Fig.2 - Total mentions per topic, per game. </figcaption>
 </figure>
 
-
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/MentionsByTopic_plus_SentimentBySubset.json" style="width: 100%; height: 100%" ></vegachart>
+  <figcaption class = "figcaption_class"> Fig.3 -  </figcaption>
+</figure>

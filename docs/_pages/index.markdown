@@ -37,7 +37,15 @@ vega: true
   <h5>Table of content</h5>
       <ol>
           <li> <a href="#A crowded market">A crowded market</a> </li>
+          <ul>
+            <li> <a href="#How players engage">How players engage</a> </li>
+          </ul>
           <li> <a href="#Measuring Popularity & Apprection">Measuring Popularity & Apprection</a> </li>
+          <ul>
+            <li> <a href="#Popularity Score">Popularity Score</a> </li>
+            <li> <a href="#Appreciation Score">Appreciation Score</a> </li>
+            <li> <a href="#Appreciation-Popularity Plane">Appreciation-Popularity Plane</a> </li>
+          </ul>
           <li> <a href="#Indie vs Non-Indie">Indie vs Non-Indie</a> </li>
           <li> <a href="#Tag Analysis">Tag Analysis</a> </li>
           <li> <a href="#Conclusions & Next Steps">Conclusions & Next Steps</a> </li>
@@ -71,7 +79,7 @@ But even within this more visible subset, the numbers tell a revealing story. Wh
 In other words, as the flood of new releases grows, fewer of them are breaking through to earn critical attention.
 
 
-## How players engage
+<h2 id="How players engage"> How players engage </h2>
 
 Once a game is released on Steam, how do players actually engage with it? We examined three key signals: **estimated ownership**, **average playtime**, **review counts**, each revealing a different aspect of how attention and interest unfold. First, the total estimated number of owners has increased steadily over the years, showing that even as the platform grows more crowded, many games are still managing to reach players — often helped by bundles, deep discounts, or seasonal promotions. However, the gains are far from evenly distributed.
 
@@ -136,7 +144,7 @@ To this end, we introduce two composite indicators: ***Popularity*** and ***Appr
 
 This dual-axis approach allows for a more nuanced understanding of a game's position in the market: whether it's beloved but overlooked, widely played but polarizing, or among that group that is both popular and appreciated. In the sections that follow, we explore how these metrics behave, what patterns emerge, and what features seem to shape a game's trajectory across these axes.
 
-## Popularity Score
+<h2 id="Popularity Score"> Popularity Score </h2>
 
 Popularity in the gaming world is more than just raw sales. It’s a combination of visibility, engagement, and community presence. To capture this complex reality, we created a composite ***Popularity Score*** using data from both Steam and gaming databases like Metacritic and Backloggd.
 We began with ten core indicators of attention, ranging from how many people bought or played a game, to how often it was reviewed or recommended. These included:
@@ -173,7 +181,7 @@ The median popularity of games by release year reveals how audience focus has ev
 Tracking each year's most popular game outlines a parallel history of standout releases. Valve dominated early on, followed by a mix of cult hits (***Psychonauts***, ***Stardew Valley***) and AAA blockbusters (***GTA V***, ***ELDEN RING***). These games not only captured attention at launch but they’ve remained culturally and playably relevant, setting them apart in an increasingly saturated landscape.
 
 
-## Appreciation Score
+<h2 id="Appreciation Score"> Appreciation Score </h2>
 
 While popularity tells us which games are getting the most attention, appreciation is about how deeply players value their time spent. To distill that sentiment into a measurable score, we combined three distinct signals of game quality:
 
@@ -209,7 +217,7 @@ Overlaying top appreciated games by year reinforces this: alongside AAA mileston
 
 
 
-## Appreciation-Popularity Plane
+<h2 id="Appreciation-Popularity Plane"> Appreciation-Popularity Plane </h2>
 
 The scatter plot below positions games according to their appreciation (horizontal axis) and popularity (vertical axis) scores. With median lines dividing the space, four distinct profiles emerge. Games in the top-right quadrant — such as ***Red Dead Redemption 2*** or ***The Witcher 3*** — combine strong admiration with widespread reach. The top-left captures popular games with more mixed reception, while the bottom-right shows beloved titles with narrower appeal. The bottom-left hosts games that struggled to resonate broadly on either front. This quadrant framework helps decode the landscape of critical and commercial impact in a single glance.
 
@@ -278,19 +286,9 @@ Mainstream titles dominate popularity through sheer scale, marketing, and cultur
 
 <h1 id = "Tag Analysis"> Tag Analysis </h1>
 
-Lorem ipsum...
-
-<figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/MentionsByTopic_plus_SentimentBySubset.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.18 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
-</figure>
+Steam tags serve as the primary vocabulary of the platform's discovery system. Whether applied by developers or players, tags capture everything from genre and theme to tone and mechanics. Analyzing these tags offers insight into what types of games capture attention — and which resonate most with players or critics.
 
 
-
-
-<h1 id = "Popularity & Appreciation Scores"> Popularity & Appreciation Scores </h1>
-
-Lorem ipsum...
 
 
 
