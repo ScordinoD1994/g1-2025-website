@@ -295,9 +295,10 @@ Steam tags serve as the primary vocabulary of the platform's discovery system. W
 
 
 
-<h1 id = "Conclusions & Next Steps"> Conclusions </h1>
+<h1 id = "Conclusions"> Conclusions </h1>
 
 Lorem ipsum...
+
 
 <h2 id = "Next steps"> Next steps </h2>
 
