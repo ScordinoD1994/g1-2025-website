@@ -67,7 +67,7 @@ The model returned then a list of topics found in each review and a confidence s
 This is a BERT-based model fine-tuned for sentiment analysis. We chose this particular model because it was trained on Twitter data, making it more suitable to the kind of informal language often found in video game reviews.
 All reviews with identified topics (with a confidence level > 0.6) were passed to the ***twitter-roBERTa*** model using this focussed prompt: 
 
-<p style = "text-align: center; padding: 10px; font-size: 1.6rem; font-style: italic; font-weight: bold;"> 
+<p style = "text-align: center; padding: 10px; font-size: 1.2rem;"> 
     <code> In this review, the sentiment about {topic} is: {topic_review}. </code>
 </p> 
 
