@@ -304,7 +304,7 @@ Mainstream titles dominate popularity through sheer scale, marketing, and cultur
   <figcaption class = "figcaption_class"> Fig.22 - Popularity (left plot) and appreciation (right plot) score for top 15 non-indie games. </figcaption>
 </figure>
 
-Our data highlights a clear strategic advantage for indie games in terms of initial pricing. With an average launch price of €16.85, significantly lower than non-indie titles averaging €25.60 (and a median of €14.99 compared to €19.99 for non-indies), independent developers consistently offer a more accessible entry point for players. This lower barrier to entry is crucial in a competitive market, yet pure affordability doesn't guarantee market dominance; our figures show non-indie games generally achieve higher popularity scores (averaging 0.448 versus 0.363 for indies). 
+Our data highlights a clear strategic advantage for indie games in terms of initial pricing. With an average launch price of $16.85, significantly lower than non-indie titles averaging $25.60 (and a median of $14.99 compared to $19.99 for non-indies), independent developers consistently offer a more accessible entry point for players. This lower barrier to entry is crucial in a competitive market, yet pure affordability doesn't guarantee market dominance; our figures show non-indie games generally achieve higher popularity scores (averaging 0.448 versus 0.363 for indies). 
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json" style="width: 100%; height: 100%" ></vegachart>
