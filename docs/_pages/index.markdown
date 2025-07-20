@@ -40,7 +40,7 @@ vega: true
           <ul>
             <li> <a href="#How players engage">How players engage</a> </li>
           </ul>
-          <li> <a href="#Measuring Popularity & Apprection">Measuring Popularity & Apprection</a> </li>
+          <li> <a href="#Measuring Success">Measuring Success</a> </li>
           <ul>
             <li> <a href="#Popularity Score">Popularity Score</a> </li>
             <li> <a href="#Appreciation Score">Appreciation Score</a> </li>
@@ -48,7 +48,10 @@ vega: true
           </ul>
           <li> <a href="#Indie vs Non-Indie">Indie vs Non-Indie</a> </li>
           <li> <a href="#Tag Analysis">Tag Analysis</a> </li>
-          <li> <a href="#Conclusions & Next Steps">Conclusions & Next Steps</a> </li>
+          <li> <a href="#Conclusions">Conclusions</a> </li>
+          <ul>
+            <li> <a href="#Next steps">Next steps</a> </li>
+          </ul>
       </ol>
   </nav>
 </div>
@@ -136,7 +139,7 @@ Analyzing these outliers in more detail could offer valuable insights into the d
 </figure>
 
 
-<h1 id = "Measuring Popularity & Apprection"> Measuring Popularity & Apprection </h1>
+<h1 id = "Measuring Success"> Measuring Success </h1>
 
 With thousands of games released each year and player attention more fragmented than ever, relying on a single metric to evaluate a game’s success is increasingly limiting. A high number of owners doesn’t necessarily mean players liked the experience; a strong review ratio might come from a niche but passionate fanbase. Conversely, a critically acclaimed title might fail to attract a meaningful audience. In such a complex ecosystem, success is multidimensional and it becomes crucial to disentangle its components.
 
@@ -292,8 +295,14 @@ Steam tags serve as the primary vocabulary of the platform's discovery system. W
 
 
 
-<h1 id = "Conclusions & Next Steps"> Conclusions & Next Steps </h1>
+<h1 id = "Conclusions & Next Steps"> Conclusions </h1>
+
 Lorem ipsum...
+
+<h2 id = "Next steps"> Next steps </h2>
+
+Lorem ipsum...
+
 
 
 
