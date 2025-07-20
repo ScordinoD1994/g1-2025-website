@@ -225,7 +225,7 @@ The top 15 most appreciated games highlight story-driven, critically acclaimed t
 Tracking the evolution of appreciation scores reveals how perceptions of quality have shifted in tandem with Steam’s growth. From the late '90s through the 2000s, median scores remained high, reflecting a more selective release environment — where titles like ***Half-Life*** and ***Half-Life 2*** weren’t just popular but deeply respected. The post-2010 period, however, saw a dip, particularly around 2014–2016, as the platform opened to a flood of indie games — some exceptional, many less polished. Yet from 2020 onward, appreciation begins a modest recovery, suggesting developers have adapted to a crowded market, and players to better filtering tools. Our two domain experts have different points of view:
 
 <blockquote class = "expert_quote">
-  <p>"As the pool increases, the quality inevitably decreases on average. Then on Steam, all this is amplified because [...] more and more unknown games are released, and this can lead to an average decrease in appreciation." <cite> Andrea Porta </cite> </p>
+  <p>"As the pool increases, the quality inevitably decreases on average. Then on Steam, all this is amplified because more and more unknown games are released, and this can lead to an average decrease in appreciation." <cite> Andrea Porta </cite> </p>
 
   <p>"For years, video game creators have responded to player calls for elements like 'cutting-edge graphics' and other initially gratifying features. However, prioritizing these aspects has, at times, come at the cost of content depth and innovation." <cite> Fortuna Imperatore </cite> </p>
 </blockquote>
@@ -252,7 +252,7 @@ The top 15 titles that excel in both popularity and appreciation reflect a compe
 
 High popularity & low appercation games managed to draw substantial attention but not much love. Big budget titles like ***Battlefield 2042***, ***Fallout 76***, and ***NBA 2K21*** rank high in visibility yet falter in player satisfaction, as reflected by significantly lower appreciation scores. The list is almost entirely dominated by large publishers, hinting at a recurring pattern: strong marketing and brand recognition can drive popularity even when the final product disappoints. It's a stark reminder that **hype alone doesn't guarantee lasting success**.
 
-High appreciation & low popularity games represent the hidden gems of the Steam catalog—titles that flew under the radar but resonated deeply with those who played them. Mostly indie and niche productions, like ***Worm Jazz***, ***Depixtion***, and ***DERU - The Art of Cooperation***, these games boast remarkably high appreciation scores despite modest popularity. Their presence suggests that while marketing power can drive visibility, creative vision and satisfying gameplay can quietly build strong player loyalty, even without mainstream attention.
+High appreciation & low popularity games represent the hidden gems of the Steam catalog—titles that flew under the radar but resonated deeply with those who played them. Mostly indie and niche productions, like ***Worm Jazz***, ***Depixtion***, and ***DERU - The Art of Cooperation***, these games boast remarkably high appreciation scores despite modest popularity. Their presence suggests that while marketing power can drive visibility, creative vision and satisfying gameplay can quietly build strong player loyalty, even without mainstream attention. 
 
 The bottom end of the popularity–appreciation spectrum paints a picture of titles that struggled to gain traction both commercially and critically. Games like ***Wild West Online*** and ***Shadow Harvest: Phantom Ops*** saw limited player interest and failed to win over those who did engage. Interestingly, many of these are smaller indie efforts or low-profile AA titles, suggesting either **underdeveloped experiences** or **misaligned expectations**. The mix of obscure failures and forgotten experiments underlines how crowded and unforgiving the Steam market can be.
 
@@ -303,6 +303,22 @@ Mainstream titles dominate popularity through sheer scale, marketing, and cultur
   <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_not_indie.json" style="width: 100%; height: 100%" ></vegachart>
   <figcaption class = "figcaption_class"> Fig.22 - Popularity (left plot) and appreciation (right plot) score for top 15 non-indie games. </figcaption>
 </figure>
+
+Our data highlights a clear strategic advantage for indie games in terms of initial pricing. With an average launch price of €16.85, significantly lower than non-indie titles averaging €25.60 (and a median of €14.99 compared to €19.99 for non-indies), independent developers consistently offer a more accessible entry point for players. This lower barrier to entry is crucial in a competitive market, yet pure affordability doesn't guarantee market dominance; our figures show non-indie games generally achieve higher popularity scores (averaging 0.448 versus 0.363 for indies). 
+
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json" style="width: 100%; height: 100%" ></vegachart>
+  <figcaption class = "figcaption_class"> Fig.23 - Scatter plot of popularity vs appreciation for indie and non-indie games by current prices. </figcaption>
+</figure>
+
+This gap underscores the critical role of pre-launch marketing. This is confirmed by Andrea Porta:
+
+<blockquote class = "expert_quote">
+  The communication window between a game's announcement and its release is pivotal for building hype and shaping initial reception, with larger studios expertly orchestrating content drops—from gameplay reveals to launch trailers—to capture and sustain consumer attention. Intriguingly, many independent studios are now adopting this publisher playbook, leveraging similar strategic trailer releases to amplify their reach.
+</blockquote>
+
+This evolving marketing sophistication, coupled with their inherently competitive pricing, may well be key to how certain indie games carve out significant success within the overwhelmingly vast gaming landscape.
+
 
 
 
