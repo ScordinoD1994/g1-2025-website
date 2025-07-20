@@ -15,7 +15,7 @@ vega: true
 <h1 class = "full-width-wrapper superH1"> GAMEBREAKING </h1>
 <h4 class = "full-width-wrapper superSubTitle"> Unlocking the data behind a videogame's success </h4>
 
-<div class = "full-width-wrapper toc_container">
+<div class = "toc_container">
   <nav class = "toc">
   <h5>Table of content</h5>
       <ol>
@@ -39,6 +39,7 @@ vega: true
   </nav>
 </div>
 
+<!-- 
 <div class = "container_abstract">
   <div style = "padding: 15px;">
     <p>
@@ -53,8 +54,7 @@ vega: true
     </p>
   </div>
 </div>
-
-
+-->
 
 
 

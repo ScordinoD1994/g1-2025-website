@@ -25,7 +25,7 @@ vega: false
     </p>
   </div>
   <div class="start_reading">
-    <h5> <a href = "/index.html">Start Reading</a> </h5>
+    <h5> <a href = "/_pages/index.html">Start Reading</a> </h5>
   </div>
 </div>
 
