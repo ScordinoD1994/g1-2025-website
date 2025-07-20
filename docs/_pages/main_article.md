@@ -109,7 +109,13 @@ Together, these trends reveal how player engagement is both growing and concentr
   <figcaption class = "figcaption_class"> Fig.6 - Review distribution. </figcaption>
 </figure>
 
-Understanding how much a game is liked is not as straightforward as it might seem. Appreciation can’t be distilled into a single number, but the industry has long leaned on a few core metrics. On Metacritic, two scores are typically available: the critic score, based on professional reviews, and the user score, submitted by players. On Steam, the main visible indicator of satisfaction is the positive review ratio—the share of user reviews marked as “positive”. 
+Understanding how much a game is liked is not as straightforward as it might seem. As Fortuna Imperatore, underscores
+
+<blockquote class = "expert_quote">
+  "The recipe is therefore very difficult since the impossible question is to respond to the needs of society at that historical moment."
+</blockquote>
+
+Appreciation can’t be distilled into a single number, but the industry has long leaned on a few core metrics. On Metacritic, two scores are typically available: the critic score, based on professional reviews, and the user score, submitted by players. On Steam, the main visible indicator of satisfaction is the positive review ratio — the share of user reviews marked as “positive”. 
 Each of these metrics, however, tells a slightly different story. Critic scores tend to cluster around the higher end of the scale. Reviewers often avoid the harshest ratings, leading to a compressed distribution with fewer low scores and a bias toward the 70–90 range. User scores, on the other hand, are more variable. Players are not shy about expressing dissatisfaction, resulting in a broader spread that includes more low-rated games. The contrast becomes clear when the two are plotted together—players are often harsher, and sometimes more polarized.
 
 <figure>
@@ -291,10 +297,6 @@ Mainstream titles dominate popularity through sheer scale, marketing, and cultur
 <h1 id = "Tag Analysis"> Tag Analysis </h1>
 
 Steam tags serve as the primary vocabulary of the platform's discovery system. Whether applied by developers or players, tags capture everything from genre and theme to tone and mechanics. Analyzing these tags offers insight into what types of games capture attention — and which resonate most with players or critics.
-
-<p class = "expert_quote">
-  "Understanding how much a game is liked is not as straightforward as it might seem. As Fortuna Imperatore, a game designer author of Freud’s Bones, underscores The recipe is therefore very difficult since the impossible question is to respond to the needs of society at that historical moment."
-</p>
 
 
 
