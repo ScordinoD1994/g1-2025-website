@@ -233,27 +233,27 @@ Lorem ipsum...
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_by_year.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.18 -  </figcaption>
+  <figcaption class = "figcaption_class"> Fig.18 - Number of indie and non-indie game released. </figcaption>
 </figure>
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_popularity.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.19 -  </figcaption>
+  <figcaption class = "figcaption_class"> Fig.19 - Median pupularity by year for indie (left plot) and non-indie (right plot) games. </figcaption>
 </figure>
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_appreciation.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.20 -  </figcaption>
+  <figcaption class = "figcaption_class"> Fig.20 - Median appreciation by year for indie (left plot) and non-indie (right plot) games. </figcaption>
 </figure>
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_indie.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.21 -  </figcaption>
+  <figcaption class = "figcaption_class"> Fig.21 - Popularity (left plot) and appreciation (right plot) score for top 15 indie games. </figcaption>
 </figure>
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_not_indie.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.21 -  </figcaption>
+  <figcaption class = "figcaption_class"> Fig.22 - Popularity (left plot) and appreciation (right plot) score for top 15 non-indie games. </figcaption>
 </figure>
 
 
