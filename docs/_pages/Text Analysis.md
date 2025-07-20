@@ -29,7 +29,7 @@ Due to time constraints we limited our analysis to a small number of interesting
 
 ### Preprocessing
 
-Reviews on Metacritic are written in a variety of different languages, so prior to text analysis we translated to English all the reviews using the **Google Translate API**.
+Reviews on Metacritic are written in a variety of different languages, so prior to text analysis we translated to English all the reviews using the ***Google Translate API***.
 
 To prepare reviews for analysis we applied some very basic text cleaning, using regular expressions to remove excessive punctuation and/or white spaces, as well as URLS (if present).
 
