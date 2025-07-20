@@ -50,6 +50,8 @@ navbar:
     img: "./assets/images/Logo_masthead.png" # don't change this
     url: /
   nav:
+    - title: menu
+    - url: /intro_menu.md
     - title: Technical Discussions
       child:
         - title: Data Gathering
