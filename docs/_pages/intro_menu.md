@@ -25,7 +25,7 @@ vega: false
             In this article, we explore this question by analyzing a <a href = "https://www.kaggle.com/datasets/fronkongames/steam-games-dataset">curated dataset of Steam games</a> and specifically those that have a <a href = "https://www.metacritic.com/game/">Metacritic</a> page from 1997 to 2023. This criterion sets a minimum threshold of visibility, ensuring that we study games that have at least broken through the initial barrier of recognition and discourse.
             </p>
         </div>
-        <div style = "padding: 15px;"> 
+        <div style = "display:block; padding: 15px;"> 
             <h1 style = "padding: 20px;"> GAMEBREAKING </h1>
             <p> Main Article </p>
             <p> Technical Discussions </p>
