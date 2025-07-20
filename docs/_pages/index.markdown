@@ -4,7 +4,7 @@
 
 layout: default
 title: "Home test"
-vega: false
+vega: true
 ---
 
 <div class="full-width-wrapper">

@@ -2,6 +2,7 @@
 layout: default
 title: "Text Analysis"
 subtitle: ""
+vega: true
 ---
 
 <h1 class = "full-width-wrapper superH1"> Text Analysis </h1>

@@ -2,6 +2,7 @@
 layout: default
 title: "Predictive Model"
 subtitle: ""
+vega: true
 ---
 
 # Titolo 1
