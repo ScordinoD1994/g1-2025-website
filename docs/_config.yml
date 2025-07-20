@@ -51,7 +51,7 @@ navbar:
     url: /
   nav:
     - title: menu
-    - url: /intro_menu.html
+      url: /intro_menu.html
     - title: Technical Discussions
       child:
         - title: Data Gathering
