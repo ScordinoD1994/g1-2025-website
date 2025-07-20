@@ -182,11 +182,15 @@ h3 {
   padding: 15px;
 }
 
-.container_abstract_menu {
-  display: flex;
-  flex-direction: column;
-  padding: 60px;
-  top: 30px;
+.start_reading {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  display: block;
+  border: 2px, solid, #d4028e;
+  border-radius: 10px;
 }
 
 
