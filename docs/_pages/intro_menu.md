@@ -12,7 +12,7 @@ vega: false
 </div>
 
 
-<div class = "container_abstract_menu">
+<div class = "full-width-wrapper container_abstract_menu">
   <div style = "padding: 15px;">
     <p>
       Steam, the world’s largest PC gaming platform, has transformed how games are made, discovered, and consumed. With thousands of titles launching every year, players and developers alike face a daunting question:
@@ -26,9 +26,11 @@ vega: false
     </p>
   </div>
 
-  <div style = "padding: 15px;">
-        <h1 style = "padding: 20px;"> GAMEBREAKING </h1>
-    </div>
+  <div style = "padding: 15px;"> 
+    <h1 style = "padding: 20px;"> GAMEBREAKING </h1>
+    <p> Main Article </p>
+    <p> Technical Discussions </p>
+  </div>
 </div>
 
 
