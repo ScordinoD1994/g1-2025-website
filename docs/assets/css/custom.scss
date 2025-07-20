@@ -185,13 +185,13 @@ h3 {
 .start_reading {
   font-size: 2rem;
   text-align: center;
-  padding-top: 35px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  padding: 35px;
   display: block;
   border: 2px, solid, #d4028e;
   border-radius: 10px;
 }
 
-
+.start_reading:hover {
+  background-image: radial-gradient(#d4028e, white);
+}
 
