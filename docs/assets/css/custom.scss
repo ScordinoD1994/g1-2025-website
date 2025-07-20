@@ -203,9 +203,11 @@ h3 {
 .expert_quote {
   display: block;
   float: center;
-  text-align: justify;
-  border: 1px, solid, gray;
-  border-radius: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+  //border: 1px, solid, gray;
+  //border-radius: 10px;
 }
 
 
