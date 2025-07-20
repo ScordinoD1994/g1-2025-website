@@ -28,9 +28,9 @@ vega: false
 </div>
 
 
-<div>
+<div class = "container_menu">
 
-<h1> GAMEBREAKING </h1>
+<h1 style = "padding: 20px;"> GAMEBREAKING </h1>
 
 </div>
 
