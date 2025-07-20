@@ -11,7 +11,7 @@ vega: true
     <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
-<div class = "container_abstract" style = 'padding-bottom: 50px;'>
+<div class = "container_abstract">
     <h1 class = "superH1" style = "font-size: 2.5rem;"> GAMEBREAKING </h1>
     <div style = "padding: 15px;">
     <p>
