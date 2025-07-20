@@ -225,9 +225,9 @@ The top 15 most appreciated games highlight story-driven, critically acclaimed t
 Tracking the evolution of appreciation scores reveals how perceptions of quality have shifted in tandem with Steam’s growth. From the late '90s through the 2000s, median scores remained high, reflecting a more selective release environment — where titles like ***Half-Life*** and ***Half-Life 2*** weren’t just popular but deeply respected. The post-2010 period, however, saw a dip, particularly around 2014–2016, as the platform opened to a flood of indie games — some exceptional, many less polished. Yet from 2020 onward, appreciation begins a modest recovery, suggesting developers have adapted to a crowded market, and players to better filtering tools. Our two domain experts have different points of view:
 
 <blockquote class = "expert_quote">
-  "As the pool increases, the quality inevitably decreases on average. Then on Steam, all this is amplified because [...] more and more unknown games are released, and this can lead to an average decrease in appreciation." <cite> Andrea Porta </cite>
+  <p>"As the pool increases, the quality inevitably decreases on average. Then on Steam, all this is amplified because [...] more and more unknown games are released, and this can lead to an average decrease in appreciation." <cite> Andrea Porta </cite> </p>
 
-  "For years, video game creators have responded to player calls for elements like 'cutting-edge graphics' and other initially gratifying features. However, prioritizing these aspects has, at times, come at the cost of content depth and innovation." <cite> Fortuna Imperatore </cite>
+  <p>"For years, video game creators have responded to player calls for elements like 'cutting-edge graphics' and other initially gratifying features. However, prioritizing these aspects has, at times, come at the cost of content depth and innovation." <cite> Fortuna Imperatore </cite> </p>
 </blockquote>
 
 <figure>
