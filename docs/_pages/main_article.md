@@ -314,7 +314,7 @@ Our data highlights a clear strategic advantage for indie games in terms of init
 This gap underscores the critical role of pre-launch marketing. This is confirmed by Andrea Porta:
 
 <blockquote class = "expert_quote">
-  The communication window between a game's announcement and its release is pivotal for building hype and shaping initial reception, with larger studios expertly orchestrating content drops—from gameplay reveals to launch trailers—to capture and sustain consumer attention. Intriguingly, many independent studios are now adopting this publisher playbook, leveraging similar strategic trailer releases to amplify their reach.
+  "The communication window between a game's announcement and its release is pivotal for building hype and shaping initial reception, with larger studios expertly orchestrating content drops—from gameplay reveals to launch trailers—to capture and sustain consumer attention. Intriguingly, many independent studios are now adopting this publisher playbook, leveraging similar strategic trailer releases to amplify their reach."
 </blockquote>
 
 This evolving marketing sophistication, coupled with their inherently competitive pricing, may well be key to how certain indie games carve out significant success within the overwhelmingly vast gaming landscape.
