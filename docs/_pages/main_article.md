@@ -292,8 +292,10 @@ Mainstream titles dominate popularity through sheer scale, marketing, and cultur
 
 Steam tags serve as the primary vocabulary of the platform's discovery system. Whether applied by developers or players, tags capture everything from genre and theme to tone and mechanics. Analyzing these tags offers insight into what types of games capture attention — and which resonate most with players or critics.
 
-<q class = "expert_quote">
-  Bla bla bla...
+<q>
+  <p class = "expert_quote"> 
+    Understanding how much a game is liked is not as straightforward as it might seem. As Fortuna Imperatore, a game designer author of Freud’s Bones, underscores “The recipe is therefore very difficult since the impossible question is to respond to the needs of society at that historical moment”. 
+  </p>
 </q>
 
 
