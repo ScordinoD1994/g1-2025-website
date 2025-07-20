@@ -29,11 +29,11 @@ Due to time constraints we limited our analysis to a small number of interesting
 
 ### Preprocessing
 
-Reviews on Metacritic are written in a variety of different languages, so prior to text analysis we translated to English all the reviews using the Google Translate API.
+Reviews on Metacritic are written in a variety of different languages, so prior to text analysis we translated to English all the reviews using the **Google Translate API**.
 
 To prepare reviews for analysis we applied some very basic text cleaning, using regular expressions to remove excessive punctuation and/or white spaces, as well as URLS (if present).
 
-The number of reviews left, particularly by users, for certain games was extremely high (several thousands). The analysis of the whole review set would have been very expensive in terms of time and the number of calls to the Hugging Face's API. To remedy this issue we decided to cap the number of reviews per game to 500. For any game with more than 500 reviews, we have extracted a random sample of 500 out of the total.
+The number of reviews left, particularly by users, for certain games was extremely high (several thousands). The analysis of the whole review set would have been very expensive in terms of time and the number of calls to the ***Hugging Face's*** API. To remedy this issue we decided to cap the number of reviews per game to 500. For any game with more than 500 reviews, we have extracted a random sample of 500 out of the total.
 
 
 ## Hugging Face Models
@@ -47,9 +47,10 @@ With our text analysis we were looking for two things:
 
 In order to achieve this we have used two different Hugging Face models
 
+
 ### BART - large
 
-BART (Bidirectional Autoregressive Transformer) is a transformer encoder-decoder trained on English language which can be effectively used for topic extractions task. Rather than any topic we asked the model to look for 7 specific topics of interest in the realm of video games:
+***Bidirectional Autoregressive Transformer (BART)*** is a transformer encoder-decoder trained on English language which can be effectively used for topic extractions task. Rather than any topic we asked the model to look for 7 specific topics of interest in the realm of video games:
 
 <ul class = "in_text_list">
   <li> Gameplay </li>
@@ -83,8 +84,7 @@ To check the performance of this model for sentiment analysis and to improve the
 
 ## Results
 
-Aggregating the results from all the analysed reviews for each game, we were able to extract the number of mentions of each topic and their associated sentiments.
-The graph below shows a visualisation of the total mentions per topic, per game, which can be filtered to show the total mentions per topic and game by sentiment.
+Aggregating the results from all the analysed reviews for each game, we were able to extract the number of mentions of each topic and their associated sentiments. The graph below shows a visualisation of the total mentions per topic, per game, which can be filtered to show the total mentions per topic and game by sentiment.
 
 <figure>
   <img src='assets/images/final output of the text analysis on one review.png' width = 500>
