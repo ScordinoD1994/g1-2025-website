@@ -109,10 +109,10 @@ Together, these trends reveal how player engagement is both growing and concentr
   <figcaption class = "figcaption_class"> Fig.6 - Review distribution. </figcaption>
 </figure>
 
-Understanding how much a game is liked is not as straightforward as it might seem. As Fortuna Imperatore, underscores
+Understanding how much a game is liked is not as straightforward as it might seem. As Fortuna Imperatore underscores,
 
 <blockquote class = "expert_quote">
-  "The recipe is therefore very difficult since the impossible question is to respond to the needs of society at that historical moment."
+  "The recipe is very difficult to find, given that our impossible task is to respond to the needs of society at that historical moment."
 </blockquote>
 
 Appreciation can’t be distilled into a single number, but the industry has long leaned on a few core metrics. On Metacritic, two scores are typically available: the critic score, based on professional reviews, and the user score, submitted by players. On Steam, the main visible indicator of satisfaction is the positive review ratio — the share of user reviews marked as “positive”. 
