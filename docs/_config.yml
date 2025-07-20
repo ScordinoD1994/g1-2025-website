@@ -56,8 +56,6 @@ navbar:
       child:
         - title: Data Gathering
           url: /Data Gathering.html
-        - title: Tag Analysis
-          url: /Tag Analysis.html
         - title: Predictive Modeling
           url: /Predictive Modeling.html
         - title: Text Analysis

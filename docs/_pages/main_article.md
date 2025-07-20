@@ -17,7 +17,7 @@ vega: true
 
 <div class = "full-width-wrapper toc_container">
   <nav class = "toc">
-  <h5>Table of content</h5>
+  <h5>Table of contents</h5>
       <ol>
           <li> <a href="#A crowded market">A crowded market</a> </li>
           <ul>
@@ -116,14 +116,20 @@ Understanding how much a game is liked is not as straightforward as it might see
 </blockquote>
 
 Appreciation can’t be distilled into a single number, but the industry has long leaned on a few core metrics. On Metacritic, two scores are typically available: the critic score, based on professional reviews, and the user score, submitted by players. On Steam, the main visible indicator of satisfaction is the positive review ratio — the share of user reviews marked as “positive”. 
-Each of these metrics, however, tells a slightly different story. Critic scores tend to cluster around the higher end of the scale. Reviewers often avoid the harshest ratings, leading to a compressed distribution with fewer low scores and a bias toward the 70–90 range. User scores, on the other hand, are more variable. Players are not shy about expressing dissatisfaction, resulting in a broader spread that includes more low-rated games. The contrast becomes clear when the two are plotted together—players are often harsher, and sometimes more polarized.
+Each of these metrics, however, tells a slightly different story. Critic scores tend to cluster around the higher end of the scale. Reviewers often avoid the harshest ratings, leading to a compressed distribution with fewer low scores and a bias toward the 70–90 range. As Andrea Porta explains,
+
+<blockquote class = "expert_quote">
+  "This is usually the case because journalists can sometimes feel a significant responsibility when assigning a very low score to highly anticipated titles. Such a dynamic is very real and has deep roots within the video game critics landscape, which currently grapples with substantial financial challenges."
+</blockquote>
+
+User scores, on the other hand, are more variable. Players are not shy about expressing dissatisfaction, resulting in a broader spread that includes more low-rated games. The contrast becomes clear when the two are plotted together—players are often harsher, and sometimes more polarized.
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/critic_plus_user_score.json" style="width: 100%; height: 100%"></vegachart>
   <figcaption class = "figcaption_class"> Fig.7 - Metacritic critic score (left plot) and user score (right plot) distributions. </figcaption>
 </figure>
 
-Then there’s the Steam positive ratio, which differs not just in scale but in nature. Steam reviews operate on a binary system —“thumbs up” or “thumbs down”— which strips away nuance and skews the distribution dramatically. Most games that gather reviews at all tend to be favored, so the ratio is heavily biased toward high values. In many cases, even moderately liked games can end up with “Very Positive” labels, suggesting that this metric alone might not capture the full spectrum of appreciation.
+Then there’s the Steam positive ratio, which differs not just in scale but in nature. Steam reviews operate on a binary system —“thumbs up” or “thumbs down” — which strips away nuance and skews the distribution dramatically. Most games that gather reviews at all tend to be favored, so the ratio is heavily biased toward high values. In many cases, even moderately liked games can end up with “Very Positive” labels, suggesting that this metric alone might not capture the full spectrum of appreciation.
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/steam_positive_review_ratio.json" style="width: 100%; height: 100%"></vegachart>
@@ -185,7 +191,7 @@ The median popularity of games by release year reveals how audience focus has ev
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/median_popularity_and_max_popularity_by_year.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.16 - Median (left plot) and maximum (right plot) popularity by year. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.13 - Median (left plot) and maximum (right plot) popularity by year. </figcaption>
 </figure>
 
 Tracking each year's most popular game outlines a parallel history of standout releases. Valve dominated early on, followed by a mix of cult hits (***Psychonauts***, ***Stardew Valley***) and AAA blockbusters (***GTA V***, ***ELDEN RING***). These games not only captured attention at launch but they’ve remained culturally and playably relevant, setting them apart in an increasingly saturated landscape.
@@ -216,7 +222,13 @@ The top 15 most appreciated games highlight story-driven, critically acclaimed t
   <figcaption class = "figcaption_class"> Fig.15 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
-Tracking the evolution of appreciation scores reveals how perceptions of quality have shifted in tandem with Steam’s growth. From the late '90s through the 2000s, median scores remained high, reflecting a more selective release environment — where titles like ***Half-Life*** and ***Half-Life 2*** weren’t just popular but deeply respected. The post-2010 period, however, saw a dip, particularly around 2014–2016, as the platform opened to a flood of indie games — some exceptional, many less polished. Yet from 2020 onward, appreciation begins a modest recovery, suggesting developers have adapted to a crowded market, and players to better filtering tools. 
+Tracking the evolution of appreciation scores reveals how perceptions of quality have shifted in tandem with Steam’s growth. From the late '90s through the 2000s, median scores remained high, reflecting a more selective release environment — where titles like ***Half-Life*** and ***Half-Life 2*** weren’t just popular but deeply respected. The post-2010 period, however, saw a dip, particularly around 2014–2016, as the platform opened to a flood of indie games — some exceptional, many less polished. Yet from 2020 onward, appreciation begins a modest recovery, suggesting developers have adapted to a crowded market, and players to better filtering tools. Our two domain experts have different points of view:
+
+<blockquote class = "expert_quote">
+  "As the pool increases, the quality inevitably decreases on average. Then on Steam, all this is amplified because [...] more and more unknown games are released, and this can lead to an average decrease in appreciation." <cite> Andrea Porta </cite>
+
+  "For years, video game creators have responded to player calls for elements like 'cutting-edge graphics' and other initially gratifying features. However, prioritizing these aspects has, at times, come at the cost of content depth and innovation." <cite> Fortuna Imperatore </cite>
+</blockquote>
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/median_appreciation_and_max_appreciation_by_year.json" style="width: 100%; height: 100%" ></vegachart>
