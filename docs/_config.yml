@@ -52,6 +52,8 @@ navbar:
   nav:
     - title: Technical Discussions
       child:
+        - title: Data Gathering
+          url: /Data Gathering.html
         - title: Tag Analysis
           url: /Tag Analysis.html
         - title: Predictive Modeling
