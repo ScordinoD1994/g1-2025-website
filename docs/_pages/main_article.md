@@ -15,49 +15,51 @@ vega: true
 <h1 class = "full-width-wrapper superH1"> GAMEBREAKING </h1>
 <h4 class = "full-width-wrapper superSubTitle"> Unlocking the data behind a videogame's success </h4>
 
-<div class = "full-width-wrapper toc_container">
-  <nav class = "toc">
-  <h5>Table of contents</h5>
-      <ol>
-          <li> <a href="#A crowded market">A crowded market</a> </li>
-          <ul>
-            <li> <a href="#How players engage">How players engage</a> </li>
-          </ul>
-          <li> <a href="#Measuring Success">Measuring Success</a> </li>
-          <ul>
-            <li> <a href="#Popularity Score">Popularity Score</a> </li>
-            <li> <a href="#Appreciation Score">Appreciation Score</a> </li>
-            <li> <a href="#Appreciation-Popularity Plane">Appreciation-Popularity Plane</a> </li>
-          </ul>
-          <li> <a href="#Indie vs Non-Indie">Indie vs Non-Indie</a> </li>
-          <li> <a href="#Steam tags analysis">Steam tags analysis</a> </li>
-          <li> <a href="#Predicting Success?">Predicting Success?</a> </li>
-          <li> <a href="#Conclusions">Conclusions</a> </li>
-          <ul>
-            <li> <a href="#Next steps">Next steps</a> </li>
-          </ul>
-      </ol>
-  </nav>
-</div>
-
-<!-- 
-<div class = "container_abstract">
-  <div style = "padding: 15px;">
-    <p>
-      Steam, the world’s largest PC gaming platform, has transformed how games are made, discovered, and consumed. With thousands of titles launching every year, players and developers alike face a daunting question:
-    </p> 
-    <p style = "text-align: center; padding: 10px; font-size: 1.6rem; font-style: italic; font-weight: bold;"> 
-      <q> What makes a game successful? </q>
-    </p>
-    <p>
-      Success in gaming is no longer just about quality or even popularity alone. Some games attract massive player bases but struggle to earn positive reception. Others fly under the radar despite glowing reviews. Navigating this landscape requires moving beyond simple metrics like playtime or critic scores to understand the multidimensional dynamics of game performance.
-      In this article, we explore this question by analyzing a <a href = "https://www.kaggle.com/datasets/fronkongames/steam-games-dataset">curated dataset of Steam games</a> and specifically those that have a <a href = "https://www.metacritic.com/game/">Metacritic</a> page from 1997 to 2023. This criterion sets a minimum threshold of visibility, ensuring that we study games that have at least broken through the initial barrier of recognition and discourse.
-    </p>
-  </div>
-</div>
--->
-
 <div class = "bodyContainer">
+
+  <div class = "full-width-wrapper toc_container">
+    <nav class = "toc">
+    <h5>Table of contents</h5>
+        <ol>
+            <li> <a href="#A crowded market">A crowded market</a> </li>
+            <ul>
+              <li> <a href="#How players engage">How players engage</a> </li>
+            </ul>
+            <li> <a href="#Measuring Success">Measuring Success</a> </li>
+            <ul>
+              <li> <a href="#Popularity Score">Popularity Score</a> </li>
+              <li> <a href="#Appreciation Score">Appreciation Score</a> </li>
+              <li> <a href="#Appreciation-Popularity Plane">Appreciation-Popularity Plane</a> </li>
+            </ul>
+            <li> <a href="#Indie vs Non-Indie">Indie vs Non-Indie</a> </li>
+            <li> <a href="#Steam tags analysis">Steam tags analysis</a> </li>
+            <li> <a href="#Predicting Success?">Predicting Success?</a> </li>
+            <li> <a href="#Conclusions">Conclusions</a> </li>
+            <ul>
+              <li> <a href="#Next steps">Next steps</a> </li>
+            </ul>
+        </ol>
+    </nav>
+  </div>
+
+  <!-- 
+  <div class = "container_abstract">
+    <div style = "padding: 15px;">
+      <p>
+        Steam, the world’s largest PC gaming platform, has transformed how games are made, discovered, and consumed. With thousands of titles launching every year, players and developers alike face a daunting question:
+      </p> 
+      <p style = "text-align: center; padding: 10px; font-size: 1.6rem; font-style: italic; font-weight: bold;"> 
+        <q> What makes a game successful? </q>
+      </p>
+      <p>
+        Success in gaming is no longer just about quality or even popularity alone. Some games attract massive player bases but struggle to earn positive reception. Others fly under the radar despite glowing reviews. Navigating this landscape requires moving beyond simple metrics like playtime or critic scores to understand the multidimensional dynamics of game performance.
+        In this article, we explore this question by analyzing a <a href = "https://www.kaggle.com/datasets/fronkongames/steam-games-dataset">curated dataset of Steam games</a> and specifically those that have a <a href = "https://www.metacritic.com/game/">Metacritic</a> page from 1997 to 2023. This criterion sets a minimum threshold of visibility, ensuring that we study games that have at least broken through the initial barrier of recognition and discourse.
+      </p>
+    </div>
+  </div>
+  -->
+
+
 
   <h1 id = "A crowded market"> A crowded market </h1>
 
@@ -364,9 +366,9 @@ vega: true
 
 
   <h2 id = "Next steps"> Next steps </h2>
-
   Lorem ipsum...
 
-
 </div>
+
+
 
