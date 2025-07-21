@@ -64,11 +64,11 @@ vega: true
 
 Steam’s growth over the past decade has been staggering. In 2023 alone, over 11,000 games were released on the platform — that’s **more than 30 games per day**. 
 
-<figure style = "float:left;">
+<figure style = "float:left; padding: 10px;">
   <img src='assets/images/steamdb_game_releases_per_year.png' width = 500>
   <figcaption class = "figcaption_class"> Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
 </figure>
-<figure style = "float:left;">
+<figure style = "float:left; padding: 10px;">
   <img src='assets/images/steamdb_game_releases_per_month.png' width = 500>
   <figcaption class = "figcaption_class"> Fig.2 - Game releases per month. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
 </figure>
@@ -78,7 +78,9 @@ To focus on titles that have reached some degree of exposure, we narrowed our da
 But even within this more visible subset, the numbers tell a revealing story. While the absolute number of games with Metacritic pages has been steadily rising — nearly tripling since 2015 — their proportion relative to the total number of Steam releases has been declining. 
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_games_per_year.json" style="width: 100%; height: 100%"></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_games_per_year.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.3 - Metacritic games per year. </figcaption>
 </figure>
 
@@ -92,7 +94,7 @@ Once a game is released on Steam, how do players actually engage with it? We exa
 When we look at average playtime over time, a subtle but important shift emerges: newer games tend to see shorter engagement windows compared to older titles. Whether due to time constraints, the abundance of available alternatives, or changing player habits, it's clear that player attention is fragmenting.
 
 <figure>
-  <div class = "doubleGraph" style = "width: 500px; height: 500px;">
+  <div class = "doubleGraph">
     <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json"></vegachart>
   </div>
   <figcaption class = "figcaption_class"> Fig.4 - Total average estimated owners (left plot) and average playtime per year (right plot). </figcaption>
