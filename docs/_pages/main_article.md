@@ -93,7 +93,7 @@ When we look at average playtime over time, a subtle but important shift emerges
 
 <figure>
   <div class = "doubleGraph">
-    <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json" style="width: 50%; height: 50%;"></vegachart>
+    <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json" style="width: 100%; height: 100%;"></vegachart>
   </div>
   <figcaption class = "figcaption_class"> Fig.4 - Total average estimated owners (left plot) and average playtime per year (right plot). </figcaption>
 </figure>
