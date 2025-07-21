@@ -328,6 +328,15 @@ Steam tags serve as the primary vocabulary of the platform's discovery system. W
 
 A first look at Steam’s tagging ecosystem reveals the most common features and genres that define the platform’s catalog. The most frequent tags (**Singleplayer**, **Action**, **Adventure**, and **Indie**) reflect the foundational role of narrative-driven and independently developed games in Steam’s library. Tags like **Atmospheric**, **Story Rich**, and **Great Soundtrack** point to an emphasis on immersive experiences, while **Multiplayer** and **Co-op** signal the continued relevance of shared play. Meanwhile, **2D**, **Strategy**, and **Puzzle** showcase the variety in form and mechanics that appeal to different gaming audiences.
 
+The data reveals clear trends shaping today’s gaming landscape: immersive atmospheres and nostalgia-driven themes lead player interest, while adventure and indie genres dominate overall volume, highlighting both broad appeal and creative diversity. Visual styles range widely, with 2D aesthetics and varied perspectives thriving alongside niche approaches. Classic genres like puzzle and platformers maintain strong presence, complemented by popular sub-genres emphasizing skill and replayability. Singleplayer remains the dominant mode, though multiplayer and co-op offer rich social experiences. Narrative depth is highly valued, with players seeking agency and meaningful storytelling. Level design favors freedom and exploration, yet curated, structured experiences still hold importance. Together, these insights show a balanced ecosystem where innovation, tradition, and player choice coexist to define successful game design.
+
+<figure>
+  <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json" style="width: 100%; height: 100%" ></vegachart>
+  <figcaption class = "figcaption_class"> Fig.24 -  </figcaption>
+</figure>
+
+
+
 
 
 

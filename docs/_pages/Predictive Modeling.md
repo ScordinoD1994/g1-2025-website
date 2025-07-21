@@ -5,8 +5,7 @@ subtitle: ""
 vega: true
 ---
 
-# Titolo 1
-testo di prova....
+<h1 class = "full-width-wrapper superH1"> Predictive Model </h1>
 
 
 
