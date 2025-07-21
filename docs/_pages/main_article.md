@@ -191,7 +191,7 @@ The median popularity of games by release year reveals how audience focus has ev
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/median_popularity_and_max_popularity_by_year.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.13 - Median (left plot) and maximum (right plot) popularity by year. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.13 - Median and maximum popularity by year. </figcaption>
 </figure>
 
 Tracking each year's most popular game outlines a parallel history of standout releases. Valve dominated early on, followed by a mix of cult hits (***Psychonauts***, ***Stardew Valley***) and AAA blockbusters (***GTA V***, ***ELDEN RING***). These games not only captured attention at launch but they’ve remained culturally and playably relevant, setting them apart in an increasingly saturated landscape.
@@ -232,7 +232,7 @@ Tracking the evolution of appreciation scores reveals how perceptions of quality
 
 <figure>
   <vegachart schema-url="/g1-2025-website/assets/charts/median_appreciation_and_max_appreciation_by_year.json" style="width: 100%; height: 100%" ></vegachart>
-  <figcaption class = "figcaption_class"> Fig.16 - Median (left plot) and maximum (right plot) appreciation by year. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.16 - Median and maximum appreciation by year. </figcaption>
 </figure>
 
 Overlaying top appreciated games by year reinforces this: alongside AAA milestones like ***The Witcher 3*** and ***Baldur’s Gate 3***, we find emotionally resonant indies like ***Celeste***, ***Hollow Knight***, and ***Pizza Tower***. These titles show that lasting impact isn’t tied to budget, but to originality, depth, and connection.
