@@ -363,7 +363,12 @@ This gap underscores the critical role of pre-launch marketing. This is confirme
 
 This evolving marketing sophistication, coupled with their inherently competitive pricing, may well be key to how certain indie games carve out significant success within the overwhelmingly vast gaming landscape.
 
-
+<figure>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
+  </div>
+  <figcaption class = "figcaption_class"> Fig.24?? - Test. </figcaption>
+</figure>
 
 
 <h1 id = "Steam tags analysis"> Steam tags analysis </h1>
