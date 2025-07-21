@@ -363,14 +363,17 @@ This gap underscores the critical role of pre-launch marketing. This is confirme
 
 This evolving marketing sophistication, coupled with their inherently competitive pricing, may well be key to how certain indie games carve out significant success within the overwhelmingly vast gaming landscape.
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Show big chart
-</button>
+<div class = "doubleGraph">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Show big chart
+  </button>
+</div>
+
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Indie VS Non-Indie User & Critic reviews</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
       </div>
       <div class="modal-body">
