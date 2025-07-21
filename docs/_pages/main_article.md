@@ -65,11 +65,11 @@ vega: true
 Steam’s growth over the past decade has been staggering. In 2023 alone, over 11,000 games were released on the platform — that’s **more than 30 games per day**. 
 
 <figure>
-  <img src='assets/images/steamdb_game_releases_per_year.png' width = 500>
+  <img src='assets/images/steamdb_game_releases_per_year.png' style = "width: 100%">
   <figcaption class = "figcaption_class"> Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
 </figure>
 <figure>
-  <img src='assets/images/steamdb_game_releases_per_month.png' width = 500>
+  <img src='assets/images/steamdb_game_releases_per_month.png' style = "width: 100%">
   <figcaption class = "figcaption_class"> Fig.2 - Game releases per month. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
 </figure>
 
