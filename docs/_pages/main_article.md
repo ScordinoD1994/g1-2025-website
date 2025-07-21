@@ -111,7 +111,9 @@ Finally, we explored review activity by looking at the distribution of the numbe
 Together, these trends reveal how player engagement is both growing and concentrating, offering opportunities for breakout hits, but also highlighting the steep climb most games face after launch.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/reviews_distribution_plus_reviews_bucket_per_released_games.json" style="width: 100%; height: 100%"></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/reviews_distribution_plus_reviews_bucket_per_released_games.json"></vegachart>
+  </div>  
   <figcaption class = "figcaption_class"> Fig.6 - Review distribution. </figcaption>
 </figure>
 
@@ -131,21 +133,27 @@ Each of these metrics, however, tells a slightly different story. Critic scores 
 User scores, on the other hand, are more variable. Players are not shy about expressing dissatisfaction, resulting in a broader spread that includes more low-rated games. The contrast becomes clear when the two are plotted together—players are often harsher, and sometimes more polarized.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/critic_plus_user_score.json" style="width: 100%; height: 100%"></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/critic_plus_user_score.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.7 - Metacritic critic score (left plot) and user score (right plot) distributions. </figcaption>
 </figure>
 
 Then there’s the Steam positive ratio, which differs not just in scale but in nature. Steam reviews operate on a binary system —“thumbs up” or “thumbs down” — which strips away nuance and skews the distribution dramatically. Most games that gather reviews at all tend to be favored, so the ratio is heavily biased toward high values. In many cases, even moderately liked games can end up with “Very Positive” labels, suggesting that this metric alone might not capture the full spectrum of appreciation.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/steam_positive_review_ratio.json" style="width: 100%; height: 100%"></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/steam_positive_review_ratio.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.8 - Steam positive review ration distribution with review segmentation. </figcaption>
 </figure>
 
 These differences highlight the challenge of evaluating player sentiment in a consistent way. Each metric provides a piece of the puzzle, but none offers the full picture. This tension points to the need for more robust, composite measurements—an effort we take up in the next section, where we move toward defining appreciation and popularity as integrated, quantifiable outcomes.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_score_difference.json" style="width: 100%; height: 100%"></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_score_difference.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.9 - Difference between critic and user metacritic scores. </figcaption>
 </figure>
 
@@ -153,7 +161,9 @@ Beyond the general trends, some games exhibit striking discrepancies between cri
 Analyzing these outliers in more detail could offer valuable insights into the dynamics of reception—what drives such a divide, and what it reveals about the varying standards of professional reviewers and general audiences.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/user_vs_critic_score_by_difference.json" style="width: 100%; height: 100%"></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/user_vs_critic_score_by_difference.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.10 - Users vs critic score on Metacritic. </figcaption>
 </figure>
 
@@ -182,21 +192,27 @@ We began with ten core indicators of attention, ranging from how many people bou
 Because these numbers can vary wildly between indie darlings and AAA blockbusters, we applied a logarithmic transformation to scale them more evenly. Then, we used ***Principal Component Analysis (PCA)*** to synthesize these features into a single, unified score (which is then normalized between 0 and 1). This score doesn’t just tell us how many people bought a game. It reflects how visible, discussed, and socially present a game is in the gaming ecosystem.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/top_15_popularity.json" style="width: 100%; height: 100%"></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/top_15_popularity.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.11 - Top 15 games with respect to our <i>Popularity Score</i>. </figcaption>
 </figure>
 
 The top 15 games by our popularity score feature a mix of blockbuster titles and enduring multiplayer hits. ***GTA V*** leads the pack, followed closely by ***ELDEN RING*** and ***Cyberpunk 2077***. Multiplayer staples like ***CS:GO***, ***Left 4 Dead 2***, and ***PAYDAY 2*** show strong staying power, while narrative-rich games (***Red Dead Redemption 2***, ***The Witcher 3***, ***Baldur’s Gate 3***) and indie successes (***Stardew Valley***, ***Terraria***) demonstrate the wide range of what "popular" can mean on Steam.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/popularity_distribution.json" style="width: 100%; height: 100%"></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/popularity_distribution.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.12 - Popularity score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
 The median popularity of games by release year reveals how audience focus has evolved. In the late ’90s and early 2000s, median scores often exceeded 0.6, driven by landmark titles like ***Half-Life*** and ***Counter-Strike***. But from 2006 onward, scores declined to around 0.35–0.45, reflecting the rise of digital platforms, indie games, and a fragmented attention economy. A slight uptick in recent years hints at pandemic-era engagement and viral hits, though overall visibility per title has diminished as the market swells.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/median_popularity_and_max_popularity_by_year.json" style="width: 100%; height: 100%" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/median_popularity_and_max_popularity_by_year.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.13 - Median and maximum popularity by year. </figcaption>
 </figure>
 
@@ -217,14 +233,18 @@ While popularity tells us which games are getting the most attention, appreciati
 We used ***Principal Component Analysis (PCA)*** to synthesize these variables into a single score (which is then normalized between 0 and 1), one that cuts through isolated metrics and offers a more holistic picture of how a game is received across communities. This approach lets us identify not just the most played games, but the most loved.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/top_15_appreciation.json" style="width: 100%; height: 100%"></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/top_15_appreciation.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.14 - Top 15 games with respect to our <i>Appreciation Score</i>. </figcaption>
 </figure>
 
 The top 15 most appreciated games highlight story-driven, critically acclaimed titles. ***Baldur’s Gate 3*** leads, with classics like ***Half-Life 2***, ***Portal 2***, and ***BioShock*** close behind. Several entries from long-running franchises (***Final Fantasy***, ***Persona***, ***The Elder Scrolls***) appear alongside modern hits like ***Red Dead Redemption 2*** and ***God of War***. This ranking underscores how narrative quality, innovation, and lasting impact drive appreciation, regardless of release date.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/appreciation_distribution.json" style="width: 100%; height: 100%" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/appreciation_distribution.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.15 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
@@ -237,7 +257,9 @@ Tracking the evolution of appreciation scores reveals how perceptions of quality
 </blockquote>
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/median_appreciation_and_max_appreciation_by_year.json" style="width: 100%; height: 100%" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/median_appreciation_and_max_appreciation_by_year.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.16 - Median and maximum appreciation by year. </figcaption>
 </figure>
 
@@ -250,7 +272,9 @@ Overlaying top appreciated games by year reinforces this: alongside AAA mileston
 The scatter plot below positions games according to their appreciation (horizontal axis) and popularity (vertical axis) scores. With median lines dividing the space, four distinct profiles emerge. Games in the top-right quadrant — such as ***Red Dead Redemption 2*** or ***The Witcher 3*** — combine strong admiration with widespread reach. The top-left captures popular games with more mixed reception, while the bottom-right shows beloved titles with narrower appeal. The bottom-left hosts games that struggled to resonate broadly on either front. This quadrant framework helps decode the landscape of critical and commercial impact in a single glance.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/popularity_vs_appreciation.json" style="width: 100%; height: 100%" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/popularity_vs_appreciation.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.17 - Games distribution on the Appreciation and Popularity score plane. Most "extreme" games in each quadrant are marked with yellow circles. </figcaption>
 </figure>
 
@@ -268,7 +292,9 @@ The bottom end of the popularity–appreciation spectrum paints a picture of tit
 While independent developers were virtually absent from the early 2000s Steam landscape, things began to shift dramatically in the 2010s. In 2010, only a quarter of the games with a Metacritic page were indie titles. By 2015, that share had soared past 66%, reflecting the growing accessibility of game development tools and digital distribution platforms.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_by_year.json" style="width: 100%; height: 100%" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_by_year.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.18 - Number of indie and non-indie game released. </figcaption>
 </figure>
 
@@ -279,7 +305,9 @@ The data tells a clear story: indie games, once rare outliers, are now integral 
 When comparing appreciation scores, our measure of how well-received a game is, indie titles have often outperformed their big-budget counterparts, especially in more recent years.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_appreciation.json" style="width: 100%; height: 100%" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_appreciation.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.19 - Median appreciation by year for indie (left plot) and non-indie (right plot) games. </figcaption>
 </figure>
 
@@ -288,7 +316,9 @@ Since 2010, median appreciation scores for indie games have remained impressivel
 While indie titles have increasingly gained critical acclaim they still lag behind in terms of popularity. Median popularity scores for indie games consistently trail those of non-indie releases across most years.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_popularity.json" style="width: 100%; height: 100%" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_popularity.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.20 - Median pupularity by year for indie (left plot) and non-indie (right plot) games. </figcaption>
 </figure>
 
@@ -299,21 +329,27 @@ The notable spike in indie game popularity in 2008 can be attributed to a handfu
 Indie games have carved out a remarkable space in both popularity and appreciation. Titles like ***Terraria***, ***Stardew Valley***, and ***Hollow Knight*** rival mainstream hits in reach, while critically adored gems such as ***Hades***, ***Celeste***, and ***Undertale*** exemplify the genre’s emotional depth and design excellence. Whether through vibrant communities, unique aesthetics, or tight gameplay, these games prove that creativity and passion can achieve lasting impact, often without blockbuster budgets.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_indie.json" style="width: 100%; height: 100%" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_indie.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.21 - Popularity (left plot) and appreciation (right plot) score for top 15 indie games. </figcaption>
 </figure>
 
 Mainstream titles dominate popularity through sheer scale, marketing, and cultural footprint — with giants like ***GTA V***, ***ELDEN RING***, and ***Cyberpunk 2077*** leading the charge. Meanwhile, enduring live-service games and cinematic epics maintain engagement across years. In appreciation, it's timeless design and narrative excellence that shine: ***Baldur’s Gate 3***, ***Half-Life 2***, and ***Portal 2*** stand out for innovation and emotional impact.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_not_indie.json" style="width: 100%; height: 100%" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_not_indie.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.22 - Popularity (left plot) and appreciation (right plot) score for top 15 non-indie games. </figcaption>
 </figure>
 
 Our data highlights a clear strategic advantage for indie games in terms of initial pricing. With an average launch price of $16.85, significantly lower than non-indie titles averaging $25.60 (and a median of $14.99 compared to $19.99 for non-indies), independent developers consistently offer a more accessible entry point for players. This lower barrier to entry is crucial in a competitive market, yet pure affordability doesn't guarantee market dominance; our figures show non-indie games generally achieve higher popularity scores (averaging 0.448 versus 0.363 for indies). 
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json" style="width: 100%; height: 100%" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.23 - Scatter plot of popularity vs appreciation for indie and non-indie games by current prices. </figcaption>
 </figure>
 
@@ -337,7 +373,9 @@ A first look at Steam’s tagging ecosystem reveals the most common features and
 The data reveals clear trends shaping today’s gaming landscape: immersive atmospheres and nostalgia-driven themes lead player interest, while adventure and indie genres dominate overall volume, highlighting both broad appeal and creative diversity. Visual styles range widely, with 2D aesthetics and varied perspectives thriving alongside niche approaches. Classic genres like puzzle and platformers maintain strong presence, complemented by popular sub-genres emphasizing skill and replayability. Singleplayer remains the dominant mode, though multiplayer and co-op offer rich social experiences. Narrative depth is highly valued, with players seeking agency and meaningful storytelling. Level design favors freedom and exploration, yet curated, structured experiences still hold importance. Together, these insights show a balanced ecosystem where innovation, tradition, and player choice coexist to define successful game design.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/tags_frequency_by_category.json" style="width: 100%; height: 100%" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/tags_frequency_by_category.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.24 - Top-10 tags by category. </figcaption>
 </figure>
 
@@ -345,7 +383,9 @@ Across the genre landscape, four key patterns emerge. High Popularity–High App
 Meanwhile, Low Popularity–High Appreciation (LP–HA) genres like **Rhythm**, **Tower Defense**, and **Point & Click** showcase strong niche appeal, loved deeply by smaller audiences thanks to focused, polished gameplay. Finally, Low Popularity–Low Appreciation (LP–LA) entries reveal genres that may be stuck in creative stagnation, where legacy formats no longer resonate.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/top_genres_subgenres_by_quadrant.json" style="width: 100%; height: 100%" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/top_genres_subgenres_by_quadrant.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.25 - Top genres and sub-genres by quadrant. </figcaption>
 </figure>
 
