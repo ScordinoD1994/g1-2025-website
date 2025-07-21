@@ -78,7 +78,9 @@ So we were able to obtain a sentiment (**positive**, **neutral**, **negative**) 
 To check the performance of this model for sentiment analysis and to improve the explainability of our results we also extracted supporting sentences for each identified topic. For each extracted topic, the supporting sentences in each review were found with a keyword search. This was implemented using a dictionary containing a list keywords associated to each topic.
 
 <figure>
-  <img src='assets/images/final output of the text analysis on one review.png' width = 500>
+  <div class = "doubleGraph">
+    <img src='assets/images/final output of the text analysis on one review.png' width = 500>
+  </div>
   <figcaption class = "figcaption_class"> Fig.1 - Final output of the text analysis on one review. </figcaption>
 </figure>
 
@@ -88,12 +90,16 @@ To check the performance of this model for sentiment analysis and to improve the
 Aggregating the results from all the analysed reviews for each game, we were able to extract the number of mentions of each topic and their associated sentiments. The graph below shows a visualisation of the total mentions per topic, per game, which can be filtered to show the total mentions per topic and game by sentiment.
 
 <figure>
-  <img src='assets/images/final output of the text analysis on one review.png' width = 500>
+  <div class = "doubleGraph">
+    <img src='assets/images/final output of the text analysis on one review.png' width = 500>
+  </div>
   <figcaption class = "figcaption_class"> Fig.2 - Total mentions per topic, per game. </figcaption>
 </figure>
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/MentionsByTopic_plus_SentimentBySubset.json" style="width: 100%; height: 100%"></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/MentionsByTopic_plus_SentimentBySubset.json"></vegachart>
+  </div>
   <figcaption class = "figcaption_class"> Fig.3 - Example.</figcaption>
 </figure>
 
