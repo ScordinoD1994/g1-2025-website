@@ -224,9 +224,9 @@ a {
 
 .doubleGraph {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  border: 1px, solid, gray;
   width: 500px;
 }
 
