@@ -101,7 +101,9 @@ When we look at average playtime over time, a subtle but important shift emerges
 Some noticeable spikes in the data trace back to landmark releases. The peaks in average playtime seen in years like 1998, 2000, 2001, 2003, and 2004 align with the launches of enduring classics like ***Half-Life***, ***Counter-Strike***, ***Half-Life: Blue Shift***, ***Day of Defeat***, and ***Counter-Strike: Source***. These titles have maintained active player bases over decades, skewing the average upward. Similarly, the sharp rise in estimated ownership in 2013 is largely attributable to *Dota 2*, a free-to-play phenomenon that brought millions of players onto Steam and became a pillar of its ecosystem.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/explain_spikes.json" style="width: 100%; height: 100%;" ></vegachart>
+  <div class = "doubleGraph">
+    <vegachart schema-url="/g1-2025-website/assets/charts/explain_spikes.json" style="width: 100%; height: 100%;" ></vegachart>
+  </div>  
   <figcaption class = "figcaption_class"> Fig.5 - Spikes breakdown. </figcaption>
 </figure>
 
