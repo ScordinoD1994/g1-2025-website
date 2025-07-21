@@ -31,6 +31,7 @@ vega: true
           </ul>
           <li> <a href="#Indie vs Non-Indie">Indie vs Non-Indie</a> </li>
           <li> <a href="#Steam tags analysis">Steam tags analysis</a> </li>
+          <li> <a href="#Predicting Success?">Predicting Success?</a> </li>
           <li> <a href="#Conclusions">Conclusions</a> </li>
           <ul>
             <li> <a href="#Next steps">Next steps</a> </li>
@@ -331,7 +332,7 @@ A first look at Steam’s tagging ecosystem reveals the most common features and
 The data reveals clear trends shaping today’s gaming landscape: immersive atmospheres and nostalgia-driven themes lead player interest, while adventure and indie genres dominate overall volume, highlighting both broad appeal and creative diversity. Visual styles range widely, with 2D aesthetics and varied perspectives thriving alongside niche approaches. Classic genres like puzzle and platformers maintain strong presence, complemented by popular sub-genres emphasizing skill and replayability. Singleplayer remains the dominant mode, though multiplayer and co-op offer rich social experiences. Narrative depth is highly valued, with players seeking agency and meaningful storytelling. Level design favors freedom and exploration, yet curated, structured experiences still hold importance. Together, these insights show a balanced ecosystem where innovation, tradition, and player choice coexist to define successful game design.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json" style="width: 100%; height: 100%" ></vegachart>
+  <vegachart schema-url="/g1-2025-website/assets/charts/tags_frequency_by_category.json" style="width: 100%; height: 100%" ></vegachart>
   <figcaption class = "figcaption_class"> Fig.24 - Top-10 tags by category. </figcaption>
 </figure>
 
@@ -339,11 +340,16 @@ Across the genre landscape, four key patterns emerge. High Popularity–High App
 Meanwhile, Low Popularity–High Appreciation (LP–HA) genres like **Rhythm**, **Tower Defense**, and **Point & Click** showcase strong niche appeal, loved deeply by smaller audiences thanks to focused, polished gameplay. Finally, Low Popularity–Low Appreciation (LP–LA) entries reveal genres that may be stuck in creative stagnation, where legacy formats no longer resonate.
 
 <figure>
-  <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json" style="width: 100%; height: 100%" ></vegachart>
+  <vegachart schema-url="/g1-2025-website/assets/charts/top_genres_subgenres_by_quadrant.json" style="width: 100%; height: 100%" ></vegachart>
   <figcaption class = "figcaption_class"> Fig.25 - Top genres and sub-genres by quadrant. </figcaption>
 </figure>
 
 The sub-genre data reveals a nuanced landscape: High Popularity–High Appreciation (HP-HA) tags like **FPS**, **Hack** and **Slash**, **Metroidvania**, and **Souls-like** blend broad appeal with strong design, balancing challenge and accessibility. Meanwhile, High Popularity–Low Appreciation (HP-LA) genres — including **FPS** and **Rogue-lite** — draw many players but often suffer from repetition or lack of polish, highlighting room for innovation. Low Popularity–High Appreciation (LP-HA) sub-genres, such as **Puzzle-Platformers** and **Shoot ’Em Ups**, may fly under the radar but enjoy devoted fans thanks to tight mechanics and rewarding gameplay. Lastly, Low Popularity–Low Appreciation (LP-LA) categories show signs of oversaturation and uneven quality, signaling a need for creative reinvention and improved execution to regain player trust and relevance.
+
+
+<h1 id = "Predicting Success?"> Predicting Success? </h1>
+
+
 
 
 
@@ -351,6 +357,10 @@ The sub-genre data reveals a nuanced landscape: High Popularity–High Appreciat
 <h1 id = "Conclusions"> Conclusions </h1>
 
 Lorem ipsum...
+
+
+
+
 
 
 <h2 id = "Next steps"> Next steps </h2>
