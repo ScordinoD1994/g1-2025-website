@@ -39,9 +39,6 @@ vega: true
             <li> <a href="#Predicting success">Predicting success</a> </li>
           </ul>
           <li> <a href="#Conclusions">Conclusions</a> </li>
-          <ul>
-            <li> <a href="#Next steps">Next steps</a> </li>
-          </ul>
       </ol>
   </nav>
 </div>
@@ -530,13 +527,6 @@ Crucially, our findings show that success — whether measured as popularity or 
 In contrast, some indie games quietly achieve high appreciation with far fewer resources. Titles like **[...]**, for example, are testament to how originality, thoughtful design, and strong narrative identity can create deeply resonant experiences.
  
 Success in games, as in art, is multifaceted. <b><i>And perhaps that’s exactly what makes this medium so exciting</i></b>.
-
-
-
-
-<h2 id = "Next steps"> Next steps </h2>
-
-Lorem ipsum...
 
 
 

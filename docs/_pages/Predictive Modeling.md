@@ -175,7 +175,7 @@ SHAP helped reveal:
 
 
 
-## Limitations and Future Work
+## Limitations
 
 <ul class = "in_text_list">
     <li> <b>Data size</b> (~5,000 games) is relatively modest, especially for deep modeling of subjective traits like appreciation </li>
