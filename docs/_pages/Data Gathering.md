@@ -7,7 +7,7 @@ vega: true
 
 <h1 class = "full-width-wrapper superH1"> Data Gathering </h1>
 
-Our modeling dataset was built from the <a href="https://www.kaggle.com/datasets/fronkongames/steam-games-dataset?select=games.csv">Steam Kaggle dataset</a>, enhanced with external sources including <a href="https://steamspy.com">SteamSpy dataset</a>, <a href="https://steamcharts.com">SteamCharts</a>, <a href="https://backloggd.com">Backloggd</a>, and <a href="https://www.metacritic.com/game/">Metacritic</a>. 
+Our modeling dataset was built from the <a href="https://www.kaggle.com/datasets/fronkongames/steam-games-dataset?select=games.csv">Steam Kaggle dataset</a>, enhanced with external sources including <a href="https://steamspy.com">SteamSpy</a>, <a href="https://steamcharts.com">SteamCharts</a>, <a href="https://backloggd.com">Backloggd</a>, and <a href="https://www.metacritic.com/game/">Metacritic</a>. 
 
 In particular, using SteamSpy API we updated the following attributes:
 
@@ -24,9 +24,11 @@ In particular, using SteamSpy API we updated the following attributes:
     <li> <var> languages </var>: list of languages in which each game has been translated </li>
     <li> <var> genre </var>: Steam genres associated to each game </li>
     <li> <var> tags </var>: Steam tags assigned to each game </li>
-</u>
+</ul>
 
-From SteamChart, using <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">Beautiful Soup</a>, we scraped <var> all-time peak </var> which represents the maximum number of concurrent players for a game starting from the release date. Finally, from Backloggd we scraped the following data:
+From SteamChart, using <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">Beautiful Soup</a>, we scraped <var> all-time peak </var> which represents the maximum number of concurrent players for a game starting from the release date. 
+
+Finally, from Backloggd we scraped the following data:
 
 <ul class = "in_text_list">
     <li> <var> Played </var>: number of times a game has been played </li>
@@ -37,7 +39,7 @@ From SteamChart, using <a href="https://www.crummy.com/software/BeautifulSoup/bs
     <li> <var> Reviews </var>: number of reviews for each game on Backloggd </li>
     <li> <var> Likes </var>: likes number </li>
     <li> <var> Platforms </var>: list of platforms on which a game has been released </li>
-</u>
+</ul>
 
 From Metacritic, using <a href="https://selenium-python.readthedocs.io/">Selenium</a>, we scraped for each game 
 
@@ -46,7 +48,7 @@ From Metacritic, using <a href="https://selenium-python.readthedocs.io/">Seleniu
     <li> <var> User Score </var>: average users rating </li>
     <li> <var> Total number of reviews for critics and users </var> </li>
     <li> <var> Reviews from critic and users (with their score, date and platform) </var> </li>
-</u>
+</ul>
 
 The final dataset contained more than <b>90,000 games</b>, but we filtered it by considering only games with a Metacritic page reducing its size to around <b>5,000</b> games. This allowed us to consider only games with a certain market visibility, also taking care of a large amount of missing values present in the Kaggle dataset for less renowned games. Finally, considering we only had partial data available for 2024, we removed all games released in 2024 from the dataset. We also removed from the dataset games not having user reviews on Metacritic (this reduced the datased to <b>4878</b> games). 
 
