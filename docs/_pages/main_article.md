@@ -98,7 +98,7 @@ Once a game is released on Steam, how do players actually engage with it? We exa
 
 When we look at average playtime over time, a subtle but important shift emerges: newer games tend to see shorter engagement windows compared to older titles. Whether due to time constraints, the abundance of available alternatives, or changing player habits, it's clear that player attention is fragmenting.
 
-<figure>
+<figure class="full-width-wrapper">
   <div class = "full-width-wrapper general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json"></vegachart>
   </div>
