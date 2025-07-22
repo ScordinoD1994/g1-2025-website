@@ -60,18 +60,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
     <img src='assets/images/overfitting_quad.png' width = 500 height = 500 style = 'padding: 15px;'>
   </div>
   <figcaption class = "figcaption_class"> 
-    Fig.1 - Training and validation loss vs number of estimators for popularity-only model with <code><var>max_depth</var> = 2</code>. To prevent overfitting the number of estimators must be kept low.
-  </figcaption>
-</figure>
-
-<figure>
-  <div class = "genral_chartClass">
-    <img src='assets/images/overfitting_pop_2.png' width = 500 height = 500 style = 'padding: 15px;'>
-    <img src='assets/images/overfitting_appr_2.png' width = 500 height = 500 style = 'padding: 15px;'>
-    <img src='assets/images/overfitting_quad_2.png' width = 500 height = 500 style = 'padding: 15px;'>
-  </div>
-  <figcaption class = "figcaption_class"> 
-    Fig.2 - 
+    Fig.1 - Training and validation loss vs number of estimators for popularity-only (left plot), appreciation-only (middle plot) and quadrant (right plot) models with <code><var>max_depth</var> = 2</code>. In each case, to prevent overfitting the number of estimators must be kept low.
   </figcaption>
 </figure>
 
@@ -139,6 +128,18 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
     </tr>
 </table>
 
+<figure>
+  <div class = "genral_chartClass">
+    <img src='assets/images/overfitting_pop_2.png' width = 500 height = 500 style = 'padding: 15px;'>
+    <img src='assets/images/overfitting_appr_2.png' width = 500 height = 500 style = 'padding: 15px;'>
+    <img src='assets/images/overfitting_quad_2.png' width = 500 height = 500 style = 'padding: 15px;'>
+  </div>
+  <figcaption class = "figcaption_class"> 
+    Fig.2 - Best parameters selection for popularity-only (left plot), appreciation-only (middle plot) and quadrant (right plot) models. The red dot represents our best model on the mean validation accurary -  mean train accuracy plane. Models close to the diagonal line do not suffer from overfitting or underfitting.
+  </figcaption>
+</figure>
+
+
 
 <figure>
   <div class = "genral_chartClass">
@@ -147,7 +148,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
     <img src='assets/images/confusion_matrix_quad.png' width = 500 height = 500 style = 'padding: 15px;'>
   </div>
   <figcaption class = "figcaption_class"> 
-    Fig.3 - Confusion matrices for each classification model.
+    Fig.3 - Confusion matrices for popularity-only (left plot), appreciation-only (middle plot) and quadrant (right plot) best models.
   </figcaption>
 </figure>
 
