@@ -368,32 +368,32 @@ This gap underscores the critical role of pre-launch marketing. This is confirme
 
 This evolving marketing sophistication, coupled with their inherently competitive pricing, may well be key to how certain indie games carve out significant success within the overwhelmingly vast gaming landscape.
 
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#IndieVSNonIndie_Modal">
-  Show Indie vs Non-Inidie Emoji-Chart
-</button>
-<div class="modal fade" id="IndieVSNonIndie_Modal" tabindex="-1" aria-labelledby="IndieVSNonIndie_Modal_Label" aria-hidden="true">
-  <div class="modal-dialog modal-xl modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="IndieVSNonIndie_Modal">Indie VS Non-Indie Sentiment Analysis</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <figure>
-          <div class = "general_chartClass">
-            <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
-          </div>
-          <figcaption class = "figcaption_class" style = "color: black;"> Fig.24 - Sentiment analysis for critic and user reviews for Indie and Non-Indie games. </figcaption>
-        </figure>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+<div class = "general_chartClass">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#IndieVSNonIndie_Modal">
+    Show Indie vs Non-Inidie Emoji-Chart
+  </button>
+  <div class="modal fade" id="IndieVSNonIndie_Modal" tabindex="-1" aria-labelledby="IndieVSNonIndie_Modal_Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="IndieVSNonIndie_Modal">Indie VS Non-Indie Sentiment Analysis</h5>
+          <!--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        </div>
+        <div class="modal-body">
+          <figure>
+            <div class = "general_chartClass">
+              <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
+            </div>
+            <figcaption class = "figcaption_class" style = "color: black;"> Fig.24 - Sentiment analysis for critic and user reviews for Indie and Non-Indie games. </figcaption>
+          </figure>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
 </div>
-
 
 
 <h1 id = "Steam tags analysis"> Steam tags analysis </h1>
