@@ -55,14 +55,25 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
 
 <figure>
   <div class = "genral_chartClass">
-    <img src='assets/images/overfitting_pop.png' width = 500>
+    <img src='assets/images/overfitting_pop.png' width = 500 height = 500 style = 'padding: 15px;'>
+    <img src='assets/images/overfitting_appr.png' width = 500 height = 500 style = 'padding: 15px;'>
+    <img src='assets/images/overfitting_quad.png' width = 500 height = 500 style = 'padding: 15px;'>
   </div>
   <figcaption class = "figcaption_class"> 
     Fig.1 - Training and validation loss vs number of estimators for popularity-only model with <code><var>max_depth</var> = 2</code>. To prevent overfitting the number of estimators must be kept low.
   </figcaption>
 </figure>
 
-
+<figure>
+  <div class = "genral_chartClass">
+    <img src='assets/images/overfitting_pop_2.png' width = 500 height = 500 style = 'padding: 15px;'>
+    <img src='assets/images/overfitting_appr_2.png' width = 500 height = 500 style = 'padding: 15px;'>
+    <img src='assets/images/overfitting_quad_2.png' width = 500 height = 500 style = 'padding: 15px;'>
+  </div>
+  <figcaption class = "figcaption_class"> 
+    Fig.2 - 
+  </figcaption>
+</figure>
 
  
 ## Model Performance
@@ -136,7 +147,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
     <img src='assets/images/confusion_matrix_quad.png' width = 500 height = 500 style = 'padding: 15px;'>
   </div>
   <figcaption class = "figcaption_class"> 
-    Fig.2 - Confusion matrices for each classification model.
+    Fig.3 - Confusion matrices for each classification model.
   </figcaption>
 </figure>
 
