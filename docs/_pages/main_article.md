@@ -378,7 +378,7 @@ This evolving marketing sophistication, coupled with their inherently competitiv
       </div>
       <div class="modal-body">
         <figure>
-          <div class = "doubleGraph">
+          <div class = "genral_chartClass">
             <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
           </div>
           <figcaption class = "figcaption_class"> Fig.24?? - Test. </figcaption>
