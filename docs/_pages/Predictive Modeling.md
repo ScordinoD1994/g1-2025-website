@@ -48,9 +48,9 @@ We used a combination of **numeric**, **categorical**, and **one-hot encoded tag
 We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-performance gradient boosting algorithm well-suited for tabular data. Each model was tuned using a **grid search** over key hyperparameters to balance learning ability and generalization. Key tuning strategies included:
 
 <ul class = "in_text_list">
-    <li> Keeping `max_depth` and `n_estimators` low (1–2 and 15–25 respectively) </li>
-    <li> Monitoring <b>early stopping</b> to prevent overfitting </li>
-    <li> Using `logloss` and `mlogloss` as evaluation metrics </li>
+    <li> Keeping `max_depth` and `n_estimators` low (1–2 and 15–25 respectively), </li>
+    <li> Monitoring <b>early stopping</b> to prevent overfitting, </li>
+    <li> Using `logloss` and `mlogloss` as evaluation metrics. </li>
 </ul>
 
 <figure>
@@ -58,7 +58,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
     <img src='assets/images/overfitting_pop.png' width = 500>
   </div>
   <figcaption class = "figcaption_class"> 
-    Fig.1 - Example of training and validation loss vs number of estimators for <code><var>max_depth</var> = True</code>. To prevent overfitting the number of estimators must be kept low.
+    Fig.1 - Training and validation loss vs number of estimators for popularity-only model with <code><var>max_depth</var> = 2</code>. To prevent overfitting the number of estimators must be kept low.
   </figcaption>
 </figure>
 
@@ -127,6 +127,31 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
         <td>Multi-class prediction is understandably more difficult, but the model performs well enough to support deeper SHAP-based analysis of what drives game outcomes.</td>
     </tr>
 </table>
+
+
+<figure>
+  <div class = "genral_chartClass">
+    <img src='assets/images/confusion_matrix_pop.png' width = 400>
+    <img src='assets/images/confusion_matrix_appr.png' width = 400>
+    <img src='assets/images/confusion_matrix_quad.png' width = 400>
+  </div>
+  <figcaption class = "figcaption_class"> 
+    Fig.2 - Confusion matrices for each classification model.
+  </figcaption>
+</figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
