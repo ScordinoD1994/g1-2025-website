@@ -380,7 +380,7 @@ Our data highlights a clear strategic advantage for indie games in terms of init
 
 <figure>
   <div class = "general_chartClass">
-    <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter_themed.json"></vegachart>
+    <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter_themed.json" style = "color: black;"></vegachart>
   </div>
   <figcaption class = "figcaption_class"> Fig.25 - Scatter plot of popularity vs appreciation for indie and non-indie games by current prices. </figcaption>
 </figure>
