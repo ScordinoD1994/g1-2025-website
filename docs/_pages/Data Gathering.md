@@ -28,7 +28,7 @@ In particular, using SteamSpy API we updated the following attributes:
 
 From SteamChart, using <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">Beautiful Soup</a>, we scraped <var> all-time peak </var> which represents the maximum number of concurrent players for a game starting from the release date. 
 
-Finally, from Backloggd we scraped the following data:
+From Backloggd, using also Beautiful Soup, we scraped the following data:
 
 <ul class = "in_text_list">
     <li> <var> Played </var>: number of times a game has been played </li>
@@ -41,7 +41,7 @@ Finally, from Backloggd we scraped the following data:
     <li> <var> Platforms </var>: list of platforms on which a game has been released </li>
 </ul>
 
-From Metacritic, using <a href="https://selenium-python.readthedocs.io/">Selenium</a>, we scraped for each game 
+Finally, from Metacritic, using <a href="https://selenium-python.readthedocs.io/">Selenium</a>, we scraped for each game 
 
 <ul class = "in_text_list">
     <li> <var> Metascore </var>: average critics rating </li>
@@ -51,6 +51,4 @@ From Metacritic, using <a href="https://selenium-python.readthedocs.io/">Seleniu
 </ul>
 
 The final dataset contained more than <b>90,000 games</b>, but we filtered it by considering only games with a Metacritic page reducing its size to around <b>5,000</b> games. This allowed us to consider only games with a certain market visibility, also taking care of a large amount of missing values present in the Kaggle dataset for less renowned games. Finally, considering we only had partial data available for 2024, we removed all games released in 2024 from the dataset. We also removed from the dataset games not having user reviews on Metacritic (this reduced the datased to <b>4878</b> games). 
-
-
 
