@@ -378,6 +378,13 @@ Our data highlights a clear strategic advantage for indie games in terms of init
   <figcaption class = "figcaption_class"> Fig.25 - Scatter plot of popularity vs appreciation for indie and non-indie games by current prices. </figcaption>
 </figure>
 
+<figure>
+  <div class = "general_chartClass">
+    <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter_themed.json"></vegachart>
+  </div>
+  <figcaption class = "figcaption_class"> Fig.25 - Scatter plot of popularity vs appreciation for indie and non-indie games by current prices. </figcaption>
+</figure>
+
 This gap underscores the critical role of pre-launch marketing. This is confirmed by Andrea Porta:
 
 <blockquote class = "expert_quote">
