@@ -455,7 +455,7 @@ The sub-genre data reveals a nuanced landscape: High Popularity–High Appreciat
 
 <h1 id = "Predicting Success?"> Predicting Success? </h1>
 
-<blockquote class = "expert_quote">
+<blockquote class = "expert_quote" style = "color: #00ff00; text-align: justify;">
   Is it possible to predict the success of a game? More precisely, is it possible to predict it by using only pre-release features such as the number of wishlists, Steam tags or the price?
 </blockquote>
 
