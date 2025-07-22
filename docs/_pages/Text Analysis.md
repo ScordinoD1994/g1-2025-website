@@ -89,18 +89,26 @@ To check the performance of this model for sentiment analysis and to improve the
 
 Aggregating the results from all the analysed reviews for each game, we were able to extract the number of mentions of each topic and their associated sentiments. The graph below shows a visualisation of the total mentions per topic, per game, which can be filtered to show the total mentions per topic and game by sentiment.
 
-<figure>
-  <div class = "general_chartClass">
-    <img src='assets/images/final output of the text analysis on one review.png' width = 500>
-  </div>
-  <figcaption class = "figcaption_class"> Fig.2 - Total mentions per topic, per game. </figcaption>
-</figure>
+The graph below shows a visualisation of the total mentions per topic, per game, based on the sentiment of the comment (positive, negative or neutral). Both comments from critic and user reviews were included.
 
 <figure>
   <div class = "general_chartClass">
-    <vegachart schema-url="/g1-2025-website/assets/charts/MentionsByTopic_plus_SentimentBySubset.json"></vegachart>
+    <vegachart schema-url="/g1-2025-website/assets/charts/AllReviews_countsAndSentiment.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.3 - Example.</figcaption>
+  <figcaption class = "figcaption_class"> Fig.2 - Total mentions per topic, per game. The dropdown menu can be used to change the sentiment. </figcaption>
 </figure>
+
+The most common topic of discussion, both in positive and negative is, probably unsurprisingly, the gameplay. We can also see that the most negative comments are found in technical issues and price and value for money. Excluding the gameplay, it seems that, out of the topics we have analysed, both users and critics are mostly concerned with story and narrative and graphics and visuals, while characters and dialogue and music and sound are of secondary importance.
+
+A more detailed summary view of all the reviews we have analysed can be had by exploiting the chart below. The dropdown menu will change between user and critic reviews, while clicking on the topic columns will show the sentiment breakdown of the comments.
+
+<figure>
+  <div class = "general_chartClass">
+    <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_wholeDataset.json"></vegachart>
+  </div>
+  <figcaption class = "figcaption_class"> Fig.3 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. </figcaption>
+</figure>
+
+
 
 

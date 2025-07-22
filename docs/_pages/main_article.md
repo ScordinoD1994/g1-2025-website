@@ -171,6 +171,17 @@ Analyzing these outliers in more detail could offer valuable insights into the d
   <figcaption class = "figcaption_class"> Fig.10 - Users vs critic score on Metacritic. </figcaption>
 </figure>
 
+In the case of games that have received more critic's praise than user's love, the most talked about category, gameplay, has received mostly negative mentions from users, even for games with plenty of positive critics mentions. Price and value for money is also a point of contention; looking at critics reviews, all games received mostly positive mentions with respect to this topic. For users this is the second most talked about topic, but in a decidedly negative perspective. It is also interesting to note that both critics and users had plenty of comments to make about technical issues, which are mostly negative; however, it seems that critics did not find these issues to be relevant enough to impact the game, while users might have had a different view.
+In the case of games that have received more love from the users than from the critics, it is not surprising to see that most user comments are positive, across all categories, however, it is more difficult to spot any obvious trend. For some games, like Cortex Command or Disney Pixar WALL-E, users and critics focussed their reviews on different aspects of the games altogether, demonstrating a differing interests in the game features. For other games, like 7 Days to Die or Knock-knock, it seems that users were far less harsh in their judgements compared to critics.
+
+<figure>
+  <div class = "general_chartClass">
+    <vegachart schema-url="/g1-2025-website/assets/charts/CriticScore_diff_UserScore.json"></vegachart>
+  </div>
+  <figcaption class = "figcaption_class"> Fig.11 - Heatmaps showing density of mentions per topic, per game, plus histograms showing each topic sentiment breakdown. The dropdown menu can be used to change the dataset. </figcaption>
+</figure>
+
+
 
 <h1 id = "Measuring Success"> Measuring Success </h1>
 
@@ -199,7 +210,7 @@ Because these numbers can vary wildly between indie darlings and AAA blockbuster
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_15_popularity.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.11 - Top 15 games with respect to our <i>Popularity Score</i>. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.12 - Top 15 games with respect to our <i>Popularity Score</i>. </figcaption>
 </figure>
 
 The top 15 games by our popularity score feature a mix of blockbuster titles and enduring multiplayer hits. ***GTA V*** leads the pack, followed closely by ***ELDEN RING*** and ***Cyberpunk 2077***. Multiplayer staples like ***CS:GO***, ***Left 4 Dead 2***, and ***PAYDAY 2*** show strong staying power, while narrative-rich games (***Red Dead Redemption 2***, ***The Witcher 3***, ***Baldur’s Gate 3***) and indie successes (***Stardew Valley***, ***Terraria***) demonstrate the wide range of what "popular" can mean on Steam.
@@ -208,7 +219,7 @@ The top 15 games by our popularity score feature a mix of blockbuster titles and
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/popularity_distribution.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.12 - Popularity score distribution and Kernel Density Estimation. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.13 - Popularity score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
 The median popularity of games by release year reveals how audience focus has evolved. In the late ’90s and early 2000s, median scores often exceeded 0.6, driven by landmark titles like ***Half-Life*** and ***Counter-Strike***. But from 2006 onward, scores declined to around 0.35–0.45, reflecting the rise of digital platforms, indie games, and a fragmented attention economy. A slight uptick in recent years hints at pandemic-era engagement and viral hits, though overall visibility per title has diminished as the market swells.
@@ -217,7 +228,7 @@ The median popularity of games by release year reveals how audience focus has ev
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/median_popularity_and_max_popularity_by_year.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.13 - Median and maximum popularity by year. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.14 - Median and maximum popularity by year. </figcaption>
 </figure>
 
 Tracking each year's most popular game outlines a parallel history of standout releases. Valve dominated early on, followed by a mix of cult hits (***Psychonauts***, ***Stardew Valley***) and AAA blockbusters (***GTA V***, ***ELDEN RING***). These games not only captured attention at launch but they’ve remained culturally and playably relevant, setting them apart in an increasingly saturated landscape.
@@ -240,7 +251,7 @@ We used ***Principal Component Analysis (PCA)*** to synthesize these variables i
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_15_appreciation.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.14 - Top 15 games with respect to our <i>Appreciation Score</i>. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.15 - Top 15 games with respect to our <i>Appreciation Score</i>. </figcaption>
 </figure>
 
 The top 15 most appreciated games highlight story-driven, critically acclaimed titles. ***Baldur’s Gate 3*** leads, with classics like ***Half-Life 2***, ***Portal 2***, and ***BioShock*** close behind. Several entries from long-running franchises (***Final Fantasy***, ***Persona***, ***The Elder Scrolls***) appear alongside modern hits like ***Red Dead Redemption 2*** and ***God of War***. This ranking underscores how narrative quality, innovation, and lasting impact drive appreciation, regardless of release date.
@@ -249,7 +260,7 @@ The top 15 most appreciated games highlight story-driven, critically acclaimed t
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/appreciation_distribution.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.15 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.16 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
 Tracking the evolution of appreciation scores reveals how perceptions of quality have shifted in tandem with Steam’s growth. From the late '90s through the 2000s, median scores remained high, reflecting a more selective release environment — where titles like ***Half-Life*** and ***Half-Life 2*** weren’t just popular but deeply respected. The post-2010 period, however, saw a dip, particularly around 2014–2016, as the platform opened to a flood of indie games — some exceptional, many less polished. Yet from 2020 onward, appreciation begins a modest recovery, suggesting developers have adapted to a crowded market, and players to better filtering tools. Our two domain experts have different points of view:
@@ -264,7 +275,7 @@ Tracking the evolution of appreciation scores reveals how perceptions of quality
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/median_appreciation_and_max_appreciation_by_year.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.16 - Median and maximum appreciation by year. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.17 - Median and maximum appreciation by year. </figcaption>
 </figure>
 
 Overlaying top appreciated games by year reinforces this: alongside AAA milestones like ***The Witcher 3*** and ***Baldur’s Gate 3***, we find emotionally resonant indies like ***Celeste***, ***Hollow Knight***, and ***Pizza Tower***. These titles show that lasting impact isn’t tied to budget, but to originality, depth, and connection.
@@ -279,7 +290,7 @@ The scatter plot below positions games according to their appreciation (horizont
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/popularity_vs_appreciation.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.17 - Games distribution on the Appreciation and Popularity score plane. Most "extreme" games in each quadrant are marked with yellow circles. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.18 - Games distribution on the Appreciation and Popularity score plane. Most "extreme" games in each quadrant are marked with yellow circles. </figcaption>
 </figure>
 
 The top 15 titles that excel in both popularity and appreciation reflect a compelling mix of blockbuster hits and standout indie successes. Games like ***Baldur’s Gate 3***, ***GTA V***, and ***Elden Ring*** dominate thanks to massive reach and critical acclaim. But beloved indies such as ***Stardew Valley***, ***Hollow Knight***, ***Terraria***, and ***Undertale*** hold their ground, proving that emotional impact and craftsmanship can rival even the biggest AAA productions.
@@ -299,7 +310,7 @@ While independent developers were virtually absent from the early 2000s Steam la
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_by_year.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.18 - Number of indie and non-indie game released. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.19 - Number of indie and non-indie game released. </figcaption>
 </figure>
 
 At its peak in the mid-2010s, indie representation regularly accounted for over half of all notable Steam releases, a cultural and creative boom that brought forth now-classic titles like ***Stardew Valley***, ***Hollow Knight***, and ***Celeste***. Though recent years have seen a slight decline in their relative share (down to around 44% in 2023), indie games remain a driving force in shaping what we play and how we engage with games.
@@ -312,7 +323,7 @@ When comparing appreciation scores, our measure of how well-received a game is, 
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_appreciation.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.19 - Median appreciation by year for indie (left plot) and non-indie (right plot) games. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.20 - Median appreciation by year for indie (left plot) and non-indie (right plot) games. </figcaption>
 </figure>
 
 Since 2010, median appreciation scores for indie games have remained impressively steady, hovering around 0.70–0.76. In contrast, non-indie (or AAA) games have seen greater fluctuation and, in some years, lagged behind. By 2023, indie games posted a median appreciation of 0.75, compared to 0.69 for non-indie releases. This growing parity, and often superiority, suggests that while indie games might not always match AAA production values, they frequently resonate more deeply with players, offering originality, emotional depth, or innovative mechanics that large studios may overlook.
@@ -323,7 +334,7 @@ While indie titles have increasingly gained critical acclaim they still lag behi
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_popularity.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.20 - Median pupularity by year for indie (left plot) and non-indie (right plot) games. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.21 - Median pupularity by year for indie (left plot) and non-indie (right plot) games. </figcaption>
 </figure>
 
 This gap is particularly stark in the early 2000s, where blockbuster titles dominated. But even in more recent years (e.g., 2020–2023), the most popular titles remain overwhelmingly non-indie. Notably, however, some indie games have broken through this ceiling. Titles like ***Terraria***, ***Hollow Knight***, and ***Stardew Valley*** have not only achieved critical success but also popularity levels comparable to large-scale productions.
@@ -336,7 +347,7 @@ Indie games have carved out a remarkable space in both popularity and appreciati
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_indie.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.21 - Popularity (left plot) and appreciation (right plot) score for top 15 indie games. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.22 - Popularity (left plot) and appreciation (right plot) score for top 15 indie games. </figcaption>
 </figure>
 
 Mainstream titles dominate popularity through sheer scale, marketing, and cultural footprint — with giants like ***GTA V***, ***ELDEN RING***, and ***Cyberpunk 2077*** leading the charge. Meanwhile, enduring live-service games and cinematic epics maintain engagement across years. In appreciation, it's timeless design and narrative excellence that shine: ***Baldur’s Gate 3***, ***Half-Life 2***, and ***Portal 2*** stand out for innovation and emotional impact.
@@ -345,25 +356,11 @@ Mainstream titles dominate popularity through sheer scale, marketing, and cultur
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_not_indie.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.22 - Popularity (left plot) and appreciation (right plot) score for top 15 non-indie games. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.23 - Popularity (left plot) and appreciation (right plot) score for top 15 non-indie games. </figcaption>
 </figure>
 
-Our data highlights a clear strategic advantage for indie games in terms of initial pricing. With an average launch price of $16.85, significantly lower than non-indie titles averaging $25.60 (and a median of $14.99 compared to $19.99 for non-indies), independent developers consistently offer a more accessible entry point for players. This lower barrier to entry is crucial in a competitive market, yet pure affordability doesn't guarantee market dominance; our figures show non-indie games generally achieve higher popularity scores (averaging 0.448 versus 0.363 for indies). 
-
-<figure>
-  <div class = "general_chartClass">
-    <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json"></vegachart>
-  </div>
-  <figcaption class = "figcaption_class"> Fig.23 - Scatter plot of popularity vs appreciation for indie and non-indie games by current prices. </figcaption>
-</figure>
-
-This gap underscores the critical role of pre-launch marketing. This is confirmed by Andrea Porta:
-
-<blockquote class = "expert_quote">
-  "The communication window between a game's announcement and its release is pivotal for building hype and shaping initial reception, with larger studios expertly orchestrating content drops—from gameplay reveals to launch trailers—to capture and sustain consumer attention. Intriguingly, many independent studios are now adopting this publisher playbook, leveraging similar strategic trailer releases to amplify their reach."
-</blockquote>
-
-This evolving marketing sophistication, coupled with their inherently competitive pricing, may well be key to how certain indie games carve out significant success within the overwhelmingly vast gaming landscape.
+Looking at the data gathered from our review analysis, it seems that the characteristic that both users and critics are looking for in indie games are slightly different from those they look for in non indie games. For example, story and narrative don't gather as many mentions in reviews of indie games, both of users and critics, as they do for non-indie games. Users in particular tend to comment more on the sound and music in indie games, generally with a positive connotation. Interestingly, although gameplay is always the most discussed topic in games reviews, the gameplay for the most popular indie games received more attention by users than the gameplay for the most popular non indie games.
+Both in terms of gameplay and price and value for money users tend to share more positive comments for popular indie games than for popular non-indie games. Considering the higher price-point of non-indie games, it may be that users are more inclined to be pleasantly surprised by games that were less expensive; it could also mean that expectations for games coming from non-indie developers are generally high and thus more difficult to meet or exceed.
 
 <div class = "general_chartClass">
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#IndieVSNonIndie_Modal">
@@ -381,7 +378,7 @@ This evolving marketing sophistication, coupled with their inherently competitiv
             <div class = "general_chartClass">
               <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
             </div>
-            <figcaption class = "figcaption_class" style = "color: black;"> Fig.24 - Sentiment analysis for critic and user reviews for Indie and Non-Indie games. </figcaption>
+            <figcaption class = "figcaption_class" style = "color: black;"> Fig.24 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. </figcaption>
           </figure>
         </div>
         <div class="modal-footer">
@@ -391,6 +388,25 @@ This evolving marketing sophistication, coupled with their inherently competitiv
     </div>
   </div>
 </div>
+
+Our data highlights a clear strategic advantage for indie games in terms of initial pricing. With an average launch price of $16.85, significantly lower than non-indie titles averaging $25.60 (and a median of $14.99 compared to $19.99 for non-indies), independent developers consistently offer a more accessible entry point for players. This lower barrier to entry is crucial in a competitive market, yet pure affordability doesn't guarantee market dominance; our figures show non-indie games generally achieve higher popularity scores (averaging 0.448 versus 0.363 for indies). 
+
+<figure>
+  <div class = "general_chartClass">
+    <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json"></vegachart>
+  </div>
+  <figcaption class = "figcaption_class"> Fig.25 - Scatter plot of popularity vs appreciation for indie and non-indie games by current prices. </figcaption>
+</figure>
+
+This gap underscores the critical role of pre-launch marketing. This is confirmed by Andrea Porta:
+
+<blockquote class = "expert_quote">
+  "The communication window between a game's announcement and its release is pivotal for building hype and shaping initial reception, with larger studios expertly orchestrating content drops—from gameplay reveals to launch trailers—to capture and sustain consumer attention. Intriguingly, many independent studios are now adopting this publisher playbook, leveraging similar strategic trailer releases to amplify their reach."
+</blockquote>
+
+This evolving marketing sophistication, coupled with their inherently competitive pricing, may well be key to how certain indie games carve out significant success within the overwhelmingly vast gaming landscape.
+
+
 
 
 <h1 id = "Steam tags analysis"> Steam tags analysis </h1>
