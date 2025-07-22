@@ -49,7 +49,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
 
 <ul class = "in_text_list">
     <li> Keeping `max_depth` and `n_estimators` low (1–2 and 15–25 respectively) </li>
-    <li> Monitoring <b>early stopping<b> to prevent overfitting </li>
+    <li> Monitoring <b>early stopping</b> to prevent overfitting </li>
     <li> Using `logloss` and `mlogloss` as evaluation metrics </li>
 </ul>
 
