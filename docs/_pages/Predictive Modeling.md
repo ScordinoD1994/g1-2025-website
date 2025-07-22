@@ -45,7 +45,7 @@ We used a combination of **numeric**, **categorical**, and **one-hot encoded tag
  
 ## Modeling Approach
  
-We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-performance gradient boosting algorithm well-suited for tabular data. Each model was tuned using a **grid search** over key hyperparameters to balance learning ability and generalization. Key tuning strategies included:
+We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-performance gradient boosting algorithm well-suited for tabular data. Each model was tuned using a **grid search** over key hyperparameters to balance learning ability and generalization. Key tuning strategies included:
 
 <ul class = "in_text_list">
     <li> Keeping <var>max_depth</var> and <var>n_estimators</var> low (1–2 and 15–25 respectively), </li>
@@ -160,8 +160,8 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
  
 ## Explainability: Using SHAP
  
-To move beyond raw accuracy and into **insight**, we used <b><a href="https://shap.readthedocs.io/en/latest/">SHAP</a> (SHapley Additive exPlanations)<b> to interpret the models. SHAP provides per-feature attribution scores that show not only what features matter, but **how** they influence predictions — whether positively or negatively.
- 
+To move beyond raw accuracy and into **insight**, we used <b><a href="https://shap.readthedocs.io/en/latest/">SHAP</a> (SHapley Additive exPlanations)</b> to interpret the models. SHAP provides per-feature attribution scores that show not only what features matter, but **how** they influence predictions — whether positively or negatively.
+
 The SHAP summary plot shows the impact of each feature on the model's predictions across all samples. Each dot represents a game, positioned horizontally by how much that feature pushed the prediction higher or lower (the SHAP value). The color of the dot indicates the actual value of the feature for that game — with red meaning a high value and blue a low one. Features are sorted top to bottom by their overall importance (mean absolute SHAP value), so those at the top had the greatest influence on the model’s output. This plot helps you see not just which features matter most, but also how different values of those features affect predictions.
  
 SHAP helped reveal:
