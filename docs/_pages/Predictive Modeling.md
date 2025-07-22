@@ -16,8 +16,8 @@ To understand what makes a game successful, we trained a set of machine learning
 We framed the task as a **classification problem** across three fronts:
 
 <ul class = "in_text_list">
-    <li> <b> Popularity Score </b>: Binary classification — _high_ vs _low_ based on the median score in the dataset. </li>
-    <li> <b> Appreciation Score </b>: Binary classification — _high_ vs _low_ (also median split). </li>
+    <li> <b> Popularity Score </b>: Binary classification — high vs low based on the median score in the dataset. </li>
+    <li> <b> Appreciation Score </b>: Binary classification — high vs low (also median split). </li>
     <li> <b> Quadrant Prediction </b>: Multiclass classification into four groups. </li>
     <ul class = "in_text_list">
         <li> High Popularity - High Appreciation </li>
@@ -38,8 +38,8 @@ After filtering for games with a valid Metacritic page, we worked with a refined
 We used a combination of **numeric**, **categorical**, and **one-hot encoded tag features**:
 
 <ul class = "in_text_list">
-    <li> <b>Numerical</b>: `required_age`, `dlc_count`, `year`, `is_indie`, `wishlist_backloggd`, `num_supported_languages`, `num_audio_languages`, `num_platforms` </li>
-    <li> <b>Categorical</b> (one-hot encoded):  Tags/attributes across 9 game design categories:`Themes & Moods`, `Top-Level Genres`, `Visuals & Viewpoint`, `Sub-Genres`, `Players`, `Story`, `Level Design`, `Sports`, and `initial/current_price_range`. </li>
+    <li> <b>Numerical</b>: <var>required_age</var>, <var>dlc_count</var>, <var>year</var>, <var>is_indie</var>, <var>wishlist_backloggd</var>, <var>num_supported_languages</var>, <var>num_audio_languages</var>, <var>num_platforms</var> </li>
+    <li> <b>Categorical</b> (one-hot encoded):  Tags/attributes across 9 game design categories: <var>Themes & Moods</var>, <var>Top-Level Genres</var>, <var>Visuals & Viewpoint</var>, <var>Sub-Genres</var>, <var>Players</var>, <var>Story</var>, <var>Level Design</var>, <var>Sports</var>, and <var>initial/current_price_range</var>. </li>
 </ul>
 
  
@@ -48,9 +48,9 @@ We used a combination of **numeric**, **categorical**, and **one-hot encoded tag
 We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-performance gradient boosting algorithm well-suited for tabular data. Each model was tuned using a **grid search** over key hyperparameters to balance learning ability and generalization. Key tuning strategies included:
 
 <ul class = "in_text_list">
-    <li> Keeping `max_depth` and `n_estimators` low (1–2 and 15–25 respectively), </li>
+    <li> Keeping <var>max_depth</var> and <var>n_estimators</var> low (1–2 and 15–25 respectively), </li>
     <li> Monitoring <b>early stopping</b> to prevent overfitting, </li>
-    <li> Using `logloss` and `mlogloss` as evaluation metrics. </li>
+    <li> Using <var>logloss</var> and <var>mlogloss</var> as evaluation metrics. </li>
 </ul>
 
 <figure>
@@ -157,19 +157,6 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
 </figure>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
  
 ## Explainability: Using SHAP
  
@@ -180,16 +167,14 @@ The SHAP summary plot shows the impact of each feature on the model's prediction
 SHAP helped reveal:
 
 <ul class = "in_text_list">
-    <li> The dominant influence of `wishlist_backloggd` across all models  </li>
-    <li> The asymmetric importance of features like `Multiplayer`, `Strategy`, `is_indie`, and `Open World` </li>
-    <li> That high appreciation often hinges on tags like `Puzzle`, `Cute`, or `Funny`, while popularity leans on broader features like multiplayer or platform support </li>
+    <li> The dominant influence of <var>wishlist_backloggd</var> across all models  </li>
+    <li> The asymmetric importance of features like <var>Multiplayer</var>, <var>Strategy</var>, <var>is_indie</var>, and <var>Open World</var> </li>
+    <li> That high appreciation often hinges on tags like <var>Puzzle</var>, <var>Cute</var>, or <var>Funny</var>, while popularity leans on broader features like multiplayer or platform support </li>
     <li> The complexity of quadrant dynamics — e.g., how some features protect against a "low/low" outcome, while others increase the risk of being overhyped but underwhelming </li>
 </ul>
 
 
 
-
- 
 ## Limitations and Future Work
 
 <ul class = "in_text_list">
@@ -202,7 +187,7 @@ SHAP helped reveal:
 
 
 ## Final Thoughts
- 
+
 These models aren’t crystal balls — but they offer a structured, data-driven look at what makes a game click. With accuracy above <b>85%</b> for popularity and compelling SHAP insights for all outcomes, the models help us surface the **signals behind success** — and maybe even spot the next sleeper hit.
 
 
