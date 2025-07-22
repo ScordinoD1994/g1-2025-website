@@ -486,6 +486,13 @@ Surprisingly, fewer supported languages also correlate with this quadrant — po
 
 Games with 2D, Indie, or Fantasy tags, however, are less likely to fall here. These often cater to more focused audiences, where hype is better aligned with delivery.
 
+<figure>
+  <div class = "general_chartClass">
+    <vegachart schema-url="/g1-2025-website/assets/charts/HighPop_LowAppr.json"></vegachart>
+  </div>
+  <figcaption class = "figcaption_class"> Fig.26 - Top genres and sub-genres by quadrant. </figcaption>
+</figure>
+
 In essence, big games with bold features can still miss the mark. Popularity alone isn’t enough to secure lasting appreciation.
 
 
@@ -498,7 +505,14 @@ Wishlist counts are typically low here, reinforcing their under-the-radar status
 Conversely, tags tied to scale — like Open World, Survival, or Online Co-Op — make games less likely to land in this category, as they typically appeal to wider audiences.
 
 Localization plays a minor role, with fewer supported languages modestly increasing a game’s chance of being classified here. Likewise, mid-priced titles ($20–$50) are less common — perhaps suggesting that budget-friendly or unconventional pricing helps niche games reach the right players.
- 
+
+<figure>
+  <div class = "general_chartClass">
+    <vegachart schema-url="/g1-2025-website/assets/charts/HighAppr_LowPop.json"></vegachart>
+  </div>
+  <figcaption class = "figcaption_class"> Fig.26 - Top genres and sub-genres by quadrant. </figcaption>
+</figure>
+
 These are the slow burns and cult classics — proof that critical appreciation doesn’t always follow the crowd.
 
 
