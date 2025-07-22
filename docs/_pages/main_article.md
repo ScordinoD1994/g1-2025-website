@@ -368,17 +368,15 @@ This gap underscores the critical role of pre-launch marketing. This is confirme
 
 This evolving marketing sophistication, coupled with their inherently competitive pricing, may well be key to how certain indie games carve out significant success within the overwhelmingly vast gaming landscape.
 
-<div class = "general_chartClass">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Show Indie vs Non-Inidie Emoji-Chart
-  </button>
-</div>
 
-<div class="modal fade" id="IndieVSNonIndie_reviews_analysis_Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Show Indie vs Non-Inidie Emoji-Chart
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="IndieVSNonIndie_reviews_analysis_title">Indie VS Non-Indie User & Critic reviews</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Indie VS Non-Indie Sentiment Analysis</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
       </div>
       <div class="modal-body">
@@ -395,8 +393,6 @@ This evolving marketing sophistication, coupled with their inherently competitiv
     </div>
   </div>
 </div>
-
-
 
 
 
