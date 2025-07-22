@@ -186,9 +186,4 @@ SHAP helped reveal:
 
 
 
-## Final Thoughts
-
-These models aren’t crystal balls — but they offer a structured, data-driven look at what makes a game click. With accuracy above <b>85%</b> for popularity and compelling SHAP insights for all outcomes, the models help us surface the **signals behind success** — and maybe even spot the next sleeper hit.
-
-
 

@@ -384,7 +384,7 @@ This evolving marketing sophistication, coupled with their inherently competitiv
       <div class="modal-body">
         <figure>
           <div class = "general_chartClass">
-            <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json"></vegachart>
+            <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
           </div>
           <figcaption class = "figcaption_class" style = "color: black;"> Fig.24 - Sentiment analysis for critic and user reviews for Indie and Non-Indie games. </figcaption>
         </figure>
@@ -410,7 +410,7 @@ This evolving marketing sophistication, coupled with their inherently competitiv
       <div class="modal-body">
         <figure>
           <div class = "general_chartClass">
-            <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json"></vegachart>
+            <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
           </div>
           <figcaption class = "figcaption_class" style = "color: black;"> Fig.24 - Sentiment analysis for critic and user reviews for Indie and Non-Indie games. </figcaption>
         </figure>
@@ -553,8 +553,12 @@ In short, the most successful games blend genre depth, broad availability, and s
 
 <h1 id = "Conclusions"> Conclusions </h1>
 
-Lorem ipsum...
-
+If there's one takeaway from our analysis, it's this: <i>there is no universal recipe for making a successful game</i>. While our predictive models uncovered consistent patterns — like the strong influence of wishlist interest, the positive role of localization and accessibility, or the impact of some tags — they are not crystal balls. The models can detect statistical associations, not causal relationships. They help us understand what tends to matter, but not why or how it leads to success in every case.
+ 
+Crucially, our findings show that success — whether measured as popularity or appreciation — can take many forms. AAA games, with their broad platform releases and marketing power, often dominate in popularity. But they are not always the most appreciated.
+In contrast, some indie games quietly achieve high appreciation with far fewer resources. Titles like **[...]**, for example, are testament to how originality, thoughtful design, and strong narrative identity can create deeply resonant experiences.
+ 
+Success in games, as in art, is multifaceted. <b><i>And perhaps that’s exactly what makes this medium so exciting</i></b>.
 
 
 
