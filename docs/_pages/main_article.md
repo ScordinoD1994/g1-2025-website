@@ -393,7 +393,6 @@ This evolving marketing sophistication, coupled with their inherently competitiv
 
 
 
-
 <h1 id = "Steam tags analysis"> Steam tags analysis </h1>
 
 Steam tags serve as the primary vocabulary of the platform's discovery system. Whether applied by developers or players, tags capture everything from genre and theme to tone and mechanics. Analyzing these tags offers insight into what types of games capture attention — and which resonate most with players or critics.
