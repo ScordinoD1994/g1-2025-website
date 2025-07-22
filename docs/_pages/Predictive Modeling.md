@@ -69,7 +69,17 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
         <td>Popularity Model</td>
         <td>0.865</td>
         <td>0.879</td>
-        <td><code>{max_depth: 2, n_estimators: 25, learning_rate: 0.5, colsample_bytree: 0.8, subsample: 0.8, reg_alpha: 0.5, reg_lambda: 0.8}</code></td>
+        <td>
+            <code>
+                <var>max_depth</var>: 2, 
+                <var>n_estimators</var>: 25, 
+                <var>learning_rate: 0.5</var>, 
+                <var>colsample_bytree</var>: 0.8, 
+                <var>subsample</var>: 0.8, 
+                <var>reg_alpha</var>: 0.5, 
+                <var>reg_lambda</var>: 0.8
+                </code>
+        </td>
         <td>Strong performance with minimal overfitting</td>
     </tr>
     <tr>
