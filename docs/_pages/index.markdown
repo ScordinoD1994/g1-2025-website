@@ -26,7 +26,7 @@ vega: true
     </p>
     </div>
     <div class="start_reading">
-    <h5> <a href = "https://scordinod1994.github.io/g1-2025-website/main_article.html">Start Reading</a> </h5>
+    <h5> <a href = "https://scordinod1994.github.io/g1-2025-website/main_article.html">Start</a> </h5>
     </div>
 </div>
 
