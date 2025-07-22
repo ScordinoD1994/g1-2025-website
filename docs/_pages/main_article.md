@@ -473,7 +473,7 @@ In the end, it’s not just what a game does — it’s how thoughtfully it does
 Then we tried to predict success by considering popularity and appreciation at the same time. We have four different possible outcomes.
 
 
-<h4> Cold Reception: When Games Miss on Both Fronts (Low Popularity and Low Appreciation) </h4>
+<p class = "custom_p"> Cold Reception: When Games Miss on Both Fronts (Low Popularity and Low Appreciation) </p>
 
 Some games fall flat on both popularity and appreciation. The clearest indicator is a lack of wishlist interest. Games with low wishlist counts on Backloggd are strongly nudged into this underperforming category, highlighting the predictive power of early audience engagement (or lack thereof).
 
@@ -484,7 +484,7 @@ In contrast, Walking Simulator emerges as a risk factor. When present, it increa
 Ultimately, games in this group tend to lack standout qualities or defined audiences, often slipping through the cracks in both reach and reception.
 
 
-<h4> The Hype That Didn’t Land: Popular but Poorly Received (High Popularity and Low Appreciation) </h4>
+<p class = "custom_p"> The Hype That Didn’t Land: Popular but Poorly Received (High Popularity and Low Appreciation) </p>
 
 These are the games that make noise — but fail to live up to it. While not universally true, the SHAP values suggest a pattern: Multiplayer, Open World, and Simulation tags all raise the chance of a game being classified as high in popularity but low in appreciation. These features may drive interest or sales, but don’t always translate into satisfying experiences.
 
@@ -495,7 +495,7 @@ Games with 2D, Indie, or Fantasy tags, however, are less likely to fall here. Th
 In essence, big games with bold features can still miss the mark. Popularity alone isn’t enough to secure lasting appreciation.
 
 
-<h4> Hidden gems: Loved, but Overlooked (Low Popularity and High Appreciation) </h4>
+<p class = "custom_p"> Hidden gems: Loved, but Overlooked (Low Popularity and High Appreciation) </p>
  
 This quadrant houses the hidden gems — games that win hearts, even if they don’t win headlines.
 
@@ -508,7 +508,7 @@ Localization plays a minor role, with fewer supported languages modestly increas
 These are the slow burns and cult classics — proof that critical appreciation doesn’t always follow the crowd.
 
 
-<h4> The Holy Grail: a developer's dream (High Popularity and High Appreciation) </h4>
+<p class = "custom_p"> The Holy Grail: a developer's dream (High Popularity and High Appreciation) </p>
 
 So what makes a game both loved and widely played? The SHAP data points to a few key ingredients.
  
