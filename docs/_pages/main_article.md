@@ -369,11 +369,11 @@ This evolving marketing sophistication, coupled with their inherently competitiv
   </button>
 </div>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="IndieVSNonIndie_reviews_analysis_Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="IndieVSNonIndie_reviews_analysis">Indie VS Non-Indie User & Critic reviews</h5>
+        <h5 class="modal-title" id="IndieVSNonIndie_reviews_analysis_title">Indie VS Non-Indie User & Critic reviews</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
       </div>
       <div class="modal-body">
@@ -405,7 +405,7 @@ The data reveals clear trends shaping today’s gaming landscape: immersive atmo
   <div class = "genral_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/tags_frequency_by_category.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.24 - Top-10 tags by category. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.25 - Top-10 tags by category. </figcaption>
 </figure>
 
 Across the genre landscape, four key patterns emerge. High Popularity–High Appreciation (HP–HA) genres like **Puzzle**, **Platformer**, and **Turn-Based Strategy** prove that tight mechanics and thoughtful design consistently earn both attention and praise. In contrast, High Popularity–Low Appreciation (HP–LA) genres — though widely played, such as **Arcade** and **RTS** — may suffer from oversaturation or dated design, signaling a gap between player expectations and delivery.
@@ -415,7 +415,7 @@ Meanwhile, Low Popularity–High Appreciation (LP–HA) genres like **Rhythm**, 
   <div class = "genral_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_genres_subgenres_by_quadrant.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.25 - Top genres and sub-genres by quadrant. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.26 - Top genres and sub-genres by quadrant. </figcaption>
 </figure>
 
 The sub-genre data reveals a nuanced landscape: High Popularity–High Appreciation (HP-HA) tags like **FPS**, **Hack** and **Slash**, **Metroidvania**, and **Souls-like** blend broad appeal with strong design, balancing challenge and accessibility. Meanwhile, High Popularity–Low Appreciation (HP-LA) genres — including **FPS** and **Rogue-lite** — draw many players but often suffer from repetition or lack of polish, highlighting room for innovation. Low Popularity–High Appreciation (LP-HA) sub-genres, such as **Puzzle-Platformers** and **Shoot ’Em Ups**, may fly under the radar but enjoy devoted fans thanks to tight mechanics and rewarding gameplay. Lastly, Low Popularity–Low Appreciation (LP-LA) categories show signs of oversaturation and uneven quality, signaling a need for creative reinvention and improved execution to regain player trust and relevance.
@@ -423,8 +423,11 @@ The sub-genre data reveals a nuanced landscape: High Popularity–High Appreciat
 
 <h1 id = "Predicting Success?"> Predicting Success? </h1>
 
+<blockquote class = "expert_quote">
+  Is it possible to predict the success of a game? More precisely, is it possible to predict it by using only pre-release features such as the number of wishlists, Steam tags or the price?
+</blockquote>
 
-
+We tried to answer this question by using a machine learning ensemble model called XGBoost. 
 
 
 
@@ -436,10 +439,9 @@ Lorem ipsum...
 
 
 
-
 <h2 id = "Next steps"> Next steps </h2>
-Lorem ipsum...
 
+Lorem ipsum...
 
 
 
