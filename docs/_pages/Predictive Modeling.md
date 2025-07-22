@@ -53,6 +53,16 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
     <li> Using `logloss` and `mlogloss` as evaluation metrics </li>
 </ul>
 
+<figure>
+  <div class = "genral_chartClass">
+    <img src='assets/images/overfitting_pop.png' width = 500>
+  </div>
+  <figcaption class = "figcaption_class"> 
+    Fig.1 - Example of training and validation loss vs number of estimators for <code><var>max_depth</var> = True</code>. To prevent overfitting the number of estimators must be kept low.
+  </figcaption>
+</figure>
+
+
 
  
 ## Model Performance
@@ -77,7 +87,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
                 <var>colsample_bytree</var>: 0.8, 
                 <var>subsample</var>: 0.8, 
                 <var>reg_alpha</var>: 0.5, 
-                <var>reg_lambda</var>: 0.8
+                <var>reg_lambda</var>: 0.8,
                 </code>
         </td>
         <td>Strong performance with minimal overfitting</td>
@@ -94,7 +104,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
                 <var>colsample_bytree</var>: 0.8, 
                 <var>subsample</var>: 0.5, 
                 <var>reg_alpha</var>: 0.5, 
-                <var>reg_lambda</var>: 1
+                <var>reg_lambda</var>: 1,
             </code>
         </td>
         <td>Predictive accuracy is solid, especially given that appreciation is inherently more subjective.</td>
@@ -111,7 +121,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
                 <var>colsample_bytree</var>: 0.8, 
                 <var>subsample</var>: 0.8, 
                 <var>reg_alpha</var>: 0, 
-                <var>reg_lambda</var>: 0.5 
+                <var>reg_lambda</var>: 0.5,
             </code>
         </td>
         <td>Multi-class prediction is understandably more difficult, but the model performs well enough to support deeper SHAP-based analysis of what drives game outcomes.</td>
