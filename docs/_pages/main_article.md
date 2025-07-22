@@ -366,7 +366,7 @@ Both in terms of gameplay and price and value for money users tend to share more
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class" style = "color: black;"> Fig.24 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.24 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. </figcaption>
 </figure>
 
 Our data highlights a clear strategic advantage for indie games in terms of initial pricing. With an average launch price of $16.85, significantly lower than non-indie titles averaging $25.60 (and a median of $14.99 compared to $19.99 for non-indies), independent developers consistently offer a more accessible entry point for players. This lower barrier to entry is crucial in a competitive market, yet pure affordability doesn't guarantee market dominance; our figures show non-indie games generally achieve higher popularity scores (averaging 0.448 versus 0.363 for indies). 
