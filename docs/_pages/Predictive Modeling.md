@@ -70,15 +70,15 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
 <table class = "custom_table">
     <tr>
         <td>Model</td>
-        <td>Best Accuracy (CV)</td>
-        <td>Train (CV)</td>
-        <td>Best Parameters</td>
+        <td>Train Accuracy (CV)</td>
+        <td>Validation Accuracy (CV)</td>
+        <td>Parameters</td>
         <td>Notes</td>
     </tr>
     <tr>
         <td>Popularity Model</td>
-        <td>0.865</td>
         <td>0.879</td>
+        <td>0.865</td>
         <td>
             <code>
                 <var>max_depth</var>: 2, 
@@ -94,8 +94,8 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
     </tr>
     <tr>
         <td>Appreciation Model</td>
-        <td>0.725</td>
         <td>0.746</td>
+        <td>0.725</td>
         <td>
             <code>
                 <var>max_depth</var>: 2, 
@@ -111,8 +111,8 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
     </tr>
     <tr>
         <td>Quadrant Classifier</td>
-        <td>0.616</td>
         <td>0.657</td>
+        <td>0.616</td>
         <td>
             <code>
                 <var>max_depth</var>: 2, 
@@ -126,6 +126,9 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
         </td>
         <td>Multi-class prediction is understandably more difficult, but the model performs well enough to support deeper SHAP-based analysis of what drives game outcomes.</td>
     </tr>
+    <caption class = "figcaption_class">
+        Test accuracy (second column), validation accuracy (third column) and best parameters (fourth column) for each predictive model considered.
+    </caption>
 </table>
 
 <figure>
