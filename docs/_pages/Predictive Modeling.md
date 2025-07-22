@@ -64,8 +64,9 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
   </figcaption>
 </figure>
 
- 
+
 ## Model Performance
+
 
 <table class = "custom_table">
     <tr>
@@ -127,9 +128,10 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
         <td>Multi-class prediction is understandably more difficult, but the model performs well enough to support deeper SHAP-based analysis of what drives game outcomes.</td>
     </tr>
     <caption class = "figcaption_class">
-        Test accuracy (second column), validation accuracy (third column) and best parameters (fourth column) for each predictive model considered.
+        Tab.1 - Test accuracy (second column), validation accuracy (third column) and best parameters (fourth column) for each predictive model considered.
     </caption>
 </table>
+
 
 <figure>
   <div class = "genral_chartClass">
@@ -141,7 +143,6 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
     Fig.2 - Best parameters selection for popularity-only (left plot), appreciation-only (middle plot) and quadrant (right plot) models. The red dot represents our best model on the mean validation accurary -  mean train accuracy plane. Models close to the diagonal line do not suffer from overfitting or underfitting.
   </figcaption>
 </figure>
-
 
 
 <figure>
