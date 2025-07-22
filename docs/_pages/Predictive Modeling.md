@@ -131,9 +131,9 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
 
 <figure>
   <div class = "genral_chartClass">
-    <img src='assets/images/confusion_matrix_pop.png' width = 400>
-    <img src='assets/images/confusion_matrix_appr.png' width = 400>
-    <img src='assets/images/confusion_matrix_quad.png' width = 400>
+    <img src='assets/images/confusion_matrix_pop.png' width = 400 style = 'padding: 20px;'>
+    <img src='assets/images/confusion_matrix_appr.png' width = 400 style = 'padding: 20px;'>
+    <img src='assets/images/confusion_matrix_quad.png' width = 400 style = 'padding: 20px;'>
   </div>
   <figcaption class = "figcaption_class"> 
     Fig.2 - Confusion matrices for each classification model.
