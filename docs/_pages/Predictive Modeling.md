@@ -86,14 +86,34 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
         <td>Appreciation Model</td>
         <td>0.725</td>
         <td>0.746</td>
-        <td><code>{max_depth: 2, n_estimators: 20, learning_rate: 0.5, colsample_bytree: 0.8, subsample: 0.5, reg_alpha: 0.5, reg_lambda: 1}</code></td>
+        <td>
+            <code>
+                <var>max_depth</var>: 2, 
+                <var>n_estimators</var>: 20, 
+                <var>learning_rate</var>: 0.5, 
+                <var>colsample_bytree</var>: 0.8, 
+                <var>subsample</var>: 0.5, 
+                <var>reg_alpha</var>: 0.5, 
+                <var>reg_lambda</var>: 1
+            </code>
+        </td>
         <td>Predictive accuracy is solid, especially given that appreciation is inherently more subjective.</td>
     </tr>
     <tr>
         <td>Quadrant Classifier</td>
         <td>0.616</td>
         <td>0.657</td>
-        <td><code>{max_depth: 2, n_estimators: 20, learning_rate: 0.5, colsample_bytree: 0.8, subsample: 0.8, reg_alpha: 0, reg_lambda: 0.5}` </code></td>
+        <td>
+            <code>
+                <var>max_depth</var>: 2, 
+                <var>n_estimators</var>: 20, 
+                <var>learning_rate</var>: 0.5, 
+                <var>colsample_bytree</var>: 0.8, 
+                <var>subsample</var>: 0.8, 
+                <var>reg_alpha</var>: 0, 
+                <var>reg_lambda</var>: 0.5 
+            </code>
+        </td>
         <td>Multi-class prediction is understandably more difficult, but the model performs well enough to support deeper SHAP-based analysis of what drives game outcomes.</td>
     </tr>
 </table>
