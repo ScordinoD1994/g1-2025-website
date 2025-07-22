@@ -11,7 +11,7 @@ In this project we have used two types of data: tabular data, obtained merging d
 
 For tabular data, we started from a dataset publicly available on Kaggle (<a href="">Steam Games Dataset</a>), containing aggregated information on the whole Steam catalogue as of April 2024. This data was supplemented with:
 
-<ul>
+<ul class = "in_text_list">
     <li> *data* collected from <b>SteamSpy</b> using its API; </li>
     <li> *data* collected from <b>steam_trends_2023</b>; </li>
     <li> wish lists scraped from <b>Backloggd</b> using <b>Beautiful Soup</b>; </li>
