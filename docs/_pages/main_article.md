@@ -362,32 +362,12 @@ Mainstream titles dominate popularity through sheer scale, marketing, and cultur
 Looking at the data gathered from our review analysis, it seems that the characteristic that both users and critics are looking for in indie games are slightly different from those they look for in non indie games. For example, story and narrative don't gather as many mentions in reviews of indie games, both of users and critics, as they do for non-indie games. Users in particular tend to comment more on the sound and music in indie games, generally with a positive connotation. Interestingly, although gameplay is always the most discussed topic in games reviews, the gameplay for the most popular indie games received more attention by users than the gameplay for the most popular non indie games.
 Both in terms of gameplay and price and value for money users tend to share more positive comments for popular indie games than for popular non-indie games. Considering the higher price-point of non-indie games, it may be that users are more inclined to be pleasantly surprised by games that were less expensive; it could also mean that expectations for games coming from non-indie developers are generally high and thus more difficult to meet or exceed.
 
-<div class = "general_chartClass">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#IndieVSNonIndie_Modal">
-    Show Indie vs Non-Inidie Emoji-Chart
-  </button>
-  <div class="modal fade" id="IndieVSNonIndie_Modal" tabindex="-1" aria-labelledby="IndieVSNonIndie_Modal_Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="IndieVSNonIndie_Modal">Indie VS Non-Indie Sentiment Analysis</h5>
-          <!--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-        </div>
-        <div class="modal-body">
-          <figure>
-            <div class = "general_chartClass">
-              <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
-            </div>
-            <figcaption class = "figcaption_class" style = "color: black;"> Fig.24 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. </figcaption>
-          </figure>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
+<figure>
+  <div class = "general_chartClass">
+    <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
   </div>
-</div>
+  <figcaption class = "figcaption_class" style = "color: black;"> Fig.24 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. </figcaption>
+</figure>
 
 Our data highlights a clear strategic advantage for indie games in terms of initial pricing. With an average launch price of $16.85, significantly lower than non-indie titles averaging $25.60 (and a median of $14.99 compared to $19.99 for non-indies), independent developers consistently offer a more accessible entry point for players. This lower barrier to entry is crucial in a competitive market, yet pure affordability doesn't guarantee market dominance; our figures show non-indie games generally achieve higher popularity scores (averaging 0.448 versus 0.363 for indies). 
 
