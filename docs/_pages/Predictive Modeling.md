@@ -57,7 +57,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier<b>, a high-p
  
 ## Model Performance
 
-<table class = "full-width-wrapper custom_table">
+<table class = "custom_table">
     <tr>
         <td>Model</td>
         <td>Best Accuracy (CV)</td>
