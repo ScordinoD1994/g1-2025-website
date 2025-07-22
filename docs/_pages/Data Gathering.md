@@ -7,6 +7,8 @@ vega: true
 
 <h1 class = "full-width-wrapper superH1"> Data Gathering </h1>
 
+Our modeling dataset was built from the **Steam Kaggle dataset**, enhanced with external sources including **SteamSpy**, **SteamCharts**, **Backloggd**, and **Metacritic**.
+
 In this project we have used two types of data: tabular data, obtained merging data from a variety of sources and textual data, scraped from Metacritic.
 
 For tabular data, we started from a dataset publicly available on Kaggle (<a href="">Steam Games Dataset</a>), containing aggregated information on the whole Steam catalogue as of April 2024. This data was supplemented with:
