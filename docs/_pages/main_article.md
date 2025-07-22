@@ -384,7 +384,7 @@ This evolving marketing sophistication, coupled with their inherently competitiv
       <div class="modal-body">
         <figure>
           <div class = "general_chartClass">
-            <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
+            <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json"></vegachart>
           </div>
           <figcaption class = "figcaption_class" style = "color: black;"> Fig.24 - Sentiment analysis for critic and user reviews for Indie and Non-Indie games. </figcaption>
         </figure>
