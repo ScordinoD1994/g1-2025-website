@@ -19,7 +19,7 @@ We framed the task as a **classification problem** across three fronts:
     <li> <b> Popularity Score </b>: Binary classification — _high_ vs _low_ based on the median score in the dataset. </li>
     <li> <b> Appreciation Score </b>: Binary classification — _high_ vs _low_ (also median split). </li>
     <li> <b> Quadrant Prediction </b>: Multiclass classification into four groups. </li>
-    <ul>
+    <ul class = "in_text_list">
         <li> High Popularity - High Appreciation </li>
         <li> High Popularity - Low Appreciation </li>
         <li> Low Popularity - High Appreciation </li>
@@ -39,7 +39,7 @@ We used a combination of **numeric**, **categorical**, and **one-hot encoded tag
 
 <ul class = "in_text_list">
     <li> <b>Numerical</b>: `required_age`, `dlc_count`, `year`, `is_indie`, `wishlist_backloggd`, `num_supported_languages`, `num_audio_languages`, `num_platforms` </li>
-    <li> <b>Categorical</b> (one-hot encoded):  Tags/attributes across 9 game design categories:`Themes & Moods`, `Top-Level Genres`, `Visuals & Viewpoint`, `Sub-Genres`, `Players`, `Story`, `Level Design`, `Sports`, and `initial/current_price_range`.
+    <li> <b>Categorical</b> (one-hot encoded):  Tags/attributes across 9 game design categories:`Themes & Moods`, `Top-Level Genres`, `Visuals & Viewpoint`, `Sub-Genres`, `Players`, `Story`, `Level Design`, `Sports`, and `initial/current_price_range`. </li>
 </ul>
 
  
@@ -57,11 +57,35 @@ We used the <b><a href="https://xgboost.ai/"XGBoost</a> classifier<b>, a high-pe
  
 ## Model Performance
 
-<table class = "custom_table">
-    <tr><td>Model</td><td>Best Accuracy (CV)</td><td>Train (CV)</td><td>Best Parameters</td><td>Notes</td></tr>
-    <tr><td>Popularity Model</td><td>0.865</td><td>0.879</td><td><code>{max_depth: 2, n_estimators: 25, learning_rate: 0.5, colsample_bytree: 0.8, subsample: 0.8, reg_alpha: 0.5, reg_lambda: 0.8}</code></td><td>Strong performance with minimal overfitting</td></tr>
-    <tr><td>Appreciation Model</td><td>0.725</td><td>0.746</td><td><code>{max_depth: 2, n_estimators: 20, learning_rate: 0.5, colsample_bytree: 0.8, subsample: 0.5, reg_alpha: 0.5, reg_lambda: 1}</code></td><td>Predictive accuracy is solid, especially given that appreciation is inherently more subjective.</td></tr>
-    <tr><td>Quadrant Classifier</td><td>0.616</td><td>0.657</td><td><code>{max_depth: 2, n_estimators: 20, learning_rate: 0.5, colsample_bytree: 0.8, subsample: 0.8, reg_alpha: 0, reg_lambda: 0.5}` </code></td><td>Multi-class prediction is understandably more difficult, but the model performs well enough to support deeper SHAP-based analysis of what drives game outcomes.</td></tr>
+<table class = "full-width-wrapper custom_table">
+    <tr>
+        <td>Model</td>
+        <td>Best Accuracy (CV)</td>
+        <td>Train (CV)</td>
+        <td>Best Parameters</td>
+        <td>Notes</td>
+    </tr>
+    <tr>
+        <td>Popularity Model</td>
+        <td>0.865</td>
+        <td>0.879</td>
+        <td><code>{max_depth: 2, n_estimators: 25, learning_rate: 0.5, colsample_bytree: 0.8, subsample: 0.8, reg_alpha: 0.5, reg_lambda: 0.8}</code></td>
+        <td>Strong performance with minimal overfitting</td>
+    </tr>
+    <tr>
+        <td>Appreciation Model</td>
+        <td>0.725</td>
+        <td>0.746</td>
+        <td><code>{max_depth: 2, n_estimators: 20, learning_rate: 0.5, colsample_bytree: 0.8, subsample: 0.5, reg_alpha: 0.5, reg_lambda: 1}</code></td>
+        <td>Predictive accuracy is solid, especially given that appreciation is inherently more subjective.</td>
+    </tr>
+    <tr>
+        <td>Quadrant Classifier</td>
+        <td>0.616</td>
+        <td>0.657</td>
+        <td><code>{max_depth: 2, n_estimators: 20, learning_rate: 0.5, colsample_bytree: 0.8, subsample: 0.8, reg_alpha: 0, reg_lambda: 0.5}` </code></td>
+        <td>Multi-class prediction is understandably more difficult, but the model performs well enough to support deeper SHAP-based analysis of what drives game outcomes.</td>
+    </tr>
 </table>
 
 
