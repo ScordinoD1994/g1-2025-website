@@ -373,7 +373,7 @@ This evolving marketing sophistication, coupled with their inherently competitiv
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Indie VS Non-Indie User & Critic reviews</h5>
+        <h5 class="modal-title" id="IndieVSNonIndie_reviews_analysis">Indie VS Non-Indie User & Critic reviews</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
       </div>
       <div class="modal-body">
@@ -381,7 +381,7 @@ This evolving marketing sophistication, coupled with their inherently competitiv
           <div class = "genral_chartClass">
             <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
           </div>
-          <figcaption class = "figcaption_class"> Fig.24?? - Test. </figcaption>
+          <figcaption class = "figcaption_class" style = "color: black;"> Fig.24 - Sentiment analysis for critic and user reviews for Indie and Non-Indie games. </figcaption>
         </figure>
       </div>
       <div class="modal-footer">
