@@ -77,6 +77,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
         <td>Model</td>
         <td>Train Accuracy (CV)</td>
         <td>Validation Accuracy (CV)</td>
+        <td>Test Accuracy</td>
         <td>Parameters</td>
         <td>Notes</td>
     </tr>
@@ -84,6 +85,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
         <td>Popularity Model</td>
         <td>0.879</td>
         <td>0.865</td>
+        <td> </td>
         <td>
             <code>
                 <var>max_depth</var>: 2, 
@@ -101,6 +103,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
         <td>Appreciation Model</td>
         <td>0.746</td>
         <td>0.725</td>
+        <td> </td>
         <td>
             <code>
                 <var>max_depth</var>: 2, 
@@ -118,6 +121,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
         <td>Quadrant Classifier</td>
         <td>0.657</td>
         <td>0.616</td>
+        <td> </td>
         <td>
             <code>
                 <var>max_depth</var>: 2, 
@@ -135,6 +139,63 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
         Tab.1 - Test accuracy (second column), validation accuracy (third column) and best parameters (fourth column) for each predictive model considered.
     </caption>
 </table>
+
+
+
+<table>
+    <thead>
+        <td>  </td>
+        <td> precision </td>
+        <td> recall </td>
+        <td> f1-score </td>
+        <td> support </td>
+    </thead>
+    <tr>
+        <td> 0 </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> 1 </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> accuracy </td>
+        <td>  </td>
+        <td>  </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> macro avg </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td> weighted avg </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <caption class = "figcaption_class">
+        Tab.2 - .
+    </caption>
+</table>
+
+
+
+
+
+
+
 
 
 <figure>
