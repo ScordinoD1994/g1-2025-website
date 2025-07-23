@@ -13,6 +13,9 @@ vega: true
 
 <div class = "container_abstract">
     <h1 class = "superH1" style = "font-size: 2.5rem;"> GAMEBREAKING </h1>
+    <figure style = "padding: 40px;">
+        <img src='assets/images/pacman_separator.png' style = "width: 100%">
+    </figure>
     <div style = "padding: 15px;">
     <p>
         Steam, the world’s largest PC gaming platform, has transformed how games are made, discovered, and consumed. With thousands of titles launching every year, players and developers alike face a daunting question:
