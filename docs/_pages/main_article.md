@@ -13,6 +13,11 @@ vega: true
 
 
 <h1 class = "full-width-wrapper superH1"> GAMEBREAKING </h1>
+
+<figure style = "padding: 40px;">
+  <img src='assets/images/pacman_separator.png' style = "width: 100%">
+</figure>
+
 <h4 class = "full-width-wrapper superSubTitle"> Unlocking the data behind a videogame's success </h4>
 
 
