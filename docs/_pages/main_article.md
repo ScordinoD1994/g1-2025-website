@@ -104,7 +104,7 @@ Some noticeable spikes in the data trace back to landmark releases. The peaks in
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/explain_spikes.json"></vegachart>
   </div>  
-  <figcaption class = "figcaption_class"> Fig.5 - Spikes breakdown. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.5 - Spikes breakdown. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 Finally, we explored review postings by looking at the distribution of the number of user reviews per game. The pattern here shows clear inequalities: most games receive very few reviews, while a select few attract thousands. This distribution — like ownership and playtime — reflects a highly competitive ecosystem, where visibility and player feedback are dominated by a small percentage of releases.
@@ -116,7 +116,7 @@ Together, these trends reveal how player engagement is both growing and concentr
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/reviews_distribution_plus_reviews_bucket_per_released_games.json"></vegachart>
   </div>  
-  <figcaption class = "figcaption_class"> Fig.6 - Top: Total distribution of games based on their number of reviews. Bottom: Distribution of games based on their number of reviews per year </figcaption>
+  <figcaption class = "figcaption_class"> Fig.6 - Top: Total distribution of games based on their number of reviews. Bottom: Distribution of games based on their number of reviews per year. Interact with the bottom plot to show more informations. </figcaption>
 </figure>
 
 Understanding how much a game is liked by players is not as straightforward as it might seem. As Fortuna Imperatore underscores,
@@ -164,18 +164,17 @@ Beyond the general trends, some games exhibit striking discrepancies between cri
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_score_difference.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.9 - Difference between critic and user metacritic scores. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.9 - Difference between critic and user metacritic scores. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 These outliers can reflect cases where critics and players approached the game from entirely different perspectives: technical polish vs. emotional resonance, innovation vs. nostalgia, or even divergent expectations shaped by marketing.
-Analyzing these outliers in more detail could offer valuable insights into the dynamics of reception—what drives such a divide, and what it reveals about the varying standards of professional reviewers and general audiences. 
+Analyzing these outliers in more detail could offer valuable insights into the dynamics of reception — what drives such a divide, and what it reveals about the varying standards of professional reviewers and general audiences. 
 
 <figure>
-  <p class = "figure_title"> Explore  </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/user_vs_critic_score_by_difference.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.10 - Users vs critic score on Metacritic. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.10 - Users vs critic score on Metacritic. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 We have dived a little more deeply into this topic, by analysing game reviews for the top 15 games where critics' and users' scores differred the most.
@@ -231,7 +230,7 @@ Because these numbers can vary wildly between indie successes and AAA blockbuste
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_15_popularity.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.12 - Top 15 games with respect to our <i>Popularity Score</i>. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.12 - Top 15 games with respect to our <i>Popularity Score</i>. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 The top 15 games according to our popularity score feature a mix of blockbuster titles and enduring multiplayer hits. ***GTA V*** leads the pack, followed closely by ***ELDEN RING*** and ***Cyberpunk 2077***. Multiplayer staples like ***CS:GO***, ***Left 4 Dead 2***, and ***PAYDAY 2*** show strong staying power, while narrative-rich games (***Red Dead Redemption 2***, ***The Witcher 3***, ***Baldur’s Gate 3***) and indie successes (***Stardew Valley***, ***Terraria***) demonstrate the wide range of what "popular" can mean on Steam.
@@ -250,7 +249,7 @@ The median popularity of games by release year reveals how audience focus has ev
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/median_popularity_and_max_popularity_by_year.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.14 - Median and maximum popularity by year. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.14 - Median and maximum popularity by year. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 Tracking each year's most popular game outlines a parallel history of standout releases. Valve dominated early on, followed by a mix of cult hits (***Psychonauts***, ***Stardew Valley***) and AAA blockbusters (***GTA V***, ***ELDEN RING***). These games not only captured attention at launch but they remained culturally and playably relevant, setting them apart in an increasingly saturated landscape.
@@ -279,7 +278,7 @@ We used ***Principal Component Analysis (PCA)*** to synthesize these variables i
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_15_appreciation.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.15 - Top 15 games with respect to our <i>Appreciation Score</i>. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.15 - Top 15 games with respect to our <i>Appreciation Score</i>. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 The top 15 most appreciated games highlight story-driven, critically acclaimed titles. ***Baldur’s Gate 3*** leads, with classics like ***Half-Life 2***, ***Portal 2***, and ***BioShock*** close behind. Several entries from long-running franchises (***Final Fantasy***, ***Persona***, ***The Elder Scrolls***) appear alongside modern hits like ***Red Dead Redemption 2*** and ***God of War***. This ranking underscores how narrative quality, innovation, and lasting impact drive appreciation, regardless of release date.
@@ -305,7 +304,7 @@ Tracking the evolution of appreciation scores reveals how perceptions of quality
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/median_appreciation_and_max_appreciation_by_year.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.17 - Median and maximum appreciation by year. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.17 - Median and maximum appreciation by year. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 Overlaying top appreciated games by year reinforces this: alongside AAA milestones like ***The Witcher 3*** and ***Baldur’s Gate 3***, we find greatly appreciated indies like ***Celeste***, ***Hollow Knight***, and ***Pizza Tower***. These titles show that lasting impact isn’t tied to budget, but to originality, depth, and connection.
@@ -322,7 +321,7 @@ The scatter plot below positions games according to their appreciation (horizont
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/popularity_vs_appreciation.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.18 - Games distribution on the Appreciation and Popularity score plane. Most "extreme" games in each quadrant are marked with yellow circles. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.18 - Games distribution on the Appreciation and Popularity score plane. Most "extreme" games in each quadrant are marked with yellow circles. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 The top 15 titles that excel in both popularity and appreciation reflect a compelling mix of blockbuster hits and standout indie successes. Games like ***Baldur’s Gate 3***, ***GTA V***, and ***Elden Ring*** dominate thanks to massive reach and critical acclaim. But beloved indies such as ***Stardew Valley***, ***Hollow Knight***, ***Terraria***, and ***Undertale*** hold their ground, proving that emotional impact and craftsmanship can rival even the biggest AAA productions.
@@ -348,7 +347,7 @@ While independent developers were virtually absent from the early 2000s Steam la
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_by_year.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.19 - Number of indie and non-indie game released. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.19 - Number of indie and non-indie game released. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 At its peak in the mid-2010s, indie representation regularly accounted for over half of all notable Steam releases, a cultural and creative boom that brought forth titles now considered classics like ***Stardew Valley***, ***Hollow Knight***, and ***Celeste***. Though recent years have seen a slight decline in their relative share (down to around 44% in 2023), indie games remain a driving force in shaping what we play and how we engage with games.
@@ -363,7 +362,7 @@ When comparing appreciation scores, our measure of how well-received a game is, 
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_appreciation.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.20 - Median appreciation by year for indie and non-indie games. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.20 - Median appreciation by year for indie and non-indie games. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 Since 2010, median appreciation scores for indie games have remained steady, hovering around 0.70–0.76. In contrast, non-indie (or AAA) games have seen greater fluctuation and, in some years, lagged behind. By 2023, indie games achieved a median appreciation of 0.75, compared to 0.69 for non-indie releases. This suggests that while indie games might not always match AAA production values, they end up being more appreciated through different means.
@@ -376,7 +375,7 @@ While indie titles have increasingly gained critical acclaim they still lag behi
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_popularity.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.21 - Median pupularity by year for indie and non-indie games. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.21 - Median pupularity by year for indie and non-indie games. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 In the early 2000s blockbuster titles dominated the market. But even in more recent years (e.g., 2020–2023), the most popular titles remain overwhelmingly non-indie. Notably, however, some indie games have broken through this ceiling. Titles like ***Terraria***, ***Hollow Knight***, and ***Stardew Valley*** have not only achieved critical success but also popularity levels comparable to large-scale productions.
@@ -392,7 +391,7 @@ The notable spike in indie game popularity in 2008 can be attributed to a handfu
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_not_indie.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.22 - Left: Popularity score for the top 15 indie games. Right: appreciation score for the top 15 indie games. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.22 - Left: Popularity score for the top 15 indie games. Right: appreciation score for the top 15 indie games. Interact with the plots to show more informations. </figcaption>
 </figure>
 
 The data gathered from our review analysis shines some light on the characteristics that set apart indie and non-indie games. An analysis of the number of mentions per topic shows that both users and critics look for slightly different things in indie games compared to non indie games. For example, story and narrative do not gather as many mentions in reviews of indie games, both of users and critics, as they do for non-indie games. Users in particular tend to comment more on the sound and music in indie games, generally with a positive connotation. Interestingly, although gameplay is always the most discussed topic in games reviews, the gameplay for the most popular indie games received more attention by users than the gameplay for the most popular non indie games.
@@ -412,7 +411,7 @@ Our data highlights a clear strategic advantage for indie games in terms of init
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.24 - Scatter plot of popularity vs appreciation for indie and non-indie games by current prices. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.24 - Scatter plot of popularity vs appreciation for indie and non-indie games by current prices. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 
@@ -440,7 +439,7 @@ A first look at Steam’s tagging ecosystem reveals the most common features and
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_15_tags.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.25 - Top-15 tags overall. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.25 - Top-15 tags overall. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 The data reveals clear trends shaping today’s gaming landscape: immersive atmospheres and nostalgia-driven themes lead player interest, while adventure and indie genres dominate overall volume, highlighting both broad appeal and creative diversity. Visual styles range widely, with 2D aesthetics and varied perspectives thriving alongside niche approaches. Classic genres like puzzle and platformers maintain strong presence, complemented by popular sub-genres emphasizing skill and replayability. Singleplayer remains the dominant mode, though multiplayer and co-op offer rich social experiences. Narrative depth is highly valued, with players seeking agency and meaningful storytelling. Together, these insights show a balanced ecosystem where innovation, tradition, and player choice coexist to define successful game design.
@@ -449,7 +448,7 @@ The data reveals clear trends shaping today’s gaming landscape: immersive atmo
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/tags_frequency_by_category.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.26 - Top-10 tags by category. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.26 - Top-10 tags by category. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 A closer look to the genre and subgenres tags gives some preliminary insight on how they tend to change within quadrants. Particularly significant is the difference in the top subgenres switching between the quadrants HP-LA and LP-HA. Popular tags found in the HP-LA quadrant, such as **FPS**, **Hack and Slash** and **Third-Person Shooter** are not as common in games belonging to the LP-HA quadrant; here more niche tags such as  **Puzzle-Platformers** and **Shoot ’Em Ups** take the lead in terms of frequency.
@@ -460,7 +459,7 @@ A closer look to the genre and subgenres tags gives some preliminary insight on 
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_genres_subgenres_by_quadrant.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.27 - Top genres and sub-genres by quadrant. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.27 - Top genres and sub-genres by quadrant. Interact with the plot to show more informations. </figcaption>
 </figure>
 
 Although some patterns are emerging from the analysis of game tags, they are not enough to paint a comprehensive picture of what characteristics make a game popular or appreciated. To shed some more light on this fundamental question, we trained a predictive model.
