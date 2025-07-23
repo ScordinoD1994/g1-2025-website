@@ -205,7 +205,7 @@ In the case of games that have received more love from the users than from the c
 </figure>
 
 
-<figure>
+<figure style = "padding: 40px;">
   <img src='assets/images/pacman_separator.png' style = "width: 100%">
 </figure>
 
@@ -218,6 +218,12 @@ With thousands of games released each year and player attention more fragmented 
 To this end, we introduce two composite indicators: ***Popularity*** and ***Appreciation***. These scores aim to summarise multiple attributes into meaningful, interpretable indicators. Popularity combines a game’s visibility, reach, and commercial uptake (through ownership, wishlisting, and review counts), while appreciation reflects how well a game is received once it's played (via various types of ratings).
 
 This dual-axis approach allows for a more nuanced understanding of a game's position in the market: whether it is loved but overlooked, widely played but polarising, or among that group that is both popular and appreciated. In the sections that follow, we explore how these indicators behave, what patterns emerge, and what features seem to shape a game's trajectory across these axes.
+
+<div class="pacman_separator">
+  <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> 
+</div>
+
+
 
 <h2 id="Popularity Score"> Popularity Score </h2>
 
@@ -261,6 +267,12 @@ The median popularity of games by release year reveals how audience focus has ev
 </figure>
 
 Tracking each year's most popular game outlines a parallel history of standout releases. Valve dominated early on, followed by a mix of cult hits (***Psychonauts***, ***Stardew Valley***) and AAA blockbusters (***GTA V***, ***ELDEN RING***). These games not only captured attention at launch but they remained culturally and playably relevant, setting them apart in an increasingly saturated landscape.
+
+
+<div class="pacman_separator">
+  <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> 
+</div>
+
 
 
 <h2 id="Appreciation Score"> Appreciation Score </h2>
@@ -311,7 +323,9 @@ Tracking the evolution of appreciation scores reveals how perceptions of quality
 
 Overlaying top appreciated games by year reinforces this: alongside AAA milestones like ***The Witcher 3*** and ***Baldur’s Gate 3***, we find greatly appreciated indies like ***Celeste***, ***Hollow Knight***, and ***Pizza Tower***. These titles show that lasting impact isn’t tied to budget, but to originality, depth, and connection.
 
-
+<div class="pacman_separator">
+  <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> 
+</div>
 
 <h2 id="Appreciation-Popularity Plane"> Appreciation-Popularity Plane </h2>
 
@@ -331,6 +345,11 @@ High popularity & low appercation games managed to draw substantial attention bu
 High appreciation & low popularity games represent the hidden gems of the Steam catalog—titles that flew under the radar but struck a chord with those who played them. Mostly indie and niche productions, like ***Worm Jazz***, ***Depixtion***, and ***DERU - The Art of Cooperation***, these games boast remarkably high appreciation scores despite modest popularity. Their presence suggests that while marketing power can drive visibility, creative vision and satisfying gameplay can build strong player loyalty, even without mainstream attention. 
 
 The bottom end of the popularity–appreciation spectrum paints a picture of titles that struggled to gain traction both commercially and critically. Games like ***Wild West Online*** and ***Shadow Harvest: Phantom Ops*** saw limited player interest and failed to win over those who did engage. Interestingly, many of these are smaller indie efforts or low-profile AA titles, suggesting either **underdeveloped experiences** or **misaligned expectations**.
+
+<figure style = "padding: 40px;">
+  <img src='assets/images/pacman_separator.png' style = "width: 100%">
+</figure>
+
 
 
 <h1 id = "Indie vs Non-Indie"> Indie vs Non-Indie </h1>
@@ -418,6 +437,9 @@ This gap underscores the critical role of pre-launch marketing and has been conf
 
 This evolving marketing sophistication, coupled with their inherently competitive pricing, may well be key to how certain indie games carve out significant success within the overwhelmingly vast gaming landscape.
 
+<figure style = "padding: 40px;">
+  <img src='assets/images/pacman_separator.png' style = "width: 100%">
+</figure>
 
 
 
@@ -457,6 +479,12 @@ A closer look to the genre and subgenres tags gives some preliminary insight on 
 Although some patterns are emerging from the analysis of game tags, they are not enough to paint a comprehensive picture of what characteristics make a game popular or appreciated. To shed some more light on this fundamental question, we trained a predictive model.
 
 
+<figure style = "padding: 40px;">
+  <img src='assets/images/pacman_separator.png' style = "width: 100%">
+</figure>
+
+
+
 <h1 id = "Predicting Success?"> Predicting Success? </h1>
 
 <blockquote class = "expert_quote" style = "color: #00ff00; text-align: justify;">
@@ -464,6 +492,10 @@ Although some patterns are emerging from the analysis of game tags, they are not
 </blockquote>
 
 We attempted to answer this question by using a machine learning ensemble model called <a href="https://xgboost.ai/">XGBoost</a>. In particular, we modeled both popularity and appreciation predictions as a binary classification task with thresholds given by the medians of the two distributions. In order to interpret our results we leveraged <a href="https://shap.readthedocs.io/en/latest/">SHAP</a>, a python library. Should you be interested in more details on our predictive mode, please head to the technical discussions part. 
+
+<div class="pacman_separator">
+  <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> 
+</div>
 
 
 <h2 id="Predicting popularity"> Predicting popularity </h2>
@@ -481,6 +513,9 @@ Some tags are more situational. Games labeled Cute or Simulation tend to have un
 
 Overall, the analysis shows that popularity is not just about having the right tags — it is about how and when they show up. Certain features give games a clear edge, while others only work in the right context.
 
+<div class="pacman_separator">
+  <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> 
+</div>
 
 <h2 id="Predicting appreciation"> Predicting appreciation </h2>
 
@@ -500,6 +535,9 @@ Interestingly, Multiplayer — a strong driver of popularity — plays only a mo
 
 Although our predictive model for appreciation was not as performing ad the popularity one, we were still able to achieve an accuracy of more than 70% on test data. In the end, it is not just what a game does — it is how thoughtfully it does it. Clever mechanics, attention to detail, and personality go a long way in winning players’ hearts.
 
+<div class="pacman_separator">
+  <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> 
+</div>
 
 <h2 id="Predicting both popularity and appreciation"> Predicting both popularity and appreciation </h2>
 
@@ -573,7 +611,9 @@ Surprisingly, pricing in the $50–$70 range does not have a clear effect, sugge
  
 In short, the most successful games blend genre depth, broad availability, and strong anticipation. 
 
-
+<figure style = "padding: 40px;">
+  <img src='assets/images/pacman_separator.png' style = "width: 100%">
+</figure>
 
 <h1 id = "Conclusions"> Conclusions </h1>
 
