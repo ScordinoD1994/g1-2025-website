@@ -36,7 +36,7 @@ vega: true
           <ul>
             <li> <a href="#Predicting popularity">Predicting popularity</a> </li>
             <li> <a href="#Predicting appreciation">Predicting appreciation</a> </li>
-            <li> <a href="#Predicting success">Predicting both popularity and appreciation</a> </li>
+            <li> <a href="#Predicting both popularity and appreciation">Predicting both popularity and appreciation</a> </li>
           </ul>
           <li> <a href="#Conclusions">Conclusions</a> </li>
       </ol>
@@ -456,16 +456,16 @@ Although some patterns are emerging from the analysis of game tags, they are not
 <h1 id = "Predicting Success?"> Predicting Success? </h1>
 
 <blockquote class = "expert_quote" style = "color: #00ff00; text-align: justify;">
-  Is it possible to predict the success of a game? More precisely, is it possible to predict it by using only pre-release features such as the number of wishlists, Steam tags or the price?
+  Is it possible to predict the success of a game? More precisely, is it possible to predict it by using only pre-release features such as the number of wishlists, Steam tags or the launch price?
 </blockquote>
 
-We tried to answer this question by using a machine learning ensemble model called <a href="https://xgboost.ai/">XGBoost</a>. In particular, we modeled both popularity and appreciation predictions as a binary classification task with thresholds given by the medians of the two distributions. In order to interpret our results we leveraged <a href="https://shap.readthedocs.io/en/latest/">SHAP</a>, a python library. For more details we refer to the technical discussions. 
+We attempted to answer this question by using a machine learning ensemble model called <a href="https://xgboost.ai/">XGBoost</a>. In particular, we modeled both popularity and appreciation predictions as a binary classification task with thresholds given by the medians of the two distributions. In order to interpret our results we leveraged <a href="https://shap.readthedocs.io/en/latest/">SHAP</a>, a python library. Should you be interested in more details on our predictive mode, please head to the technical discussions part. 
 
-First, we tried to predict popularity and appreciation separately. 
 
 <h2 id="Predicting popularity"> Predicting popularity </h2>
 
-Digging deeper into what fuels a game’s popularity, a closer analysis reveals some trends. The clearest predictor? Wishlist activity. When a game racks up high interest on platforms like Backloggd before launch, it’s far more likely to become a hit — making early buzz one of the strongest signals of future popularity. This result confirm what Fortuna Imperatore told us in our interview. (*Possibile citazione*)
+Digging deeper into what fuels a game’s popularity, some trends were revealed. 
+A key feature in the predictive model is the wishlist count, which we adopted after a recommendation from Fortuna Imperatore. This tip panned out; adding the wishlist count to our popularity predicitive model boosted accuracy to more than 80% on our test set. When a game racks up high interest on platforms like Backloggd before launch, it is far more likely to become a hit — making early buzz being one of the strongest signals of future popularity. 
 
 Social and broad-appeal features also stand out. Games tagged with Multiplayer tend to perform significantly better, while those without it often suffer in visibility — suggesting that while not essential, social functionality is becoming a powerful norm.
  
@@ -475,102 +475,108 @@ Other features like Open World, Sandbox, and Online Co-Op all contribute positiv
  
 Some tags are more situational. Games labeled Cute or Simulation tend to have unpredictable effects — sometimes helping, sometimes hurting — likely depending on execution or market trends.
 
-Overall, the analysis shows that popularity isn’t just about having the right tags — it’s about how and when they show up. Certain features give games a clear edge, while others only work in the right context.
+Overall, the analysis shows that popularity is not just about having the right tags — it is about how and when they show up. Certain features give games a clear edge, while others only work in the right context.
 
 
 <h2 id="Predicting appreciation"> Predicting appreciation </h2>
 
-When it comes to what players really value, the data tells a fascinating story. Games with a high number of wishlist entries on platforms like Backloggd aren’t just popular — they’re also more likely to be deeply appreciated. Anticipation and lasting satisfaction often go hand-in-hand, validating pre-release buzz as a surprisingly reliable compass for acclaim.
+When it comes to what players really value, games with a high number of wishlist entries on platforms like Backloggd are not just popular — they are also more likely to be widely appreciated.
 
-Another standout signal is indie status. While the “indie” tag doesn’t always have a massive global effect, it tends to quietly boost a game’s appreciation score when present. Players seem to reward originality, personality, and risk-taking — qualities more commonly found in the indie space.
+Another feature that stands out is the indie status. While the “indie” tag does not always have a massive global effect, it tends to quietly boost a game’s appreciation score when present. Players seem to reward originality, personality, and risk-taking — qualities more commonly found in the indie space.
  
-Certain genres punch well above their weight. Strategy and Puzzle games, for example, consistently drive up appreciation, pointing to a player base that values depth and thoughtful mechanics. The same goes for more playful tags like Cute and Funny, suggesting emotional tone can matter just as much as gameplay.
+Certain genres punch well above their weight. Strategy and Puzzle games, for example, consistently drive up appreciation, pointing to a player base that values thoughtful mechanics. The same goes for more playful tags like Cute and Funny, suggesting emotional tone can matter just as much as gameplay.
  
-Accessibility also plays a subtle but important role. Games that support more audio and subtitle languages tend to be rated more favorably — a nod to the growing expectation for inclusivity and polish.
+Accessibility also plays a subtle but important role. Games that support more audio and subtitle languages tend to be rated more favorably — a nod to the growing expectation for inclusivity.
  
-Not all tags land well, though. The Walking Simulator label, despite including some standout titles, drags down appreciation predictions on average. It’s a divisive term, and the model reflects that ambivalence. Similarly, the broad Adventure tag shows only a slight negative effect — perhaps because it’s used so loosely that it dilutes player expectations.
+Not all tags land well, though. The Walking Simulator label, despite including some standout titles, drags down appreciation predictions on average. It is a divisive term, and the model reflects that ambivalence. Similarly, the broad Adventure tag shows only a slight negative effect — perhaps because it is used so loosely that it dilutes player expectations.
  
-On the brighter side, 2D and Fantasy genres quietly contribute to higher satisfaction, hinting at an enduring love for stylized, imaginative worlds.
+On the brighter side, 2D and Fantasy genres contribute to higher satisfaction, hinting at an enduring love for stylized, imaginative worlds.
  
 Interestingly, Multiplayer — a strong driver of popularity — plays only a modest role here. Players might enjoy social play, but appreciation seems to hinge more on creativity, clarity of vision, and emotional resonance.
- 
-In the end, it’s not just what a game does — it’s how thoughtfully it does it. Clever mechanics, polish, and personality go a long way in winning players’ hearts.
+
+Although our predictive model for appreciation was not as performing ad the popularity one, we were still able to achieve an accuracy of more than 70% on test data. In the end, it is not just what a game does — it is how thoughtfully it does it. Clever mechanics, attention to detail, and personality go a long way in winning players’ hearts.
 
 
-<h2 id="Predicting success"> Predicting success </h2>
+<h2 id="Predicting both popularity and appreciation"> Predicting both popularity and appreciation </h2>
 
-Then we tried to predict success by considering popularity and appreciation at the same time. We have four different possible outcomes.
+When trying to predict success by considering popularity and appreciation at the same time, the complexity of the task yields a lower accuracy of 61% on the test set. We present our results grouped into four possible outcomes.
 
 
 <p class = "custom_p"> Cold Reception: When Games Miss on Both Fronts (Low Popularity and Low Appreciation) </p>
 
-Some games fall flat on both popularity and appreciation. The clearest indicator is a lack of wishlist interest. Games with low wishlist counts on Backloggd are strongly nudged into this underperforming category, highlighting the predictive power of early audience engagement (or lack thereof).
+Some games fall flat on both popularity and appreciation. The clearest indicator is, again, a lack of wishlist interest. Games with low wishlist counts on Backloggd are strongly nudged into this underperforming category, highlighting the predictive power of early audience engagement (or lack thereof).
 
-Multiplayer and singleplayer modes act as safeguards: their presence reduces the likelihood of a game landing in this low/low quadrant. Similarly, genre tags like Strategy, Open World, and Sandbox modestly buffer against total obscurity — suggesting that even niche or systems-rich games find appreciative corners of the market.
+Multiplayer and singleplayer modes act as safeguards: their presence reduces the likelihood of a game landing in this low/low quadrant. Similarly, genre tags like Strategy, Open World, and Sandbox modestly buffer against total obscurity.
 
 In contrast, Walking Simulator emerges as a risk factor. When present, it increases the likelihood of poor performance on both axes, possibly due to polarized expectations or unmet ambitions. Tags like Funny, Puzzle, and Colorful offer more subtle support — while their individual impact is small, their absence can signal trouble.
 
-Ultimately, games in this group tend to lack standout qualities or defined audiences, often slipping through the cracks in both reach and reception.
+Ultimately, games in this group tend to lack standout qualities or defined audiences, often slipping through the cracks in both popularity and appreciation.
 
 
 <p class = "custom_p"> The Hype That Didn’t Land: Popular but Poorly Received (High Popularity and Low Appreciation) </p>
 
-These are the games that make noise — but fail to live up to it. While not universally true, the SHAP values suggest a pattern: Multiplayer, Open World, and Simulation tags all raise the chance of a game being classified as high in popularity but low in appreciation. These features may drive interest or sales, but don’t always translate into satisfying experiences.
+These are the games that make noise but fail to live up to it. While not universally true, the SHAP values suggest a pattern: Multiplayer, Open World, and Simulation tags all raise the chance of a game being classified as high in popularity but low in appreciation. These features may drive interest or sales, but do not always translate into satisfying experiences.
 
-Surprisingly, fewer supported languages also correlate with this quadrant — possibly pointing to rushed or under-localized releases. On the pricing side, expensive games (in the $50–$100 range) show a sharp uptick in SHAP value, implying that high cost might raise expectations — and disappointment when those aren’t met.
+Surprisingly, fewer supported languages also correlates with this quadrant — possibly pointing to rushed or under-localized releases. On the pricing side, expensive games (in the $50–$100 range) show a sharp uptick in SHAP value, implying that high cost might raise expectations and by consequence disappointment when those are not met.
 
-Games with 2D, Indie, or Fantasy tags, however, are less likely to fall here. These often cater to more focused audiences, where hype is better aligned with delivery.
+Games with 2D, Indie, or Fantasy tags, however, are less likely to fall here. These often cater to more focussed audiences, where hype is better aligned with delivery.
+
+***Title*** Even critic reviews are dominated by negative comments
 
 <figure>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/HighPop_LowAppr.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.26 - Top genres and sub-genres by quadrant. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.26 - Top 15 games with greatest differences between popularity and appreciation scores. </figcaption>
 </figure>
 
-In essence, big games with bold features can still miss the mark. Popularity alone isn’t enough to secure lasting appreciation.
+An analysis of the reviews of the top 15 games with high popularity but low appreciation corroborates these findings, showing that, across all topics, the amount of negative comments is large. This is true even for critic reviews, which tend to have a higher percentage of positive comments, particularly when dealing with popular games.
+
+In essence, big games with bold features can still miss the mark. Popularity alone is not enough to secure lasting appreciation.
 
 
 <p class = "custom_p"> Hidden gems: Loved, but Overlooked (Low Popularity and High Appreciation) </p>
  
-This quadrant houses the hidden gems — games that win hearts, even if they don’t win headlines.
+This quadrant houses the hidden gems — games that win hearts, even if they do not win headlines.
 
-Wishlist counts are typically low here, reinforcing their under-the-radar status. Yet genre and style play a key role in boosting their acclaim. Tags like 2D, Puzzle, Cute, and especially Indie are strongly associated with this quadrant. These are often smaller, more personal games that resonate with players despite lacking mass exposure.
+Wishlist counts are typically low here, reinforcing their under-the-radar status. Yet genre and style play a key role in boosting their acclaim. Tags like 2D, Puzzle, Cute, and especially Indie are strongly associated with this quadrant. These are often smaller, more personal games that appeal to players despite lacking mass exposure.
  
 Conversely, tags tied to scale — like Open World, Survival, or Online Co-Op — make games less likely to land in this category, as they typically appeal to wider audiences.
 
 Localization plays a minor role, with fewer supported languages modestly increasing a game’s chance of being classified here. Likewise, mid-priced titles ($20–$50) are less common — perhaps suggesting that budget-friendly or unconventional pricing helps niche games reach the right players.
 
+***Title*** The reception of games in this quadrant is small but overwhelmingly positive
+
 <figure>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/HighAppr_LowPop.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.26 - Top genres and sub-genres by quadrant. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.26 - Top 15 games with greatest differences between appreciation and popularity scores. </figcaption>
 </figure>
 
-These are the slow burns and cult classics — proof that critical appreciation doesn’t always follow the crowd.
+These games are proof that appreciation does not always follow the crowd.
 
 
 <p class = "custom_p"> The Holy Grail: a developer's dream (High Popularity and High Appreciation) </p>
 
 So what makes a game both loved and widely played? The SHAP data points to a few key ingredients.
  
-First, wishlist_backloggd shows its strength: games with high wishlist counts are pushed firmly into this top-right quadrant. Broader platform availability also plays a major role: the more systems a game launches on, the more likely it is to find both popularity and appreciation.
+First, the wishlist count shows its strength: games with high wishlist counts are pushed firmly into this top-right quadrant. Broader platform availability also plays a major role: the more systems a game launches on, the more likely it is to find both popularity and appreciation.
  
-Genre-wise, tags like Strategy, Multiplayer, Singleplayer, and even lighter features like Funny, Rogue-like, and Puzzle contribute positively. These games combine reach with substance — offering both accessible hooks and rewarding mechanics.
+Genre-wise, tags like Strategy, Multiplayer, Singleplayer, and even lighter features like Funny, Rogue-like, and Puzzle contribute positively. These games combine reach with substance offering both involvement and rewarding mechanics.
  
-Surprisingly, pricing in the $50–$70 range doesn’t have a clear effect, suggesting that value perception is more nuanced at the top end.
+Surprisingly, pricing in the $50–$70 range does not have a clear effect, suggesting that value perception is more nuanced at the top end.
  
-In short, the most successful games blend genre depth, broad availability, and strong anticipation. They win attention and reward it — earning both widespread appeal and lasting respect.
+In short, the most successful games blend genre depth, broad availability, and strong anticipation. 
 
 
 
 <h1 id = "Conclusions"> Conclusions </h1>
 
-If there's one takeaway from our analysis, it's this: <i>there is no universal recipe for making a successful game</i>. While our predictive models uncovered consistent patterns — like the strong influence of wishlist interest, the positive role of localization and accessibility, or the impact of some tags — they are not crystal balls. The models can detect statistical associations, not causal relationships. They help us understand what tends to matter, but not why or how it leads to success in every case.
+If there is one takeaway from our analysis, it is: <i>there is no universal recipe for making a successful game</i>. While our predictive models uncovered consistent patterns, like the strong influence of wishlist interest, the positive role of localization and accessibility, or the impact of some tags, they are not crystal balls. The models can detect statistical associations, not causal relationships. They help us understand what tends to matter, but not why or how it leads to success in every case.
  
-Crucially, our findings show that success — whether measured as popularity or appreciation — can take many forms. AAA games, with their broad platform releases and marketing power, often dominate in popularity. But they are not always the most appreciated.
-In contrast, some indie games quietly achieve high appreciation with far fewer resources. Titles like **[...]**, for example, are testament to how originality, thoughtful design, and strong narrative identity can create deeply resonant experiences.
+Crucially, our findings show that success, whether measured as popularity and/or appreciation, can take many forms. AAA games, with their broad platform releases and marketing power, often dominate in popularity. But they are not always the most appreciated.
+In contrast, some indie games achieve high appreciation with far fewer resources.
  
 Success in games, as in art, is multifaceted. <b><i>And perhaps that’s exactly what makes this medium so exciting</i></b>.
 
