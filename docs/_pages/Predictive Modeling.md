@@ -140,9 +140,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
     </caption>
 </table>
 
-
-
-<table>
+<table class = "custom_table">
     <thead>
         <td>  </td>
         <td> precision </td>

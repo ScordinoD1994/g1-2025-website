@@ -91,21 +91,6 @@ But even within this more visible subset, the numbers tell a revealing story. Wh
 In other words, as the flood of new releases grows, fewer of them are breaking through to earn critical attention.
 
 
-<!--
-<figure>
-  <div class = "general_chartClass">
-    <vegachart schema-url="/g1-2025-website/assets/charts/gamebreaking_separator.json"></vegachart>
-  </div>
-</figure>
-
-<figure>
-  <div class = "general_chartClass">
-    <vegachart schema-url="/g1-2025-website/assets/charts/pacman_separator.json"></vegachart>
-  </div>
-</figure>
--->
-
-
 <div class="pacman_separator">
   <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> 
 </div>
@@ -217,6 +202,11 @@ In the case of games that have received more love from the users than from the c
     <vegachart schema-url="/g1-2025-website/assets/charts/CriticScore_diff_UserScore.json"></vegachart>
   </div>
   <figcaption class = "figcaption_class"> Fig.11 - Heatmaps showing density of mentions per topic, per game, plus histograms showing each topic sentiment breakdown. The dropdown menu can be used to change the dataset. </figcaption>
+</figure>
+
+
+<figure>
+  <img src='assets/images/pacman_separator.png' style = "width: 100%">
 </figure>
 
 
