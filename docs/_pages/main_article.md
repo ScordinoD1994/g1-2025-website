@@ -80,9 +80,8 @@ To focus on titles that have reached some degree of exposure, we narrowed our da
 But even within this more visible subset, the numbers tell a revealing story. While the absolute number of games with Metacritic pages has been steadily rising — nearly tripling since 2015 — their proportion relative to the total number of Steam releases has been declining. 
 
 
-***title*** The number of Metacritic pages for games has been increasing over the years
-
 <figure>
+  <p class = "figure_title"> The number of Metacritic pages for games has been increasing over the years </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_games_per_year.json"></vegachart>
   </div>
