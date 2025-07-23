@@ -25,7 +25,7 @@ vega: true
         In this article, we explore this question by analyzing a curated dataset of Steam games and specifically those that have a <a href = "https://www.metacritic.com/game/">Metacritic</a> page from 1997 to 2023. This criterion sets a minimum threshold of visibility, ensuring that we study games that have at least broken through the initial barrier of recognition and discourse. The analysis was enriched with the interviews of two domain experts: <b>Andrea Porta</b>, author and host of the YouTube podcast <i>Storie di Videogame</i>, and <b>Fortuna Imperatore</b>, game designer and author of <i>Freud’s Bones</i>, an award-winning indie narrative game exploring psychology and moral choice.
     </p>
     </div>
-    <a href = "https://scordinod1994.github.io/g1-2025-website/main_article.html">
+    <a href = "{{ site.baseurl }}/main_article.html">
         <div class="start_reading">
             <h5 style = "font-size: 2rem;"> Start </h5>
         </div>
