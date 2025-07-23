@@ -217,6 +217,46 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
   <figcaption class = "figcaption_class"> Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
 </figure>
 
+<table class = "custom_table">
+    <thead>
+        <td>  </td>
+        <td> Mean </td>
+        <td> Std  </td>
+    </thead>
+    <tr>
+        <td> Dataset Popularity </td>
+        <td> 0.403 </td>
+        <td> 0.185 </td>
+    </tr>
+    <tr>
+        <td> Cluster 0 Popularity </td>
+        <td> 0.488 </td>
+        <td> 0.155 </td>
+    </tr>
+    <tr>
+        <td> Cluster 1 Popularity </td>
+        <td> 0.228 </td>
+        <td> 0.097 </td>
+    </tr>
+    <tr>
+        <td> Dataset Appreciation </td>
+        <td> 0.687 </td>
+        <td> 0.148 </td>
+    </tr>
+    <tr>
+        <td> Cluster 0 Appreciation </td>
+        <td> 0.719 </td>
+        <td> 0.135 </td>
+    </tr>
+    <tr>
+        <td> Cluster 1 Appreciation </td>
+        <td> 0.623 </td>
+        <td> 0.153 </td>
+    </tr>
+    <caption class = "figcaption_class">
+        Tab.2 - .
+    </caption>
+</table>
 
 
  
