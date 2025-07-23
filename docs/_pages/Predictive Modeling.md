@@ -5,6 +5,10 @@ subtitle: ""
 vega: true
 ---
 
+<div class="full-width-wrapper">
+    <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image filter-green">
+</div>
+
 <h1 class = "full-width-wrapper superH1"> Predictive Model </h1>
 
 ## Overview

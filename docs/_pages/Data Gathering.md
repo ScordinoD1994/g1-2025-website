@@ -5,6 +5,10 @@ subtitle: ""
 vega: true
 ---
 
+<div class="full-width-wrapper">
+    <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image filter-green">
+</div>
+
 <h1 class = "full-width-wrapper superH1"> Data Gathering </h1>
 
 Our modeling dataset was built from the <a href="https://www.kaggle.com/datasets/fronkongames/steam-games-dataset?select=games.csv">Steam Kaggle dataset</a>, enhanced with external sources including <a href="https://steamspy.com">SteamSpy</a>, <a href="https://steamcharts.com">SteamCharts</a>, <a href="https://backloggd.com">Backloggd</a>, and <a href="https://www.metacritic.com/game/">Metacritic</a>. 
