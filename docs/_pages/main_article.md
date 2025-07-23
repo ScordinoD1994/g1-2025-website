@@ -91,7 +91,7 @@ But even within this more visible subset, the numbers tell a revealing story. Wh
 In other words, as the flood of new releases grows, fewer of them are breaking through to earn critical attention.
 
 
-
+<!--
 <figure>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/gamebreaking_separator.json"></vegachart>
@@ -103,9 +103,12 @@ In other words, as the flood of new releases grows, fewer of them are breaking t
     <vegachart schema-url="/g1-2025-website/assets/charts/pacman_separator.json"></vegachart>
   </div>
 </figure>
+-->
 
-<i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> 
 
+<div class="pacman_separator">
+  <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> <i class="fa-solid fa-ghost"></i> 
+</div>
 
 <h2 id="How players engage"> How players engage </h2>
 
