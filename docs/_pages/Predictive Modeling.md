@@ -228,10 +228,13 @@ The SHAP summary plot shows the impact of each feature on the model's prediction
 
 <figure>
   <img src='assets/images/shap_summary_plot_pop.png' style = "width: 100%">
-  <img src='assets/images/shap_summary_plot_appr.png' style = "width: 100%">
   <figcaption class = "figcaption_class"> Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
 </figure>
 
+<figure>
+  <img src='assets/images/shap_summary_plot_appr.png' style = "width: 100%">
+  <figcaption class = "figcaption_class"> Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
+</figure>
 
 <figure>
   <img src='assets/images/shap_summary_plot_High App-High Pop.png' style = "width: 100%">
