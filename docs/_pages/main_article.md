@@ -330,6 +330,9 @@ The bottom end of the popularity–appreciation spectrum paints a picture of tit
 
 While independent developers were virtually absent from the early 2000s Steam landscape, things began to shift dramatically in the 2010s. In 2010, only a quarter of the games with a Metacritic page were indie titles. By 2015, that share had soared past 66%, reflecting the growing accessibility of game development tools and digital distribution platforms.
 
+
+***Indie games on the market have been steadily increasing
+
 <figure>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_by_year.json"></vegachart>
@@ -337,54 +340,59 @@ While independent developers were virtually absent from the early 2000s Steam la
   <figcaption class = "figcaption_class"> Fig.19 - Number of indie and non-indie game released. </figcaption>
 </figure>
 
-At its peak in the mid-2010s, indie representation regularly accounted for over half of all notable Steam releases, a cultural and creative boom that brought forth now-classic titles like ***Stardew Valley***, ***Hollow Knight***, and ***Celeste***. Though recent years have seen a slight decline in their relative share (down to around 44% in 2023), indie games remain a driving force in shaping what we play and how we engage with games.
+At its peak in the mid-2010s, indie representation regularly accounted for over half of all notable Steam releases, a cultural and creative boom that brought forth titles now considered classics like ***Stardew Valley***, ***Hollow Knight***, and ***Celeste***. Though recent years have seen a slight decline in their relative share (down to around 44% in 2023), indie games remain a driving force in shaping what we play and how we engage with games.
 
-The data tells a clear story: indie games, once rare outliers, are now integral to the fabric of PC gaming. But how do they stack up in terms of visibility and critical acclaim? We break it down next.
+The data tells a clear story: indie games, once rare outliers, take a now an important share of the PC gaming market. But how do they stack up in terms of visibility and critical acclaim? We break it down next.
 
 When comparing appreciation scores, our measure of how well-received a game is, indie titles have often outperformed their big-budget counterparts, especially in more recent years.
+
+***Indie games score better than non indie in terms of appreciation
 
 <figure>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_appreciation.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.20 - Median appreciation by year for indie (left plot) and non-indie (right plot) games. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.20 - Median appreciation by year for indie and non-indie games. </figcaption>
 </figure>
 
-Since 2010, median appreciation scores for indie games have remained impressively steady, hovering around 0.70–0.76. In contrast, non-indie (or AAA) games have seen greater fluctuation and, in some years, lagged behind. By 2023, indie games posted a median appreciation of 0.75, compared to 0.69 for non-indie releases. This growing parity, and often superiority, suggests that while indie games might not always match AAA production values, they frequently resonate more deeply with players, offering originality, emotional depth, or innovative mechanics that large studios may overlook.
+Since 2010, median appreciation scores for indie games have remained steady, hovering around 0.70–0.76. In contrast, non-indie (or AAA) games have seen greater fluctuation and, in some years, lagged behind. By 2023, indie games achieved a median appreciation of 0.75, compared to 0.69 for non-indie releases. This suggests that while indie games might not always match AAA production values, they end up being more appreciated through different means.
 
 While indie titles have increasingly gained critical acclaim they still lag behind in terms of popularity. Median popularity scores for indie games consistently trail those of non-indie releases across most years.
+
+***Non-Indie games score better than indie in terms of popularity
 
 <figure>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_popularity.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.21 - Median pupularity by year for indie (left plot) and non-indie (right plot) games. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.21 - Median pupularity by year for indie and non-indie games. </figcaption>
 </figure>
 
-This gap is particularly stark in the early 2000s, where blockbuster titles dominated. But even in more recent years (e.g., 2020–2023), the most popular titles remain overwhelmingly non-indie. Notably, however, some indie games have broken through this ceiling. Titles like ***Terraria***, ***Hollow Knight***, and ***Stardew Valley*** have not only achieved critical success but also popularity levels comparable to large-scale productions.
+In the early 2000s blockbuster titles dominated the market. But even in more recent years (e.g., 2020–2023), the most popular titles remain overwhelmingly non-indie. Notably, however, some indie games have broken through this ceiling. Titles like ***Terraria***, ***Hollow Knight***, and ***Stardew Valley*** have not only achieved critical success but also popularity levels comparable to large-scale productions.
 
 The notable spike in indie game popularity in 2008 can be attributed to a handful of highly successful titles released that year. Games like ***World of Goo***, ***AudioSurf***, ***Mount & Blade***, and ***Defense Grid: The Awakening*** gained significant traction on Steam, reflecting both their innovation and increasing visibility for indie titles. With only nine indie games in the dataset for that year, these standout hits heavily influenced the median popularity score, pushing it above 0.5 (the highest for indie titles until 2022). This moment marks one of the early breakthroughs of indie games into broader public awareness during the digital distribution era.
 
-Indie games have carved out a remarkable space in both popularity and appreciation. Titles like ***Terraria***, ***Stardew Valley***, and ***Hollow Knight*** rival mainstream hits in reach, while critically adored gems such as ***Hades***, ***Celeste***, and ***Undertale*** exemplify the genre’s emotional depth and design excellence. Whether through vibrant communities, unique aesthetics, or tight gameplay, these games prove that creativity and passion can achieve lasting impact, often without blockbuster budgets.
+***Title***Some indie games have achieved AAA-levels of popularity
 
 <figure>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_indie.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.22 - Popularity (left plot) and appreciation (right plot) score for top 15 indie games. </figcaption>
+  <div class = "general_chartClass">
+    <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_not_indie.json"></vegachart>
+  </div>
+  <figcaption class = "figcaption_class"> Fig.22 - Left: Popularity score for the top 15 indie games. Right: appreciation score for the top 15 indie games. </figcaption>
 </figure>
-
-Mainstream titles dominate popularity through sheer scale, marketing, and cultural footprint — with giants like ***GTA V***, ***ELDEN RING***, and ***Cyberpunk 2077*** leading the charge. Meanwhile, enduring live-service games and cinematic epics maintain engagement across years. In appreciation, it's timeless design and narrative excellence that shine: ***Baldur’s Gate 3***, ***Half-Life 2***, and ***Portal 2*** stand out for innovation and emotional impact.
 
 <figure>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_not_indie.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.23 - Popularity (left plot) and appreciation (right plot) score for top 15 non-indie games. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.23 - Left: Popularity score for the top 15 non-indie games. Right: appreciation score for the top 15 non-indie games. </figcaption>
 </figure>
 
-Looking at the data gathered from our review analysis, it seems that the characteristic that both users and critics are looking for in indie games are slightly different from those they look for in non indie games. For example, story and narrative don't gather as many mentions in reviews of indie games, both of users and critics, as they do for non-indie games. Users in particular tend to comment more on the sound and music in indie games, generally with a positive connotation. Interestingly, although gameplay is always the most discussed topic in games reviews, the gameplay for the most popular indie games received more attention by users than the gameplay for the most popular non indie games.
-Both in terms of gameplay and price and value for money users tend to share more positive comments for popular indie games than for popular non-indie games. Considering the higher price-point of non-indie games, it may be that users are more inclined to be pleasantly surprised by games that were less expensive; it could also mean that expectations for games coming from non-indie developers are generally high and thus more difficult to meet or exceed.
+The data gathered from our review analysis, shines some light on the characteristics that set apart indie and non-indie games. An analysis of the number of mentions per topic, shows that both users and critics are looking for slightly  in indie games are slightly different from those they look for in non indie games. For example, story and narrative don't gather as many mentions in reviews of indie games, both of users and critics, as they do for non-indie games. Users in particular tend to comment more on the sound and music in indie games, generally with a positive connotation. Interestingly, although gameplay is always the most discussed topic in games reviews, the gameplay for the most popular indie games received more attention by users than the gameplay for the most popular non indie games.
+Both in terms of gameplay and price and value for money users tend to share more positive comments for popular indie games than for popular non-indie games. Considering the higher price-point of non-indie games, it may be that users are more inclined to be pleasantly surprised by games that were less expensive; it could also mean that expectations for games coming from non-indie developers are generally higher and thus more difficult to meet or exceed.
 
 <figure>
   <div class = "general_chartClass">
