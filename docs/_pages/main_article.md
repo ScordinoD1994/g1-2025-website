@@ -384,13 +384,6 @@ The notable spike in indie game popularity in 2008 can be attributed to a handfu
   <figcaption class = "figcaption_class"> Fig.22 - Left: Popularity score for the top 15 indie games. Right: appreciation score for the top 15 indie games. </figcaption>
 </figure>
 
-<figure>
-  <div class = "general_chartClass">
-    <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_not_indie.json"></vegachart>
-  </div>
-  <figcaption class = "figcaption_class"> Fig.23 - Left: Popularity score for the top 15 non-indie games. Right: appreciation score for the top 15 non-indie games. </figcaption>
-</figure>
-
 
 The data gathered from our review analysis shines some light on the characteristics that set apart indie and non-indie games. An analysis of the number of mentions per topic shows that both users and critics look for slightly different things in indie games compared to non indie games. For example, story and narrative do not gather as many mentions in reviews of indie games, both of users and critics, as they do for non-indie games. Users in particular tend to comment more on the sound and music in indie games, generally with a positive connotation. Interestingly, although gameplay is always the most discussed topic in games reviews, the gameplay for the most popular indie games received more attention by users than the gameplay for the most popular non indie games.
 
@@ -400,7 +393,7 @@ Both in terms of gameplay and price and value for money users tend to share more
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.24 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.23 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. </figcaption>
 </figure>
 
 Our data highlights a clear strategic advantage for indie games in terms of initial pricing. With an average launch price of $16.85, significantly lower than non-indie titles averaging $25.60 (and a median of $14.99 compared to $19.99 for non-indies), independent developers consistently offer a more accessible entry point for players. This lower barrier to entry is crucial in a competitive market, yet affordability alone does not guarantee market dominance; our figures show that non-indie games generally achieve higher popularity scores (averaging 0.448 versus 0.363 for indies) despite their higher price point. 
@@ -409,7 +402,7 @@ Our data highlights a clear strategic advantage for indie games in terms of init
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/pop_appr_byprice_scatter.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.25 - Scatter plot of popularity vs appreciation for indie and non-indie games by current prices. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.24 - Scatter plot of popularity vs appreciation for indie and non-indie games by current prices. </figcaption>
 </figure>
 
 
@@ -426,11 +419,18 @@ This evolving marketing sophistication, coupled with their inherently competitiv
 
 <h1 id = "Steam tags analysis"> Steam tags analysis </h1>
 
-Steam tags serve as the primary vocabulary of the platform's discovery system. Whether applied by developers or players, tags capture everything from genre and theme to tone and mechanics. Analyzing these tags offers insight into what types of games capture attention — and which resonate most with players or critics.
+Steam tags serve as the primary vocabulary of the platform's discovery system. Whether applied by developers or players, tags capture everything from genre and theme to tone and mechanics. Analyzing these tags offers insight into what types of games capture attention — and which appeal most to players or critics.
 
 A first look at Steam’s tagging ecosystem reveals the most common features and genres that define the platform’s catalog. The most frequent tags (**Singleplayer**, **Action**, **Adventure**, and **Indie**) reflect the foundational role of narrative-driven and independently developed games in Steam’s library. Tags like **Atmospheric**, **Story Rich**, and **Great Soundtrack** point to an emphasis on immersive experiences, while **Multiplayer** and **Co-op** signal the continued relevance of shared play. Meanwhile, **2D**, **Strategy**, and **Puzzle** showcase the variety in form and mechanics that appeal to different gaming audiences.
 
-The data reveals clear trends shaping today’s gaming landscape: immersive atmospheres and nostalgia-driven themes lead player interest, while adventure and indie genres dominate overall volume, highlighting both broad appeal and creative diversity. Visual styles range widely, with 2D aesthetics and varied perspectives thriving alongside niche approaches. Classic genres like puzzle and platformers maintain strong presence, complemented by popular sub-genres emphasizing skill and replayability. Singleplayer remains the dominant mode, though multiplayer and co-op offer rich social experiences. Narrative depth is highly valued, with players seeking agency and meaningful storytelling. Level design favors freedom and exploration, yet curated, structured experiences still hold importance. Together, these insights show a balanced ecosystem where innovation, tradition, and player choice coexist to define successful game design.
+<figure>
+  <div class = "general_chartClass">
+    <vegachart schema-url="/g1-2025-website/assets/charts/top_15_tags.json"></vegachart>
+  </div>
+  <figcaption class = "figcaption_class"> Fig.25 - Top-15 tags overall. </figcaption>
+</figure>
+
+The data reveals clear trends shaping today’s gaming landscape: immersive atmospheres and nostalgia-driven themes lead player interest, while adventure and indie genres dominate overall volume, highlighting both broad appeal and creative diversity. Visual styles range widely, with 2D aesthetics and varied perspectives thriving alongside niche approaches. Classic genres like puzzle and platformers maintain strong presence, complemented by popular sub-genres emphasizing skill and replayability. Singleplayer remains the dominant mode, though multiplayer and co-op offer rich social experiences. Narrative depth is highly valued, with players seeking agency and meaningful storytelling. Together, these insights show a balanced ecosystem where innovation, tradition, and player choice coexist to define successful game design.
 
 <figure>
   <div class = "general_chartClass">
@@ -439,8 +439,9 @@ The data reveals clear trends shaping today’s gaming landscape: immersive atmo
   <figcaption class = "figcaption_class"> Fig.25 - Top-10 tags by category. </figcaption>
 </figure>
 
-Across the genre landscape, four key patterns emerge. High Popularity–High Appreciation (HP–HA) genres like **Puzzle**, **Platformer**, and **Turn-Based Strategy** prove that tight mechanics and thoughtful design consistently earn both attention and praise. In contrast, High Popularity–Low Appreciation (HP–LA) genres — though widely played, such as **Arcade** and **RTS** — may suffer from oversaturation or dated design, signaling a gap between player expectations and delivery.
-Meanwhile, Low Popularity–High Appreciation (LP–HA) genres like **Rhythm**, **Tower Defense**, and **Point & Click** showcase strong niche appeal, loved deeply by smaller audiences thanks to focused, polished gameplay. Finally, Low Popularity–Low Appreciation (LP–LA) entries reveal genres that may be stuck in creative stagnation, where legacy formats no longer resonate.
+A closer look to the genre and subgenres tags gives some preliminary insight on how they tend to change within quadrants. Particularly significant is the difference in the top subgenres switching between the quadrants HP-LA and LP-HA. Popular tags found in the HP-LA quadrant, such as **FPS**, **Hack and Slash** and **Third-Person Shooter** are not as common in games belonging to the LP-HA quadrant; here more niche tags such as  **Puzzle-Platformers** and **Shoot ’Em Ups** take the lead in terms of frequency.
+
+***Title*** Use the tag explorer to find out the most relevant genres and subgenres in each quadrant
 
 <figure>
   <div class = "general_chartClass">
@@ -449,7 +450,7 @@ Meanwhile, Low Popularity–High Appreciation (LP–HA) genres like **Rhythm**, 
   <figcaption class = "figcaption_class"> Fig.26 - Top genres and sub-genres by quadrant. </figcaption>
 </figure>
 
-The sub-genre data reveals a nuanced landscape: High Popularity–High Appreciation (HP-HA) tags like **FPS**, **Hack** and **Slash**, **Metroidvania**, and **Souls-like** blend broad appeal with strong design, balancing challenge and accessibility. Meanwhile, High Popularity–Low Appreciation (HP-LA) genres — including **FPS** and **Rogue-lite** — draw many players but often suffer from repetition or lack of polish, highlighting room for innovation. Low Popularity–High Appreciation (LP-HA) sub-genres, such as **Puzzle-Platformers** and **Shoot ’Em Ups**, may fly under the radar but enjoy devoted fans thanks to tight mechanics and rewarding gameplay. Lastly, Low Popularity–Low Appreciation (LP-LA) categories show signs of oversaturation and uneven quality, signaling a need for creative reinvention and improved execution to regain player trust and relevance.
+Although some patterns are emerging from the analysis of game tags, they are not enough to paint a comprehensive picture of what characteristics make a game popular or appreciated. To shed some more light on this fundamental question, we trained a predictive model.
 
 
 <h1 id = "Predicting Success?"> Predicting Success? </h1>
