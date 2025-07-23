@@ -160,7 +160,7 @@ Tab.1 repots parameters and performance for the best models.
     </caption>
 </table>
 
-Tab.2, Tab.3 and Tab.4 show the classification report for each model.
+Tab.2, Tab.3 and Tab.4 show the classification report for each model while Fig.3 displays the corresponding confusion matrices.
 
 <div class="general_chartClass">
     <table class = "custom_table">
@@ -210,122 +210,117 @@ Tab.2, Tab.3 and Tab.4 show the classification report for each model.
             Tab.2 - Popularity classification report. Class 0 corresponds to Low Popularity while class 1 corresponds to High Popularity.
         </caption>
     </table>
+    <table class = "custom_table">
+        <thead>
+            <td>  </td>
+            <td> precision </td>
+            <td> recall </td>
+            <td> f1-score </td>
+            <td> support </td>
+        </thead>
+        <tr>
+            <td> 0 </td>
+            <td> 0.708 </td>
+            <td> 0.781</td>
+            <td> 0.743</td>
+            <td> 471</td>
+        </tr>
+        <tr>
+            <td> 1 </td>
+            <td> 0.755</td>
+            <td> 0.677</td>
+            <td> 0.714</td>
+            <td> 470 </td>
+        </tr>
+        <tr>
+            <td> accuracy </td>
+            <td>  </td>
+            <td>  </td>
+            <td> 0.729 </td>
+            <td> 941 </td>
+        </tr>
+        <tr>
+            <td> macro avg </td>
+            <td> 0.732 </td>
+            <td> 0.729 </td>
+            <td> 0.728 </td>
+            <td> 941 </td>
+        </tr>
+        <tr>
+            <td> weighted avg </td>
+            <td> 0.732 </td>
+            <td> 0.729</td>
+            <td> 0.728</td>
+            <td> 941</td>
+        </tr>
+        <caption class = "figcaption_class">
+            Tab.3 - Appreciation classification report. Class 0 corresponds to Low Appreciation while class 1 corresponds to High Appreciation.
+        </caption>
+    </table>
+    <table class = "custom_table">
+        <thead>
+            <td>  </td>
+            <td> precision </td>
+            <td> recall </td>
+            <td> f1-score </td>
+            <td> support </td>
+        </thead>
+        <tr>
+            <td> 0 </td>
+            <td> 0.709 </td>
+            <td> 0.659</td>
+            <td> 0.683</td>
+            <td> 311</td>
+        </tr>
+        <tr>
+            <td> 1 </td>
+            <td> 0.483</td>
+            <td> 0.631</td>
+            <td> 0.547</td>
+            <td> 160</td>
+        </tr>
+        <tr>
+            <td> 2 </td>
+            <td> 0.410</td>
+            <td> 0.544</td>
+            <td> 0.468</td>
+            <td> 160</td>
+        </tr>
+        <tr>
+            <td> 3 </td>
+            <td> 0.788 </td>
+            <td> 0.587 </td>
+            <td> 0.673 </td>
+            <td> 310 </td>
+        </tr>
+        <tr>
+            <td> accuracy </td>
+            <td>  </td>
+            <td>  </td>
+            <td> 0.611 </td>
+            <td> 941 </td>
+        </tr>
+        <tr>
+            <td> macro avg </td>
+            <td> 0.598 </td>
+            <td> 0.605 </td>
+            <td> 0.593 </td>
+            <td> 941 </td>
+        </tr>
+        <tr>
+            <td> weighted avg </td>
+            <td> 0.646 </td>
+            <td> 0.611</td>
+            <td> 0.620</td>
+            <td> 941</td>
+        </tr>
+        <caption class = "figcaption_class">
+            Tab.4 - Quadrant classification report. Class 0 corresponds to Low Popularity / Low Appreciation, class 1 corresponds to High Popularity / Low Appreciation, class 2 corresponds to Low Popularity / High Appreciation while class 3 corresponds to High Popularity / High Appreciation.
+        </caption>
+    </table>
 </div>
 
-
-<table class = "custom_table">
-    <thead>
-        <td>  </td>
-        <td> precision </td>
-        <td> recall </td>
-        <td> f1-score </td>
-        <td> support </td>
-    </thead>
-    <tr>
-        <td> 0 </td>
-        <td> 0.708 </td>
-        <td> 0.781</td>
-        <td> 0.743</td>
-        <td> 471</td>
-    </tr>
-    <tr>
-        <td> 1 </td>
-        <td> 0.755</td>
-        <td> 0.677</td>
-        <td> 0.714</td>
-        <td> 470 </td>
-    </tr>
-    <tr>
-        <td> accuracy </td>
-        <td>  </td>
-        <td>  </td>
-        <td> 0.729 </td>
-        <td> 941 </td>
-    </tr>
-    <tr>
-        <td> macro avg </td>
-        <td> 0.732 </td>
-        <td> 0.729 </td>
-        <td> 0.728 </td>
-        <td> 941 </td>
-    </tr>
-    <tr>
-        <td> weighted avg </td>
-        <td> 0.732 </td>
-        <td> 0.729</td>
-        <td> 0.728</td>
-        <td> 941</td>
-    </tr>
-    <caption class = "figcaption_class">
-        Tab.3 - Appreciation classification report. Class 0 corresponds to Low Appreciation while class 1 corresponds to High Appreciation.
-    </caption>
-</table>
-
-
-<table class = "custom_table">
-    <thead>
-        <td>  </td>
-        <td> precision </td>
-        <td> recall </td>
-        <td> f1-score </td>
-        <td> support </td>
-    </thead>
-    <tr>
-        <td> 0 </td>
-        <td> 0.709 </td>
-        <td> 0.659</td>
-        <td> 0.683</td>
-        <td> 311</td>
-    </tr>
-    <tr>
-        <td> 1 </td>
-        <td> 0.483</td>
-        <td> 0.631</td>
-        <td> 0.547</td>
-        <td> 160</td>
-    </tr>
-    <tr>
-        <td> 2 </td>
-        <td> 0.410</td>
-        <td> 0.544</td>
-        <td> 0.468</td>
-        <td> 160</td>
-    </tr>
-    <tr>
-        <td> 3 </td>
-        <td> 0.788 </td>
-        <td> 0.587 </td>
-        <td> 0.673 </td>
-        <td> 310 </td>
-    </tr>
-    <tr>
-        <td> accuracy </td>
-        <td>  </td>
-        <td>  </td>
-        <td> 0.611 </td>
-        <td> 941 </td>
-    </tr>
-    <tr>
-        <td> macro avg </td>
-        <td> 0.598 </td>
-        <td> 0.605 </td>
-        <td> 0.593 </td>
-        <td> 941 </td>
-    </tr>
-    <tr>
-        <td> weighted avg </td>
-        <td> 0.646 </td>
-        <td> 0.611</td>
-        <td> 0.620</td>
-        <td> 941</td>
-    </tr>
-    <caption class = "figcaption_class">
-        Tab.4 - Quadrant classification report. Class 0 corresponds to Low Popularity / Low Appreciation, class 1 corresponds to High Popularity / Low Appreciation, class 2 corresponds to Low Popularity / High Appreciation while class 3 corresponds to High Popularity / High Appreciation.
-    </caption>
-</table>
-
-
-
+Discuss clustering....
 
 <figure>
   <div class = "general_chartClass">
