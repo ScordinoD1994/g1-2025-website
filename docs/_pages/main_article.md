@@ -112,9 +112,9 @@ Once a game is released on Steam, how do players actually engage with it? We exa
 
 When we look at average playtime over time, a subtle but important shift emerges: newer games tend to see shorter engagement windows compared to older titles. Whether due to time constraints, the abundance of available alternatives, or changing player habits, it's clear that player attention is fragmenting.
 
-***Title*** As the number of owned games increases, average playtime decreases
 
 <figure>
+  <p class = "figure_title"> As the number of owned games increases, average playtime decreases </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json"></vegachart>
   </div>
@@ -134,9 +134,9 @@ Some noticeable spikes in the data trace back to landmark releases. The peaks in
 Finally, we explored review postings by looking at the distribution of the number of user reviews per game. The pattern here shows clear inequalities: most games receive very few reviews, while a select few attract thousands. This distribution — like ownership and playtime — reflects a highly competitive ecosystem, where visibility and player feedback are dominated by a small percentage of releases.
 Together, these trends reveal how player engagement is both growing and concentrating **better explanation needed**, offering opportunities for breakout hits, but also highlighting the steep climb most games face after launch.
 
-***Title*** The majority of games only receives a small number of reviews
 
 <figure>
+  <p class = "figure_title"> The majority of games only receives a small number of reviews </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/reviews_distribution_plus_reviews_bucket_per_released_games.json"></vegachart>
   </div>  
@@ -159,9 +159,8 @@ Caution must be exercised, however, when taking these numbers at face value. Cri
 User scores, on the other hand, are more varied. Players are not shy about expressing dissatisfaction, resulting in a broader spread that includes more low-rated games. The contrast becomes clear when the two are plotted together; players are often harsher, and sometimes more polarised.
 
 
-***Title*** Users tend to give lower scores compared to critics
-
 <figure>
+  <p class = "figure_title"> Users tend to give lower scores compared to critics </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/critic_plus_user_score.json"></vegachart>
   </div>
@@ -170,9 +169,9 @@ User scores, on the other hand, are more varied. Players are not shy about expre
 
 Then there’s the Steam positive ratio, which is quite different in nature. Steam reviews operate on a binary system —“thumbs up” or “thumbs down” — which strips away nuance and skews the distribution dramatically. Most games that gather reviews at all tend to be favored, so the ratio is heavily biased toward high values. In many cases, even moderately liked games can end up with “Very Positive” labels, suggesting that this metric alone might not capture the full spectrum of appreciation.
 
-***Title*** The positive ratio is not heavily influenced by the number of reviews left on Steam
 
 <figure>
+  <p class = "figure_title"> The positive ratio is not heavily influenced by the number of reviews left on Steam </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/steam_positive_review_ratio.json"></vegachart>
   </div>
@@ -183,7 +182,6 @@ These differences highlight the challenge of evaluating player sentiment in a co
 
 
 Beyond the general trends, some games exhibit striking discrepancies between critic and user evaluations. In our dataset, we found a substantial number of titles where the difference between the two scores exceeds 20 points on a 100-point scale—sometimes even more than 30. 
-
 
 <figure>
   <div class = "general_chartClass">
@@ -258,9 +256,8 @@ The top 15 games according to our popularity score feature a mix of blockbuster 
 
 The median popularity of games by release year reveals how audience focus has evolved. In the late ’90s and early 2000s, median scores often exceeded 0.6, driven by landmark titles like ***Half-Life*** and ***Counter-Strike***. But from 2006 onward, scores declined to around 0.35–0.45, reflecting the rise of digital platforms, indie games, and a fragmented attention economy. A slight uptick in recent years hints at pandemic-era engagement and viral hits, though overall visibility per title has diminished as the market expands.
 
-***Title*** Popularity of games is on average declining
-
 <figure>
+  <p class = "figure_title"> Popularity of games is on average declining </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/median_popularity_and_max_popularity_by_year.json"></vegachart>
   </div>
@@ -307,9 +304,9 @@ Tracking the evolution of appreciation scores reveals how perceptions of quality
   <p>"For years, video game creators have responded to player's calls for elements like 'cutting-edge graphics' and other initially gratifying features. However, prioritizing these aspects has, at times, come at the cost of content depth and innovation." - <cite> Fortuna Imperatore </cite> </p>
 </blockquote>
 
-***Title*** Appreciation of games is on average declining
 
 <figure>
+  <p class = "figure_title"> Appreciation of games is on average declining </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/median_appreciation_and_max_appreciation_by_year.json"></vegachart>
   </div>
@@ -344,10 +341,8 @@ The bottom end of the popularity–appreciation spectrum paints a picture of tit
 
 While independent developers were virtually absent from the early 2000s Steam landscape, things began to shift dramatically in the 2010s. In 2010, only a quarter of the games with a Metacritic page were indie titles. By 2015, that share had soared past 66%, reflecting the growing accessibility of game development tools and digital distribution platforms.
 
-
-***Indie games on the market have been steadily increasing
-
 <figure>
+  <p class = "figure_title"> Indie games on the market have been steadily increasing </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_by_year.json"></vegachart>
   </div>
@@ -360,9 +355,9 @@ The data tells a clear story: indie games, once rare outliers, take a now an imp
 
 When comparing appreciation scores, our measure of how well-received a game is, indie titles have often outperformed their big-budget counterparts, especially in more recent years.
 
-***Indie games score better than non indie in terms of appreciation
 
 <figure>
+  <p class = "figure_title"> Indie games score better than non indie in terms of appreciation </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_appreciation.json"></vegachart>
   </div>
@@ -373,9 +368,9 @@ Since 2010, median appreciation scores for indie games have remained steady, hov
 
 While indie titles have increasingly gained critical acclaim they still lag behind in terms of popularity. Median popularity scores for indie games consistently trail those of non-indie releases across most years.
 
-***Non-Indie games score better than indie in terms of popularity
 
 <figure>
+  <p class = "figure_title"> Non-Indie games score better than indie in terms of popularity </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/indie_vs_not_indie_median_popularity.json"></vegachart>
   </div>
@@ -386,9 +381,9 @@ In the early 2000s blockbuster titles dominated the market. But even in more rec
 
 The notable spike in indie game popularity in 2008 can be attributed to a handful of highly successful titles released that year. Games like ***World of Goo***, ***AudioSurf***, ***Mount & Blade***, and ***Defense Grid: The Awakening*** gained significant traction on Steam, reflecting both their innovation and increasing visibility for indie titles. With only nine indie games in the dataset for that year, these standout hits heavily influenced the median popularity score, pushing it above 0.5 (the highest for indie titles until 2022). This moment marks one of the early breakthroughs of indie games into broader public awareness during the digital distribution era.
 
-***Title***Some indie games have achieved AAA-levels of popularity
 
 <figure>
+  <p class = "figure_title"> Some indie games have achieved AAA-levels of popularity </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_pop_top_appr_indie.json"></vegachart>
   </div>
@@ -450,18 +445,18 @@ The data reveals clear trends shaping today’s gaming landscape: immersive atmo
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/tags_frequency_by_category.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.25 - Top-10 tags by category. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.26 - Top-10 tags by category. </figcaption>
 </figure>
 
 A closer look to the genre and subgenres tags gives some preliminary insight on how they tend to change within quadrants. Particularly significant is the difference in the top subgenres switching between the quadrants HP-LA and LP-HA. Popular tags found in the HP-LA quadrant, such as **FPS**, **Hack and Slash** and **Third-Person Shooter** are not as common in games belonging to the LP-HA quadrant; here more niche tags such as  **Puzzle-Platformers** and **Shoot ’Em Ups** take the lead in terms of frequency.
 
-***Title*** Use the tag explorer to find out the most relevant genres and subgenres in each quadrant
 
 <figure>
+  <p class = "figure_title"> Use the tag explorer to find out the most relevant genres and subgenres in each quadrant </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/top_genres_subgenres_by_quadrant.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.26 - Top genres and sub-genres by quadrant. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.27 - Top genres and sub-genres by quadrant. </figcaption>
 </figure>
 
 Although some patterns are emerging from the analysis of game tags, they are not enough to paint a comprehensive picture of what characteristics make a game popular or appreciated. To shed some more light on this fundamental question, we trained a predictive model.
@@ -535,13 +530,13 @@ Surprisingly, fewer supported languages also correlates with this quadrant — p
 
 Games with 2D, Indie, or Fantasy tags, however, are less likely to fall here. These often cater to more focussed audiences, where hype is better aligned with delivery.
 
-***Title*** Even critic reviews are dominated by negative comments
 
 <figure>
+  <p class = "figure_title"> Even critic reviews are dominated by negative comments </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/HighPop_LowAppr.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.26 - Top 15 games with greatest differences between popularity and appreciation scores. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.28 - Top 15 games with greatest differences between popularity and appreciation scores. </figcaption>
 </figure>
 
 An analysis of the reviews of the top 15 games with high popularity but low appreciation corroborates these findings, showing that, across all topics, the amount of negative comments is large. This is true even for critic reviews, which tend to have a higher percentage of positive comments, particularly when dealing with popular games.
@@ -559,13 +554,13 @@ Conversely, tags tied to scale — like Open World, Survival, or Online Co-Op �
 
 Localization plays a minor role, with fewer supported languages modestly increasing a game’s chance of being classified here. Likewise, mid-priced titles ($20–$50) are less common — perhaps suggesting that budget-friendly or unconventional pricing helps niche games reach the right players.
 
-***Title*** The reception of games in this quadrant is small but overwhelmingly positive
 
 <figure>
+  <p class = "figure_title"> The reception of games in this quadrant is small but overwhelmingly positive </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/HighAppr_LowPop.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.26 - Top 15 games with greatest differences between appreciation and popularity scores. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.29 - Top 15 games with greatest differences between appreciation and popularity scores. </figcaption>
 </figure>
 
 These games are proof that appreciation does not always follow the crowd.
@@ -593,6 +588,8 @@ Crucially, our findings show that success, whether measured as popularity and/or
 In contrast, some indie games achieve high appreciation with far fewer resources.
  
 Success in games, as in art, is multifaceted. <b><i>And perhaps that’s exactly what makes this medium so exciting</i></b>.
+
+
 
 
 
