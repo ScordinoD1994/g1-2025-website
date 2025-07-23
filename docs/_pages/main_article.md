@@ -391,7 +391,9 @@ The notable spike in indie game popularity in 2008 can be attributed to a handfu
   <figcaption class = "figcaption_class"> Fig.23 - Left: Popularity score for the top 15 non-indie games. Right: appreciation score for the top 15 non-indie games. </figcaption>
 </figure>
 
-The data gathered from our review analysis, shines some light on the characteristics that set apart indie and non-indie games. An analysis of the number of mentions per topic, shows that both users and critics are looking for slightly  in indie games are slightly different from those they look for in non indie games. For example, story and narrative don't gather as many mentions in reviews of indie games, both of users and critics, as they do for non-indie games. Users in particular tend to comment more on the sound and music in indie games, generally with a positive connotation. Interestingly, although gameplay is always the most discussed topic in games reviews, the gameplay for the most popular indie games received more attention by users than the gameplay for the most popular non indie games.
+
+The data gathered from our review analysis shines some light on the characteristics that set apart indie and non-indie games. An analysis of the number of mentions per topic shows that both users and critics look for slightly different things in indie games compared to non indie games. For example, story and narrative do not gather as many mentions in reviews of indie games, both of users and critics, as they do for non-indie games. Users in particular tend to comment more on the sound and music in indie games, generally with a positive connotation. Interestingly, although gameplay is always the most discussed topic in games reviews, the gameplay for the most popular indie games received more attention by users than the gameplay for the most popular non indie games.
+
 Both in terms of gameplay and price and value for money users tend to share more positive comments for popular indie games than for popular non-indie games. Considering the higher price-point of non-indie games, it may be that users are more inclined to be pleasantly surprised by games that were less expensive; it could also mean that expectations for games coming from non-indie developers are generally higher and thus more difficult to meet or exceed.
 
 <figure>
@@ -401,7 +403,7 @@ Both in terms of gameplay and price and value for money users tend to share more
   <figcaption class = "figcaption_class"> Fig.24 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. </figcaption>
 </figure>
 
-Our data highlights a clear strategic advantage for indie games in terms of initial pricing. With an average launch price of $16.85, significantly lower than non-indie titles averaging $25.60 (and a median of $14.99 compared to $19.99 for non-indies), independent developers consistently offer a more accessible entry point for players. This lower barrier to entry is crucial in a competitive market, yet pure affordability doesn't guarantee market dominance; our figures show non-indie games generally achieve higher popularity scores (averaging 0.448 versus 0.363 for indies). 
+Our data highlights a clear strategic advantage for indie games in terms of initial pricing. With an average launch price of $16.85, significantly lower than non-indie titles averaging $25.60 (and a median of $14.99 compared to $19.99 for non-indies), independent developers consistently offer a more accessible entry point for players. This lower barrier to entry is crucial in a competitive market, yet affordability alone does not guarantee market dominance; our figures show that non-indie games generally achieve higher popularity scores (averaging 0.448 versus 0.363 for indies) despite their higher price point. 
 
 <figure>
   <div class = "general_chartClass">
@@ -411,10 +413,10 @@ Our data highlights a clear strategic advantage for indie games in terms of init
 </figure>
 
 
-This gap underscores the critical role of pre-launch marketing. This is confirmed by Andrea Porta:
+This gap underscores the critical role of pre-launch marketing and has been confirmed by Andrea Porta:
 
 <blockquote class = "expert_quote">
-  "The communication window between a game's announcement and its release is pivotal for building hype and shaping initial reception, with larger studios expertly orchestrating content drops—from gameplay reveals to launch trailers—to capture and sustain consumer attention. Intriguingly, many independent studios are now adopting this publisher playbook, leveraging similar strategic trailer releases to amplify their reach."
+  "The communication window between a game's announcement and its release is pivotal for building hype and shaping initial reception, with larger studios expertly orchestrating content drops—from gameplay reveals to launch trailers—to capture and sustain consumer attention. Intriguingly, many independent studios are now adopting the same strategy, leveraging similar strategic trailer releases to amplify their reach."
 </blockquote>
 
 This evolving marketing sophistication, coupled with their inherently competitive pricing, may well be key to how certain indie games carve out significant success within the overwhelmingly vast gaming landscape.
