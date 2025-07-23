@@ -227,18 +227,35 @@ To move beyond raw accuracy and into **insight**, we used <b><a href="https://sh
 The SHAP summary plot shows the impact of each feature on the model's predictions across all samples. Each dot represents a game, positioned horizontally by how much that feature pushed the prediction higher or lower (the SHAP value). The color of the dot indicates the actual value of the feature for that game — with red meaning a high value and blue a low one. Features are sorted top to bottom by their overall importance (mean absolute SHAP value), so those at the top had the greatest influence on the model’s output. This plot helps you see not just which features matter most, but also how different values of those features affect predictions.
 
 <figure>
-  <img src='assets/images/shap_summary_appr.png' style = "width: 100%">
-  <img src='assets/images/shap_summary_pop.png' style = "width: 100%">
+  <img src='assets/images/shap_summary_plot_pop.png' style = "width: 100%">
+  <img src='assets/images/shap_summary_plot_appr.png' style = "width: 100%">
   <figcaption class = "figcaption_class"> Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
 </figure>
 
+
 <figure>
   <img src='assets/images/shap_summary_plot_High App-High Pop.png' style = "width: 100%">
+  <figcaption class = "figcaption_class"> Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
+</figure>
+
+
+<figure>
   <img src='assets/images/shap_summary_plot_Low App-High Pop.png' style = "width: 100%">
+  <figcaption class = "figcaption_class"> Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
+</figure>
+
+
+<figure>
   <img src='assets/images/shap_summary_plot_High App-Low Pop.png' style = "width: 100%">
+  <figcaption class = "figcaption_class"> Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
+</figure>
+
+
+<figure>
   <img src='assets/images/shap_summary_plot_Low App-Low Pop.png' style = "width: 100%">
   <figcaption class = "figcaption_class"> Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
 </figure>
+
 
 SHAP helped reveal:
 
