@@ -91,6 +91,21 @@ But even within this more visible subset, the numbers tell a revealing story. Wh
 In other words, as the flood of new releases grows, fewer of them are breaking through to earn critical attention.
 
 
+
+<figure>
+  <div class = "general_chartClass">
+    <vegachart schema-url="/g1-2025-website/assets/charts/gamebreaking_separator.json"></vegachart>
+  </div>
+</figure>
+
+<figure>
+  <div class = "general_chartClass">
+    <vegachart schema-url="/g1-2025-website/assets/charts/pacman_separator.json"></vegachart>
+  </div>
+</figure>
+
+
+
 <h2 id="How players engage"> How players engage </h2>
 
 Once a game is released on Steam, how do players actually engage with it? We examined three key signals: **estimated ownership**, **average playtime**, **review counts**, each revealing a different aspect of how attention and interest unfold. First, the total estimated number of owners has increased steadily over the years, showing that even as the platform grows more crowded, many games are still managing to reach players — often helped by bundles, deep discounts, or seasonal promotions. However, the gains are far from evenly distributed.
