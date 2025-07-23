@@ -73,9 +73,24 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
   </figcaption>
 </figure>
 
+In order to find the best parameters configuration we used <code>Gridsearch</code>. In Fig.2 we display the best configurations with magenta dots.
+
+<figure>
+  <div class = "general_chartClass">
+    <img src='assets/images/overfitting_pop_2.png' width = 500 height = 500 style = 'padding: 15px;'>
+    <img src='assets/images/overfitting_appr_2.png' width = 500 height = 500 style = 'padding: 15px;'>
+    <img src='assets/images/overfitting_quad_2.png' width = 500 height = 500 style = 'padding: 15px;'>
+  </div>
+  <figcaption class = "figcaption_class"> 
+    Fig.2 - Best parameters selection for popularity-only (left plot), appreciation-only (middle plot) and quadrant (right plot) models. The red dot represents our best model on the mean validation accurary -  mean train accuracy plane. Models close to the diagonal line do not suffer from overfitting or underfitting.
+  </figcaption>
+</figure>
+
+
 
 ## Model Performance
 
+Tab.1 repots parameters and performance for the best models.
 
 <table class = "custom_table">
     <tr>
@@ -145,56 +160,57 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
     </caption>
 </table>
 
+Tab.2, Tab.3 and Tab.4 show the classification report for each model.
 
-
-<table class = "custom_table">
-    <thead>
-        <td>  </td>
-        <td> precision </td>
-        <td> recall </td>
-        <td> f1-score </td>
-        <td> support </td>
-    </thead>
-    <tr>
-        <td> 0 </td>
-        <td> 0.816 </td>
-        <td> 0.875</td>
-        <td> 0.844</td>
-        <td> 471</td>
-    </tr>
-    <tr>
-        <td> 1 </td>
-        <td> 0.865</td>
-        <td> 0.802</td>
-        <td> 0.832</td>
-        <td> 470 </td>
-    </tr>
-    <tr>
-        <td> accuracy </td>
-        <td>  </td>
-        <td>  </td>
-        <td> 0.838 </td>
-        <td> 941 </td>
-    </tr>
-    <tr>
-        <td> macro avg </td>
-        <td> 0.840 </td>
-        <td> 0.838 </td>
-        <td> 0.838 </td>
-        <td> 941 </td>
-    </tr>
-    <tr>
-        <td> weighted avg </td>
-        <td> 0.840 </td>
-        <td> 0.838</td>
-        <td> 0.838</td>
-        <td> 941</td>
-    </tr>
-    <caption class = "figcaption_class">
-        Tab.2 - Popularity classification report.
-    </caption>
-</table>
-
+<div class="general_chartClass">
+    <table class = "custom_table">
+        <thead>
+            <td>  </td>
+            <td> precision </td>
+            <td> recall </td>
+            <td> f1-score </td>
+            <td> support </td>
+        </thead>
+        <tr>
+            <td> 0 </td>
+            <td> 0.816 </td>
+            <td> 0.875</td>
+            <td> 0.844</td>
+            <td> 471</td>
+        </tr>
+        <tr>
+            <td> 1 </td>
+            <td> 0.865</td>
+            <td> 0.802</td>
+            <td> 0.832</td>
+            <td> 470 </td>
+        </tr>
+        <tr>
+            <td> accuracy </td>
+            <td>  </td>
+            <td>  </td>
+            <td> 0.838 </td>
+            <td> 941 </td>
+        </tr>
+        <tr>
+            <td> macro avg </td>
+            <td> 0.840 </td>
+            <td> 0.838 </td>
+            <td> 0.838 </td>
+            <td> 941 </td>
+        </tr>
+        <tr>
+            <td> weighted avg </td>
+            <td> 0.840 </td>
+            <td> 0.838</td>
+            <td> 0.838</td>
+            <td> 941</td>
+        </tr>
+        <caption class = "figcaption_class">
+            Tab.2 - Popularity classification report. Class 0 corresponds to Low Popularity while class 1 corresponds to High Popularity.
+        </caption>
+    </table>
+</div>
 
 
 <table class = "custom_table">
@@ -241,7 +257,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
         <td> 941</td>
     </tr>
     <caption class = "figcaption_class">
-        Tab.2 - Appreciation classification report.
+        Tab.3 - Appreciation classification report. Class 0 corresponds to Low Appreciation while class 1 corresponds to High Appreciation.
     </caption>
 </table>
 
@@ -304,21 +320,11 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
         <td> 941</td>
     </tr>
     <caption class = "figcaption_class">
-        Tab.2 - Quadrant classification report.
+        Tab.4 - Quadrant classification report. Class 0 corresponds to Low Popularity / Low Appreciation, class 1 corresponds to High Popularity / Low Appreciation, class 2 corresponds to Low Popularity / High Appreciation while class 3 corresponds to High Popularity / High Appreciation.
     </caption>
 </table>
 
 
-<figure>
-  <div class = "general_chartClass">
-    <img src='assets/images/overfitting_pop_2.png' width = 500 height = 500 style = 'padding: 15px;'>
-    <img src='assets/images/overfitting_appr_2.png' width = 500 height = 500 style = 'padding: 15px;'>
-    <img src='assets/images/overfitting_quad_2.png' width = 500 height = 500 style = 'padding: 15px;'>
-  </div>
-  <figcaption class = "figcaption_class"> 
-    Fig.2 - Best parameters selection for popularity-only (left plot), appreciation-only (middle plot) and quadrant (right plot) models. The red dot represents our best model on the mean validation accurary -  mean train accuracy plane. Models close to the diagonal line do not suffer from overfitting or underfitting.
-  </figcaption>
-</figure>
 
 
 <figure>
