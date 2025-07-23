@@ -11,6 +11,10 @@ vega: true
 
 <h1 class = "full-width-wrapper superH1"> Data Gathering </h1>
 
+<figure style = "padding: 40px;">
+  <img src='assets/images/pacman_separator.png' style = "width: 100%">
+</figure>
+
 Our modeling dataset was built from the <a href="https://www.kaggle.com/datasets/fronkongames/steam-games-dataset?select=games.csv">Steam Kaggle dataset</a>, enhanced with external sources including <a href="https://steamspy.com">SteamSpy</a>, <a href="https://steamcharts.com">SteamCharts</a>, <a href="https://backloggd.com">Backloggd</a>, and <a href="https://www.metacritic.com/game/">Metacritic</a>. 
 
 In particular, using SteamSpy API we updated the following attributes:

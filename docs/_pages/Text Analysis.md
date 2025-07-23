@@ -11,6 +11,10 @@ vega: true
 
 <h1 class = "full-width-wrapper superH1"> Text Analysis </h1>
 
+<figure style = "padding: 40px;">
+  <img src='assets/images/pacman_separator.png' style = "width: 100%">
+</figure>
+
 ## Goal and data
 
 For each of the games in our dataset, we scraped reviews from both critics and users from the relative Metacritic page. From each review we collected not only the text, but also the score, the platform and the date of posting. Our goal was to identify patterns, derived from the reviews, which could be tied to our custom variables of popularity and appreciation.

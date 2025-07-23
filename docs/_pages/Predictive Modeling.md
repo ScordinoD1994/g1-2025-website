@@ -11,6 +11,11 @@ vega: true
 
 <h1 class = "full-width-wrapper superH1"> Predictive Model </h1>
 
+<figure style = "padding: 40px;">
+  <img src='assets/images/pacman_separator.png' style = "width: 100%">
+</figure>
+
+
 ## Overview
  
 To understand what makes a game successful, we trained a set of machine learning models to predict **popularity**, **player appreciation**, and their combined expression as a **quadrant** (e.g. high-popularity/low-appreciation). The goal was not only to classify games into outcome categories, but also to uncover which features influence those outcomes most — using interpretable techniques like SHAP to peer inside the "black box" of the model.
