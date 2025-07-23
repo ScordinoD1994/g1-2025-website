@@ -36,7 +36,7 @@ vega: true
           <ul>
             <li> <a href="#Predicting popularity">Predicting popularity</a> </li>
             <li> <a href="#Predicting appreciation">Predicting appreciation</a> </li>
-            <li> <a href="#Predicting success">Predicting success</a> </li>
+            <li> <a href="#Predicting success">Predicting both popularity and appreciation</a> </li>
           </ul>
           <li> <a href="#Conclusions">Conclusions</a> </li>
       </ol>
@@ -98,16 +98,17 @@ Once a game is released on Steam, how do players actually engage with it? We exa
 
 When we look at average playtime over time, a subtle but important shift emerges: newer games tend to see shorter engagement windows compared to older titles. Whether due to time constraints, the abundance of available alternatives, or changing player habits, it's clear that player attention is fragmenting.
 
+***Title*** As the number of owned games increases, average playtime decreases
+
 <figure class="full-width-wrapper">
   <div class = "full-width-wrapper general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/total_average_estimated_owners_per_year_plus_average_playtime_per_year.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.4 - Total average estimated owners (upper plot) and average playtime per year (bottom plot). </figcaption>
+  <figcaption class = "figcaption_class"> Fig.4 - Top: Total average estimated owners; Bottom: Average playtime per year. </figcaption>
 </figure>
 
 Some noticeable spikes in the data trace back to landmark releases. The peaks in average playtime seen in years like 1998, 2000, 2001, 2003, and 2004 align with the launches of well-loved classics like ***Half-Life***, ***Counter-Strike***, ***Half-Life: Blue Shift***, ***Day of Defeat***, and ***Counter-Strike: Source***. These titles have maintained active player bases over decades, skewing the average upward. Similarly, the sharp rise in estimated ownership in 2013 is largely attributable to *Dota 2*, a free-to-play phenomenon that brought millions of players onto Steam and became a pillar of its ecosystem.
 
-**There's something strange with the tooltip of this graph**
 
 <figure>
   <div class = "general_chartClass">
@@ -116,7 +117,7 @@ Some noticeable spikes in the data trace back to landmark releases. The peaks in
   <figcaption class = "figcaption_class"> Fig.5 - Spikes breakdown. </figcaption>
 </figure>
 
-Finally, we explored review activity by looking at the distribution of the number of user reviews per game. The pattern here shows clear inequalities: most games receive very few reviews, while a select few attract thousands. This distribution — like ownership and playtime — reflects a highly competitive ecosystem, where visibility and player feedback are dominated by a small percentage of releases.
+Finally, we explored review postings by looking at the distribution of the number of user reviews per game. The pattern here shows clear inequalities: most games receive very few reviews, while a select few attract thousands. This distribution — like ownership and playtime — reflects a highly competitive ecosystem, where visibility and player feedback are dominated by a small percentage of releases.
 Together, these trends reveal how player engagement is both growing and concentrating **better explanation needed**, offering opportunities for breakout hits, but also highlighting the steep climb most games face after launch.
 
 ***Title*** The majority of games only receives a small number of reviews
@@ -125,7 +126,7 @@ Together, these trends reveal how player engagement is both growing and concentr
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/reviews_distribution_plus_reviews_bucket_per_released_games.json"></vegachart>
   </div>  
-  <figcaption class = "figcaption_class"> Fig.6 - Left: Total distribution of games based on their number of reviews. Right: Distribution of games based on their number of reviews per year </figcaption>
+  <figcaption class = "figcaption_class"> Fig.6 - Top: Total distribution of games based on their number of reviews. Bottom: Distribution of games based on their number of reviews per year </figcaption>
 </figure>
 
 Understanding how much a game is liked by players is not as straightforward as it might seem. As Fortuna Imperatore underscores,
@@ -134,24 +135,28 @@ Understanding how much a game is liked by players is not as straightforward as i
   "The recipe is very difficult to find, considering that a developer's impossible task is to respond to the needs of society at that historical moment."
 </blockquote>
 
-Enjoyment and recognition cannot be condensed in a single number, but scores meant to summarise the quality of a game are readily available.
-Appreciation cannot be distilled into a single number, but the industry has long leaned on a few core metrics. On Metacritic, two scores are typically available: the critic score, based on professional reviews, and the user score, submitted by players. On Steam, the main visible indicator of satisfaction is the positive review ratio — the share of user reviews marked as “positive”. 
-Caution must be exercised, however, when taking these numbers at face value. Critic scores tend to cluster around the higher end of the scale. Reviewers often avoid the harshest ratings, leading to a compressed distribution with fewer low scores and a bias toward the 70–90 range. As Andrea Porta explains,
+Enjoyment and recognition cannot be condensed in a single number, but scores meant to summarise the quality of a game are readily available. On Metacritic, two scores are typically available: the critic score, based on professional reviews, and the user score, submitted by players. On Steam, the main visible indicator of satisfaction is the positive review ratio — the share of user reviews marked as “positive”. 
+Caution must be exercised, however, when taking these numbers at face value. Critic scores tend to cluster around the higher end of a scale that ranges from 0 to 100. Reviewers often avoid the harshest ratings, leading to a compressed distribution with fewer low scores and a bias toward the 70–90 range. As Andrea Porta explains,
 
 <blockquote class = "expert_quote">
   "This is usually the case because journalists can sometimes feel a significant responsibility when assigning a very low score to highly anticipated titles. Such a dynamic is very real and has deep roots within the video game critics landscape, which currently grapples with substantial financial challenges."
 </blockquote>
 
-User scores, on the other hand, are more varied. Players are not shy about expressing dissatisfaction, resulting in a broader spread that includes more low-rated games. The contrast becomes clear when the two are plotted together; players are often harsher, and sometimes more polarized.
+User scores, on the other hand, are more varied. Players are not shy about expressing dissatisfaction, resulting in a broader spread that includes more low-rated games. The contrast becomes clear when the two are plotted together; players are often harsher, and sometimes more polarised.
+
+
+***Title*** Users tend to give lower scores compared to critics
 
 <figure>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/critic_plus_user_score.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.7 - Metacritic critic score (left plot) and user score (right plot) distributions. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.7 - Left: Metacritic critic score distribution. Right: Metacritic user score distribution. </figcaption>
 </figure>
 
-Then there’s the Steam positive ratio, which differs not just in scale but in nature. Steam reviews operate on a binary system —“thumbs up” or “thumbs down” — which strips away nuance and skews the distribution dramatically. Most games that gather reviews at all tend to be favored, so the ratio is heavily biased toward high values. In many cases, even moderately liked games can end up with “Very Positive” labels, suggesting that this metric alone might not capture the full spectrum of appreciation.
+Then there’s the Steam positive ratio, which is quite different in nature. Steam reviews operate on a binary system —“thumbs up” or “thumbs down” — which strips away nuance and skews the distribution dramatically. Most games that gather reviews at all tend to be favored, so the ratio is heavily biased toward high values. In many cases, even moderately liked games can end up with “Very Positive” labels, suggesting that this metric alone might not capture the full spectrum of appreciation.
+
+***Title*** The positive ratio is not heavily influenced by the number of reviews left on Steam
 
 <figure>
   <div class = "general_chartClass">
@@ -162,6 +167,10 @@ Then there’s the Steam positive ratio, which differs not just in scale but in 
 
 These differences highlight the challenge of evaluating player sentiment in a consistent way. Each metric provides a piece of the puzzle, but none offers the full picture. This tension points to the need for more robust, composite measurements—an effort we take up in the next section, where we move toward defining appreciation and popularity as integrated, quantifiable outcomes.
 
+
+Beyond the general trends, some games exhibit striking discrepancies between critic and user evaluations. In our dataset, we found a substantial number of titles where the difference between the two scores exceeds 20 points on a 100-point scale—sometimes even more than 30. 
+
+
 <figure>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_score_difference.json"></vegachart>
@@ -169,8 +178,8 @@ These differences highlight the challenge of evaluating player sentiment in a co
   <figcaption class = "figcaption_class"> Fig.9 - Difference between critic and user metacritic scores. </figcaption>
 </figure>
 
-Beyond the general trends, some games exhibit striking discrepancies between critic and user evaluations. In our dataset, we found a substantial number of titles where the difference between the two scores exceeds 20 points on a 100-point scale—sometimes even more than 30. These outliers can reflect cases where critics and players approached the game from entirely different perspectives: technical polish vs. emotional resonance, innovation vs. nostalgia, or even divergent expectations shaped by marketing.
-Analyzing these outliers in more detail could offer valuable insights into the dynamics of reception—what drives such a divide, and what it reveals about the varying standards of professional reviewers and general audiences.
+These outliers can reflect cases where critics and players approached the game from entirely different perspectives: technical polish vs. emotional resonance, innovation vs. nostalgia, or even divergent expectations shaped by marketing.
+Analyzing these outliers in more detail could offer valuable insights into the dynamics of reception—what drives such a divide, and what it reveals about the varying standards of professional reviewers and general audiences. 
 
 <figure>
   <div class = "general_chartClass">
@@ -179,8 +188,11 @@ Analyzing these outliers in more detail could offer valuable insights into the d
   <figcaption class = "figcaption_class"> Fig.10 - Users vs critic score on Metacritic. </figcaption>
 </figure>
 
+We have dived a little more deeply into this topic, by analysing game reviews for the top 15 games where critics' and users' scores differred the most.
+
 In the case of games that have received more critic's praise than user's love, the most talked about category, gameplay, has received mostly negative mentions from users, even for games with plenty of positive critics mentions. Price and value for money is also a point of contention; looking at critics reviews, all games received mostly positive mentions with respect to this topic. For users this is the second most talked about topic, but in a decidedly negative perspective. It is also interesting to note that both critics and users had plenty of comments to make about technical issues, which are mostly negative; however, it seems that critics did not find these issues to be relevant enough to impact the game, while users might have had a different view.
-In the case of games that have received more love from the users than from the critics, it is not surprising to see that most user comments are positive, across all categories, however, it is more difficult to spot any obvious trend. For some games, like Cortex Command or Disney Pixar WALL-E, users and critics focussed their reviews on different aspects of the games altogether, demonstrating a differing interests in the game features. For other games, like 7 Days to Die or Knock-knock, it seems that users were far less harsh in their judgements compared to critics.
+
+In the case of games that have received more love from the users than from the critics, it is not surprising to see that most user comments are positive across all categories, however, it is more difficult to spot any obvious trend. For some games, like Cortex Command or Disney Pixar WALL-E, users and critics focussed their reviews on different aspects of the games altogether, demonstrating a differing interests in the game features. For other games, like 7 Days to Die or Knock-knock, it seems that users were far less harsh in their judgements compared to critics.
 
 <figure>
   <div class = "general_chartClass">
@@ -193,16 +205,16 @@ In the case of games that have received more love from the users than from the c
 
 <h1 id = "Measuring Success"> Measuring Success </h1>
 
-With thousands of games released each year and player attention more fragmented than ever, relying on a single metric to evaluate a game’s success is increasingly limiting. A high number of owners doesn’t necessarily mean players liked the experience; a strong review ratio might come from a niche but passionate fanbase. Conversely, a critically acclaimed title might fail to attract a meaningful audience. In such a complex ecosystem, success is multidimensional and it becomes crucial to disentangle its components.
+With thousands of games released each year and player attention more fragmented than ever, relying on a single dimension to evaluate a game’s success is limiting. A high number of owners does not necessarily mean players enjoyed the experience; a strong review ratio might come from a niche but passionate fanbase. Conversely, a critically acclaimed title might fail to attract a meaningful audience. In such a complex ecosystem, success is multidimensional and it becomes crucial to disentangle its components.
 
-To this end, we introduce two composite indicators: ***Popularity*** and ***Appreciation***. These scores aim to synthesize multiple signals into meaningful, interpretable dimensions. Popularity combines a game’s visibility, reach, and commercial uptake (through ownership, wishlisting, and review counts), while appreciation reflects how well a game is received once it's played (via various types of ratings).
+To this end, we introduce two composite indicators: ***Popularity*** and ***Appreciation***. These scores aim to summarise multiple attributes into meaningful, interpretable indicators. Popularity combines a game’s visibility, reach, and commercial uptake (through ownership, wishlisting, and review counts), while appreciation reflects how well a game is received once it's played (via various types of ratings).
 
-This dual-axis approach allows for a more nuanced understanding of a game's position in the market: whether it's beloved but overlooked, widely played but polarizing, or among that group that is both popular and appreciated. In the sections that follow, we explore how these metrics behave, what patterns emerge, and what features seem to shape a game's trajectory across these axes.
+This dual-axis approach allows for a more nuanced understanding of a game's position in the market: whether it is loved but overlooked, widely played but polarising, or among that group that is both popular and appreciated. In the sections that follow, we explore how these indicators behave, what patterns emerge, and what features seem to shape a game's trajectory across these axes.
 
 <h2 id="Popularity Score"> Popularity Score </h2>
 
 Popularity in the gaming world is more than just raw sales. It’s a combination of visibility, engagement, and community presence. To capture this complex reality, we created a composite ***Popularity Score*** using data from both Steam and gaming databases like Metacritic and Backloggd.
-We began with ten core indicators of attention, ranging from how many people bought or played a game, to how often it was reviewed or recommended. These included:
+We identified ten core indicators of attention, ranging from how many people bought or played a game, to how often it was reviewed or recommended. These included:
 
 <ul class = "in_text_list">
   <li> Player activity metrics like peak concurrent users (24h and all-time) </li>
@@ -212,7 +224,7 @@ We began with ten core indicators of attention, ranging from how many people bou
   <li> Number of critic and user reviews on Metacritic </li>
 </ul>
 
-Because these numbers can vary wildly between indie darlings and AAA blockbusters, we applied a logarithmic transformation to scale them more evenly. Then, we used ***Principal Component Analysis (PCA)*** to synthesize these features into a single, unified score (which is then normalized between 0 and 1). This score doesn’t just tell us how many people bought a game. It reflects how visible, discussed, and socially present a game is in the gaming ecosystem.
+Because these numbers can vary wildly between indie successes and AAA blockbusters, we applied a logarithmic transformation to scale them more evenly. Then, we used ***Principal Component Analysis (PCA)*** to synthesize these features into a single, unified score (which is then normalized between 0 and 1). This score doesn’t just tell us how many people bought a game. It reflects how visible, discussed, and socially present a game is in the gaming ecosystem.
 
 <figure>
   <div class = "general_chartClass">
@@ -221,7 +233,7 @@ Because these numbers can vary wildly between indie darlings and AAA blockbuster
   <figcaption class = "figcaption_class"> Fig.12 - Top 15 games with respect to our <i>Popularity Score</i>. </figcaption>
 </figure>
 
-The top 15 games by our popularity score feature a mix of blockbuster titles and enduring multiplayer hits. ***GTA V*** leads the pack, followed closely by ***ELDEN RING*** and ***Cyberpunk 2077***. Multiplayer staples like ***CS:GO***, ***Left 4 Dead 2***, and ***PAYDAY 2*** show strong staying power, while narrative-rich games (***Red Dead Redemption 2***, ***The Witcher 3***, ***Baldur’s Gate 3***) and indie successes (***Stardew Valley***, ***Terraria***) demonstrate the wide range of what "popular" can mean on Steam.
+The top 15 games according to our popularity score feature a mix of blockbuster titles and enduring multiplayer hits. ***GTA V*** leads the pack, followed closely by ***ELDEN RING*** and ***Cyberpunk 2077***. Multiplayer staples like ***CS:GO***, ***Left 4 Dead 2***, and ***PAYDAY 2*** show strong staying power, while narrative-rich games (***Red Dead Redemption 2***, ***The Witcher 3***, ***Baldur’s Gate 3***) and indie successes (***Stardew Valley***, ***Terraria***) demonstrate the wide range of what "popular" can mean on Steam.
 
 <figure>
   <div class = "general_chartClass">
@@ -230,7 +242,9 @@ The top 15 games by our popularity score feature a mix of blockbuster titles and
   <figcaption class = "figcaption_class"> Fig.13 - Popularity score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
-The median popularity of games by release year reveals how audience focus has evolved. In the late ’90s and early 2000s, median scores often exceeded 0.6, driven by landmark titles like ***Half-Life*** and ***Counter-Strike***. But from 2006 onward, scores declined to around 0.35–0.45, reflecting the rise of digital platforms, indie games, and a fragmented attention economy. A slight uptick in recent years hints at pandemic-era engagement and viral hits, though overall visibility per title has diminished as the market swells.
+The median popularity of games by release year reveals how audience focus has evolved. In the late ’90s and early 2000s, median scores often exceeded 0.6, driven by landmark titles like ***Half-Life*** and ***Counter-Strike***. But from 2006 onward, scores declined to around 0.35–0.45, reflecting the rise of digital platforms, indie games, and a fragmented attention economy. A slight uptick in recent years hints at pandemic-era engagement and viral hits, though overall visibility per title has diminished as the market expands.
+
+***Title*** Popularity of games is on average declining
 
 <figure>
   <div class = "general_chartClass">
@@ -239,7 +253,7 @@ The median popularity of games by release year reveals how audience focus has ev
   <figcaption class = "figcaption_class"> Fig.14 - Median and maximum popularity by year. </figcaption>
 </figure>
 
-Tracking each year's most popular game outlines a parallel history of standout releases. Valve dominated early on, followed by a mix of cult hits (***Psychonauts***, ***Stardew Valley***) and AAA blockbusters (***GTA V***, ***ELDEN RING***). These games not only captured attention at launch but they’ve remained culturally and playably relevant, setting them apart in an increasingly saturated landscape.
+Tracking each year's most popular game outlines a parallel history of standout releases. Valve dominated early on, followed by a mix of cult hits (***Psychonauts***, ***Stardew Valley***) and AAA blockbusters (***GTA V***, ***ELDEN RING***). These games not only captured attention at launch but they remained culturally and playably relevant, setting them apart in an increasingly saturated landscape.
 
 
 <h2 id="Appreciation Score"> Appreciation Score </h2>
@@ -247,7 +261,7 @@ Tracking each year's most popular game outlines a parallel history of standout r
 While popularity tells us which games are getting the most attention, appreciation is about how deeply players value their time spent. To distill that sentiment into a measurable score, we combined three distinct signals of game quality:
 
 <ul class = "in_text_list">
-  <li> Steam review ratio: a grassroots signal of user satisfaction </li>
+  <li> Steam review ratio: a basic signal of user satisfaction </li>
   <li> Metacritic critic score: a curated, professional assessment </li>
   <li> Metacritic user score: broader public sentiment outside Steam’s ecosystem </li>
 </ul>
@@ -271,13 +285,15 @@ The top 15 most appreciated games highlight story-driven, critically acclaimed t
   <figcaption class = "figcaption_class"> Fig.16 - Appreciation score distribution and Kernel Density Estimation. </figcaption>
 </figure>
 
-Tracking the evolution of appreciation scores reveals how perceptions of quality have shifted in tandem with Steam’s growth. From the late '90s through the 2000s, median scores remained high, reflecting a more selective release environment — where titles like ***Half-Life*** and ***Half-Life 2*** weren’t just popular but deeply respected. The post-2010 period, however, saw a dip, particularly around 2014–2016, as the platform opened to a flood of indie games — some exceptional, many less polished. Yet from 2020 onward, appreciation begins a modest recovery, suggesting developers have adapted to a crowded market, and players to better filtering tools. Our two domain experts have different points of view:
+Tracking the evolution of appreciation scores reveals how perceptions of quality have shifted in tandem with Steam’s growth. From the late '90s through the 2000s, median scores remained high, reflecting a more selective release environment — where titles like ***Half-Life*** and ***Half-Life 2*** weren’t just popular but deeply respected. The post-2010 period, however, saw a dip, particularly around 2014–2016, as the platform opened to a flood of indie games — some exceptional, many less polished. Yet from 2020 onward, appreciation begins a modest recovery, suggesting developers have adapted to a crowded market, and players to better filtering tools. Our two domain experts have different points of view on this matter:
 
 <blockquote class = "expert_quote">
   <p>"As the pool increases, the quality inevitably decreases on average. Then on Steam, all this is amplified because more and more unknown games are released, and this can lead to an average decrease in appreciation." - <cite> Andrea Porta </cite> </p>
 
-  <p>"For years, video game creators have responded to player calls for elements like 'cutting-edge graphics' and other initially gratifying features. However, prioritizing these aspects has, at times, come at the cost of content depth and innovation." - <cite> Fortuna Imperatore </cite> </p>
+  <p>"For years, video game creators have responded to player's calls for elements like 'cutting-edge graphics' and other initially gratifying features. However, prioritizing these aspects has, at times, come at the cost of content depth and innovation." - <cite> Fortuna Imperatore </cite> </p>
 </blockquote>
+
+***Title*** Appreciation of games is on average declining
 
 <figure>
   <div class = "general_chartClass">
@@ -286,13 +302,13 @@ Tracking the evolution of appreciation scores reveals how perceptions of quality
   <figcaption class = "figcaption_class"> Fig.17 - Median and maximum appreciation by year. </figcaption>
 </figure>
 
-Overlaying top appreciated games by year reinforces this: alongside AAA milestones like ***The Witcher 3*** and ***Baldur’s Gate 3***, we find emotionally resonant indies like ***Celeste***, ***Hollow Knight***, and ***Pizza Tower***. These titles show that lasting impact isn’t tied to budget, but to originality, depth, and connection.
+Overlaying top appreciated games by year reinforces this: alongside AAA milestones like ***The Witcher 3*** and ***Baldur’s Gate 3***, we find greatly appreciated indies like ***Celeste***, ***Hollow Knight***, and ***Pizza Tower***. These titles show that lasting impact isn’t tied to budget, but to originality, depth, and connection.
 
 
 
 <h2 id="Appreciation-Popularity Plane"> Appreciation-Popularity Plane </h2>
 
-The scatter plot below positions games according to their appreciation (horizontal axis) and popularity (vertical axis) scores. With median lines dividing the space, four distinct profiles emerge. Games in the top-right quadrant — such as ***Red Dead Redemption 2*** or ***The Witcher 3*** — combine strong admiration with widespread reach. The top-left captures popular games with more mixed reception, while the bottom-right shows beloved titles with narrower appeal. The bottom-left hosts games that struggled to resonate broadly on either front. This quadrant framework helps decode the landscape of critical and commercial impact in a single glance.
+The scatter plot below positions games according to their appreciation (horizontal axis) and popularity (vertical axis) scores. With median lines dividing the space, four distinct profiles emerge. Games in the top-right quadrant — such as ***Red Dead Redemption 2*** or ***The Witcher 3*** — combine strong admiration with widespread reach. The top-left captures popular games with more mixed reception, while the bottom-right shows beloved titles with narrower appeal. The bottom-left hosts games that struggled to resonate broadly on either front. This quadrant framework helps decode the landscape of critical and commercial impact at a single glance.
 
 <figure>
   <div class = "general_chartClass">
@@ -303,11 +319,11 @@ The scatter plot below positions games according to their appreciation (horizont
 
 The top 15 titles that excel in both popularity and appreciation reflect a compelling mix of blockbuster hits and standout indie successes. Games like ***Baldur’s Gate 3***, ***GTA V***, and ***Elden Ring*** dominate thanks to massive reach and critical acclaim. But beloved indies such as ***Stardew Valley***, ***Hollow Knight***, ***Terraria***, and ***Undertale*** hold their ground, proving that emotional impact and craftsmanship can rival even the biggest AAA productions.
 
-High popularity & low appercation games managed to draw substantial attention but not much love. Big budget titles like ***Battlefield 2042***, ***Fallout 76***, and ***NBA 2K21*** rank high in visibility yet falter in player satisfaction, as reflected by significantly lower appreciation scores. The list is almost entirely dominated by large publishers, hinting at a recurring pattern: strong marketing and brand recognition can drive popularity even when the final product disappoints. It's a stark reminder that **hype alone doesn't guarantee lasting success**.
+High popularity & low appercation games managed to draw substantial attention but not much love. Big budget titles like ***Battlefield 2042***, ***Fallout 76***, and ***NBA 2K21*** rank high in visibility yet falter in player satisfaction, as reflected by significantly lower appreciation scores. The list is almost entirely dominated by large publishers, hinting at a recurring pattern: strong marketing and brand recognition can drive popularity even when the final product disappoints. It's a stark reminder that **hype alone does not guarantee lasting success**.
 
-High appreciation & low popularity games represent the hidden gems of the Steam catalog—titles that flew under the radar but resonated deeply with those who played them. Mostly indie and niche productions, like ***Worm Jazz***, ***Depixtion***, and ***DERU - The Art of Cooperation***, these games boast remarkably high appreciation scores despite modest popularity. Their presence suggests that while marketing power can drive visibility, creative vision and satisfying gameplay can quietly build strong player loyalty, even without mainstream attention. 
+High appreciation & low popularity games represent the hidden gems of the Steam catalog—titles that flew under the radar but struck a chord with those who played them. Mostly indie and niche productions, like ***Worm Jazz***, ***Depixtion***, and ***DERU - The Art of Cooperation***, these games boast remarkably high appreciation scores despite modest popularity. Their presence suggests that while marketing power can drive visibility, creative vision and satisfying gameplay can build strong player loyalty, even without mainstream attention. 
 
-The bottom end of the popularity–appreciation spectrum paints a picture of titles that struggled to gain traction both commercially and critically. Games like ***Wild West Online*** and ***Shadow Harvest: Phantom Ops*** saw limited player interest and failed to win over those who did engage. Interestingly, many of these are smaller indie efforts or low-profile AA titles, suggesting either **underdeveloped experiences** or **misaligned expectations**. The mix of obscure failures and forgotten experiments underlines how crowded and unforgiving the Steam market can be.
+The bottom end of the popularity–appreciation spectrum paints a picture of titles that struggled to gain traction both commercially and critically. Games like ***Wild West Online*** and ***Shadow Harvest: Phantom Ops*** saw limited player interest and failed to win over those who did engage. Interestingly, many of these are smaller indie efforts or low-profile AA titles, suggesting either **underdeveloped experiences** or **misaligned expectations**.
 
 
 <h1 id = "Indie vs Non-Indie"> Indie vs Non-Indie </h1>
