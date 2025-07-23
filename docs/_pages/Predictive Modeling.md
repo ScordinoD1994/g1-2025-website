@@ -162,7 +162,7 @@ Tab.1 repots parameters and performance for the best models.
 
 Tab.2, Tab.3 and Tab.4 show the classification report for each model while Fig.3 displays the corresponding confusion matrices.
 
-<div class="general_chartClass">
+<div class="full-width-wrapper general_chartClass">
     <table class = "custom_table">
         <thead>
             <td>  </td>
