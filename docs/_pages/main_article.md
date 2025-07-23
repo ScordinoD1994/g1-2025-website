@@ -184,6 +184,7 @@ These differences highlight the challenge of evaluating player sentiment in a co
 Beyond the general trends, some games exhibit striking discrepancies between critic and user evaluations. In our dataset, we found a substantial number of titles where the difference between the two scores exceeds 20 points on a 100-point scale—sometimes even more than 30. 
 
 <figure>
+  <p class = "figure_title"> In some cases critics and users score are widely different </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/metacritic_score_difference.json"></vegachart>
   </div>
@@ -194,6 +195,7 @@ These outliers can reflect cases where critics and players approached the game f
 Analyzing these outliers in more detail could offer valuable insights into the dynamics of reception—what drives such a divide, and what it reveals about the varying standards of professional reviewers and general audiences. 
 
 <figure>
+  <p class = "figure_title"> Explore  </p>
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/user_vs_critic_score_by_difference.json"></vegachart>
   </div>
@@ -393,7 +395,6 @@ The notable spike in indie game popularity in 2008 can be attributed to a handfu
   <figcaption class = "figcaption_class"> Fig.22 - Left: Popularity score for the top 15 indie games. Right: appreciation score for the top 15 indie games. </figcaption>
 </figure>
 
-
 The data gathered from our review analysis shines some light on the characteristics that set apart indie and non-indie games. An analysis of the number of mentions per topic shows that both users and critics look for slightly different things in indie games compared to non indie games. For example, story and narrative do not gather as many mentions in reviews of indie games, both of users and critics, as they do for non-indie games. Users in particular tend to comment more on the sound and music in indie games, generally with a positive connotation. Interestingly, although gameplay is always the most discussed topic in games reviews, the gameplay for the most popular indie games received more attention by users than the gameplay for the most popular non indie games.
 
 Both in terms of gameplay and price and value for money users tend to share more positive comments for popular indie games than for popular non-indie games. Considering the higher price-point of non-indie games, it may be that users are more inclined to be pleasantly surprised by games that were less expensive; it could also mean that expectations for games coming from non-indie developers are generally higher and thus more difficult to meet or exceed.
@@ -402,7 +403,7 @@ Both in terms of gameplay and price and value for money users tend to share more
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_indieVSnonIndie.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.23 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.23 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. Click on each topic to visualise sentiment breakdown. </figcaption>
 </figure>
 
 Our data highlights a clear strategic advantage for indie games in terms of initial pricing. With an average launch price of $16.85, significantly lower than non-indie titles averaging $25.60 (and a median of $14.99 compared to $19.99 for non-indies), independent developers consistently offer a more accessible entry point for players. This lower barrier to entry is crucial in a competitive market, yet affordability alone does not guarantee market dominance; our figures show that non-indie games generally achieve higher popularity scores (averaging 0.448 versus 0.363 for indies) despite their higher price point. 
