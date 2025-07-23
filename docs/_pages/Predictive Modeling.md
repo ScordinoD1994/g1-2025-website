@@ -213,7 +213,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
 </figure>
 
 <figure>
-  <img src='assets/images/kmeans_clustering_distributions.png' style = "width: 100%">
+  <img src='assets/images/kmeans_clustering_distributions.png'>
   <figcaption class = "figcaption_class"> Fig.1 - Game releases per year. Image from <a href="https://steamdb.info/stats/releases/">SteamDB</a>. </figcaption>
 </figure>
 
