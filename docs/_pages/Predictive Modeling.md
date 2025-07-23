@@ -80,8 +80,8 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
 <table class = "custom_table">
     <tr>
         <td>Model</td>
-        <td>Train Accuracy (CV)</td>
-        <td>Validation Accuracy (CV)</td>
+        <td>Mean Train Accuracy (CV)</td>
+        <td>Mean Validation Accuracy (CV)</td>
         <td>Test Accuracy</td>
         <td>Parameters</td>
         <td>Notes</td>
@@ -90,7 +90,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
         <td>Popularity Model</td>
         <td>0.879</td>
         <td>0.865</td>
-        <td> </td>
+        <td>0.838</td>
         <td>
             <code>
                 <var>max_depth</var>: 2, 
@@ -108,7 +108,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
         <td>Appreciation Model</td>
         <td>0.746</td>
         <td>0.725</td>
-        <td> </td>
+        <td>0.729</td>
         <td>
             <code>
                 <var>max_depth</var>: 2, 
@@ -126,7 +126,7 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
         <td>Quadrant Classifier</td>
         <td>0.657</td>
         <td>0.616</td>
-        <td> </td>
+        <td>0.611</td>
         <td>
             <code>
                 <var>max_depth</var>: 2, 
@@ -141,9 +141,11 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
         <td>Multi-class prediction is understandably more difficult, but the model performs well enough to support deeper SHAP-based analysis of what drives game outcomes.</td>
     </tr>
     <caption class = "figcaption_class">
-        Tab.1 - Test accuracy (second column), validation accuracy (third column) and best parameters (fourth column) for each predictive model considered.
+        Tab.1 - Train accuracy (second column), validation accuracy (third column), test accuracy (fourth column) and best parameters (fifth column) for each predictive model considered.
     </caption>
 </table>
+
+
 
 <table class = "custom_table">
     <thead>
@@ -155,41 +157,154 @@ We used the <b><a href="https://xgboost.ai/">XGBoost</a> classifier</b>, a high-
     </thead>
     <tr>
         <td> 0 </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
+        <td> 0.816 </td>
+        <td> 0.875</td>
+        <td> 0.844</td>
+        <td> 471</td>
     </tr>
     <tr>
         <td> 1 </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
+        <td> 0.865</td>
+        <td> 0.802</td>
+        <td> 0.832</td>
+        <td> 470 </td>
     </tr>
     <tr>
         <td> accuracy </td>
         <td>  </td>
         <td>  </td>
-        <td> </td>
-        <td> </td>
+        <td> 0.838 </td>
+        <td> 941 </td>
     </tr>
     <tr>
         <td> macro avg </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
+        <td> 0.840 </td>
+        <td> 0.838 </td>
+        <td> 0.838 </td>
+        <td> 941 </td>
     </tr>
     <tr>
         <td> weighted avg </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
+        <td> 0.840 </td>
+        <td> 0.838</td>
+        <td> 0.838</td>
+        <td> 941</td>
     </tr>
     <caption class = "figcaption_class">
-        Tab.2 - .
+        Tab.2 - Popularity classification report.
+    </caption>
+</table>
+
+
+
+<table class = "custom_table">
+    <thead>
+        <td>  </td>
+        <td> precision </td>
+        <td> recall </td>
+        <td> f1-score </td>
+        <td> support </td>
+    </thead>
+    <tr>
+        <td> 0 </td>
+        <td> 0.708 </td>
+        <td> 0.781</td>
+        <td> 0.743</td>
+        <td> 471</td>
+    </tr>
+    <tr>
+        <td> 1 </td>
+        <td> 0.755</td>
+        <td> 0.677</td>
+        <td> 0.714</td>
+        <td> 470 </td>
+    </tr>
+    <tr>
+        <td> accuracy </td>
+        <td>  </td>
+        <td>  </td>
+        <td> 0.729 </td>
+        <td> 941 </td>
+    </tr>
+    <tr>
+        <td> macro avg </td>
+        <td> 0.732 </td>
+        <td> 0.729 </td>
+        <td> 0.728 </td>
+        <td> 941 </td>
+    </tr>
+    <tr>
+        <td> weighted avg </td>
+        <td> 0.732 </td>
+        <td> 0.729</td>
+        <td> 0.728</td>
+        <td> 941</td>
+    </tr>
+    <caption class = "figcaption_class">
+        Tab.2 - Appreciation classification report.
+    </caption>
+</table>
+
+
+<table class = "custom_table">
+    <thead>
+        <td>  </td>
+        <td> precision </td>
+        <td> recall </td>
+        <td> f1-score </td>
+        <td> support </td>
+    </thead>
+    <tr>
+        <td> 0 </td>
+        <td> 0.709 </td>
+        <td> 0.659</td>
+        <td> 0.683</td>
+        <td> 311</td>
+    </tr>
+    <tr>
+        <td> 1 </td>
+        <td> 0.483</td>
+        <td> 0.631</td>
+        <td> 0.547</td>
+        <td> 160</td>
+    </tr>
+    <tr>
+        <td> 2 </td>
+        <td> 0.410</td>
+        <td> 0.544</td>
+        <td> 0.468</td>
+        <td> 160</td>
+    </tr>
+    <tr>
+        <td> 3 </td>
+        <td> 0.788 </td>
+        <td> 0.587 </td>
+        <td> 0.673 </td>
+        <td> 310 </td>
+    </tr>
+    <tr>
+        <td> accuracy </td>
+        <td>  </td>
+        <td>  </td>
+        <td> 0.611 </td>
+        <td> 941 </td>
+    </tr>
+    <tr>
+        <td> macro avg </td>
+        <td> 0.598 </td>
+        <td> 0.605 </td>
+        <td> 0.593 </td>
+        <td> 941 </td>
+    </tr>
+    <tr>
+        <td> weighted avg </td>
+        <td> 0.646 </td>
+        <td> 0.611</td>
+        <td> 0.620</td>
+        <td> 941</td>
+    </tr>
+    <caption class = "figcaption_class">
+        Tab.2 - Quadrant classification report.
     </caption>
 </table>
 
