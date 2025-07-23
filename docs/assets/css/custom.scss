@@ -130,6 +130,7 @@ body {
   justify-content: center;
   //padding-top: 10px;
   padding-bottom: 30px;
+  color: #00ff00;
 }
 
 
@@ -284,7 +285,10 @@ a {
 }
 
 .pacman_separator {
-  overflow-x: clip;
-  padding: 40px;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 20px;
 }
+ 
 
