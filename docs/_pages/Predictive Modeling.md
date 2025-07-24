@@ -163,7 +163,7 @@ Tab.1 repots parameters and performance for the best models.
 Tab.2, Tab.3 and Tab.4 show the classification report for each model while Fig.3 displays the corresponding confusion matrices.
 
 <div class="full-width-wrapper general_chartClass">
-    <table class = "custom_table">
+    <table>
         <thead>
             <td>  </td>
             <td> precision </td>
@@ -206,11 +206,11 @@ Tab.2, Tab.3 and Tab.4 show the classification report for each model while Fig.3
             <td> 0.838</td>
             <td> 941</td>
         </tr>
-        <caption class = "figcaption_class">
+        <caption>
             Tab.2 - Popularity classification report. Class 0 corresponds to Low Popularity while class 1 corresponds to High Popularity.
         </caption>
     </table>
-    <table class = "custom_table">
+    <table>
         <thead>
             <td>  </td>
             <td> precision </td>
@@ -257,7 +257,7 @@ Tab.2, Tab.3 and Tab.4 show the classification report for each model while Fig.3
             Tab.3 - Appreciation classification report. Class 0 corresponds to Low Appreciation while class 1 corresponds to High Appreciation.
         </caption>
     </table>
-    <table class = "custom_table">
+    <table>
         <thead>
             <td>  </td>
             <td> precision </td>
