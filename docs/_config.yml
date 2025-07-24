@@ -56,8 +56,8 @@ navbar:
       child:
         - title: Data Gathering
           url: /Data Gathering.html
-        - title: Predictive Modeling
-          url: /Predictive Modeling.html
+        - title: Predictive Model
+          url: /Predictive Model.html
         - title: Text Analysis
           url: /Text Analysis.html
     - title: SBD Master # this must be always the last item in the navbar, don't change it
