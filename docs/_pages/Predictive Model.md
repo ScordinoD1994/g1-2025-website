@@ -82,7 +82,7 @@ In order to find the best parameters configuration we used <code>Gridsearch</cod
     <img src='assets/images/overfitting_quad_2.png' width = 500 height = 500 style = 'padding: 15px;'>
   </div>
   <figcaption class = "figcaption_class"> 
-    Fig.2 - Best parameters selection for popularity-only (left plot), appreciation-only (middle plot) and quadrant (right plot) models. The red dot represents our best model on the mean validation accurary -  mean train accuracy plane. Models close to the diagonal line do not suffer from overfitting or underfitting.
+    Fig.2 - Best parameters selection for popularity-only (left plot), appreciation-only (middle plot) and quadrant (right plot) models. The magenta dot represents our best model on the mean validation accurary -  mean train accuracy plane. Models close to the diagonal line do not suffer from overfitting or underfitting.
   </figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ Each of our (best) models outperforms the corresponding <code>Dummy Classifier</
     <li> Quadrant model: 33% </li>
 </ul>
 
-Tab.1 repots parameters and performance for our best models. Given these results we can state that our classifiers are indeed learning patterns from data.
+Tab.1 reports parameters and performance for our best models. Given these results we can state that our classifiers are indeed learning patterns from data.
 
 <table class = "custom_table">
     <tr>
@@ -164,11 +164,11 @@ Tab.1 repots parameters and performance for our best models. Given these results
         <td>Multi-class prediction is understandably more difficult, but the model performs well enough to support deeper SHAP-based analysis of what drives game outcomes.</td>
     </tr>
     <caption class = "figcaption_class">
-        Tab.1 - Train accuracy (second column), validation accuracy (third column), test accuracy (fourth column) and best parameters (fifth column) for each predictive model considered.
+        Tab.1 - Models performances and their best parameters.
     </caption>
 </table>
 
-Tab.2, Tab.3 and Tab.4 show the classification report for each model while Fig.3 displays the corresponding confusion matrices.
+Tab.2, Tab.3 and Tab.4 show the classification reports for each model, while Fig.3 displays the corresponding confusion matrices.
 
 <table  class = "custom_table">
     <thead>
@@ -338,12 +338,12 @@ Tab.2, Tab.3 and Tab.4 show the classification report for each model while Fig.3
     <img src='assets/images/confusion_matrix_quad.png' width = 500 height = 500 style = 'padding: 15px;'>
   </div>
   <figcaption class = "figcaption_class"> 
-    Fig.3 - Confusion matrices for popularity-only (left plot), appreciation-only (middle plot) and quadrant (right plot) best models.
+    Fig.3 - Left: Confusion matrix for popularity-only best model. Centre: Confusion matrix appreciation-only best model. Right: Confusion matrix for quadrant best model.
   </figcaption>
 </figure>
 
 
-In order to have some insight on the model performances in the various cases, we tried to run a clustering algorithm (<b>Kmeans</b>) using as features the ones defining Popularity and Appreciation scores. This approach results in two macro-clusters. Fig.4 shows distributions for popularity and appreciation for each cluster. As we can see, only popularity can be considered well separated into two classes (High Popularity and Low Popularity), while it is not possible to obtain analogous informations for appreciation. This can justify the worse performance of our model in predicting appreciation or in the multi-class classification task. Tab.5 reports mean and standard deviation for popularity and appreciation for the whole dataset and two clusters.
+In order to have some insight on the model performances in the various cases, we tried to run a clustering algorithm (<b>Kmeans</b>) using as features the ones defining Popularity and Appreciation scores. This approach results in two macro-clusters. Fig.4 shows distributions for popularity and appreciation for each cluster. As we can see, only popularity can be considered well separated into two classes (High Popularity and Low Popularity), while it is not possible to obtain an analogous separation level for appreciation. This can justify the worse performance of our model in predicting appreciation or in the multi-class classification task. Tab.5 reports mean and standard deviation for popularity and appreciation for the whole dataset and the two clusters.
 
 
 <figure>
@@ -351,7 +351,7 @@ In order to have some insight on the model performances in the various cases, we
         <img src='assets/images/kmeans_clustering_distributions_pop.png' width = 600 style = 'padding: 15px;'>
         <img src='assets/images/kmeans_clustering_distributions_appr.png' width = 600 style = 'padding: 15px;'>
     </div>
-    <figcaption class = "figcaption_class"> Fig.4 - Popularity and appreciation distribution on the whole dataset (white histogram) and for the two clustes. </figcaption>
+    <figcaption class = "figcaption_class"> Fig.4 - Popularity and appreciation distribution on the whole dataset (grey histogram) and for the two clustes. </figcaption>
 </figure>
 
 <table class = "custom_table">
@@ -391,7 +391,7 @@ In order to have some insight on the model performances in the various cases, we
         <td> 0.153 </td>
     </tr>
     <caption class = "figcaption_class">
-        Tab.5 - Mean and standard deviation for popularity and appreciation for the whole dataset and two clusters.
+        Tab.5 - Mean and standard deviation for popularity and appreciation for the whole dataset and for the two clusters.
     </caption>
 </table>
 
@@ -399,9 +399,9 @@ In order to have some insight on the model performances in the various cases, we
  
 ## Explainability: Using SHAP
  
-To move beyond raw accuracy and into **insight**, we used <b><a href="https://shap.readthedocs.io/en/latest/">SHAP</a> (SHapley Additive exPlanations)</b> to interpret the models. SHAP provides per-feature attribution scores that show not only what features matter, but **how** they influence predictions — whether positively or negatively.
+To move beyond raw accuracy and into **insight**, we used <b><a href="https://shap.readthedocs.io/en/latest/">SHAP</a> (SHapley Additive exPlanations)</b> to interpret the models. SHAP provides per-feature attribution scores that show not only what features matter, but **how** they influence predictions, whether positively or negatively.
 
-The SHAP summary plot shows the impact of each feature on the model's predictions across all samples. Each dot represents a game, positioned horizontally by how much that feature pushed the prediction higher or lower (the SHAP value). The color of the dot indicates the actual value of the feature for that game — with red meaning a high value and blue a low one. Features are sorted top to bottom by their overall importance (mean absolute SHAP value), so those at the top had the greatest influence on the model’s output. This plot helps you see not just which features matter most, but also how different values of those features affect predictions.
+The SHAP summary plot shows the impact of each feature on the model's predictions across all samples. Each dot represents a game, positioned horizontally by how much that feature pushed the prediction higher or lower (the SHAP value). The color of the dot indicates the actual value of the feature for that game — with red meaning a high value and blue a low one. Features are sorted top to bottom by their overall importance (mean absolute SHAP value), so those at the top have the greatest influence on the model’s output. This plot helps us see not only which features matter the most, but also how different values of those features affect predictions.
 
 <figure>
   <img src='assets/images/shap_summary_plot_pop.png' style = "width: 100%">
@@ -440,20 +440,20 @@ The SHAP summary plot shows the impact of each feature on the model's prediction
 SHAP helped reveal:
 
 <ul class = "in_text_list">
-    <li> The dominant influence of <var>wishlist_backloggd</var> across all models  </li>
-    <li> The asymmetric importance of features like <var>Multiplayer</var>, <var>Strategy</var>, <var>is_indie</var>, and <var>Open World</var> </li>
-    <li> That high appreciation often hinges on tags like <var>Puzzle</var>, <var>Cute</var>, or <var>Funny</var>, while popularity leans on broader features like multiplayer or platform support </li>
-    <li> The complexity of quadrant dynamics — e.g., how some features protect against a "low/low" outcome, while others increase the risk of being overhyped but underwhelming </li>
+    <li> The dominant influence of <var>wishlist_backloggd</var> across all models;  </li>
+    <li> The asymmetric importance of features like <var>Multiplayer</var>, <var>Strategy</var>, <var>is_indie</var>, and <var>Open World</var>; </li>
+    <li> That high appreciation often hinges on tags like <var>Puzzle</var>, <var>Cute</var>, or <var>Funny</var>, while popularity leans on broader features like multiplayer or platform support; </li>
+    <li> The complexity of quadrant dynamics — e.g., how some features protect against a "low/low" outcome, while others increase the risk of being overhyped but underwhelming. </li>
 </ul>
 
 
 
-## Limitations
+## Limitations of our approach
 
 <ul class = "in_text_list">
-    <li> <b>Data size</b> (~5,000 games) is relatively modest, especially for deep modeling of subjective traits like appreciation </li>
-    <li> <b>Tag quality</b> depends on how consistently games are labeled, which may introduce noise. </li>
-    <li> <b>Temporal generalization</b> is not tested — models were trained on a snapshot and may not fully predict future hits. </li>
+    <li> <b>Data size</b> (~5,000 games) is relatively modest, especially for deep modeling of subjective traits like appreciation; </li>
+    <li> <b>Tag quality</b> depends on how consistently games are labeled, which may introduce noise; </li>
+    <li> <b>Temporal generalization</b> is not tested — models were trained on a snapshot and may not fully predict future hits; </li>
     <li> <b>Additional features</b> related to marketing or reviews content could add deeper context to future models. </li>
 </ul>
 
