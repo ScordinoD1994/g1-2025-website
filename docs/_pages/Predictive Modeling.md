@@ -90,7 +90,7 @@ In order to find the best parameters configuration we used <code>Gridsearch</cod
 
 ## Model Performance
 
-Each of the models outperforms the corresponding <code>Dummy Classifier</code> (that would always give the most frequent class as output) which would give the following accuracy values:
+Each of our (best) models outperforms the corresponding <code>Dummy Classifier</code> that would always give the most frequent class as output resulting in the following accuracy values:
 
 <ul class = "in_text_list">
     <li> Popularity-only model: 50% (since our classes are balanced in this case)</li>
@@ -98,7 +98,7 @@ Each of the models outperforms the corresponding <code>Dummy Classifier</code> (
     <li> Quadrant model: 33% </li>
 </ul>
 
-Tab.1 repots parameters and performance for the best models. Given this results we can state that our models are indeed learning patterns from data.
+Tab.1 repots parameters and performance for our best models. Given these results we can state that our classifiers are indeed learning patterns from data.
 
 <table class = "custom_table">
     <tr>
@@ -170,102 +170,103 @@ Tab.1 repots parameters and performance for the best models. Given this results 
 
 Tab.2, Tab.3 and Tab.4 show the classification report for each model while Fig.3 displays the corresponding confusion matrices.
 
-<div class="full-width-wrapper general_chartClass">
-    <table>
-        <thead>
-            <td>  </td>
-            <td> precision </td>
-            <td> recall </td>
-            <td> f1-score </td>
-            <td> support </td>
-        </thead>
-        <tr>
-            <td> 0 </td>
-            <td> 0.816 </td>
-            <td> 0.875</td>
-            <td> 0.844</td>
-            <td> 471</td>
-        </tr>
-        <tr>
-            <td> 1 </td>
-            <td> 0.865</td>
-            <td> 0.802</td>
-            <td> 0.832</td>
-            <td> 470 </td>
-        </tr>
-        <tr>
-            <td> accuracy </td>
-            <td>  </td>
-            <td>  </td>
-            <td> 0.838 </td>
-            <td> 941 </td>
-        </tr>
-        <tr>
-            <td> macro avg </td>
-            <td> 0.840 </td>
-            <td> 0.838 </td>
-            <td> 0.838 </td>
-            <td> 941 </td>
-        </tr>
-        <tr>
-            <td> weighted avg </td>
-            <td> 0.840 </td>
-            <td> 0.838</td>
-            <td> 0.838</td>
-            <td> 941</td>
-        </tr>
-        <caption>
-            Tab.2 - Popularity classification report. Class 0 corresponds to Low Popularity while class 1 corresponds to High Popularity.
-        </caption>
-    </table>
-    <table>
-        <thead>
-            <td>  </td>
-            <td> precision </td>
-            <td> recall </td>
-            <td> f1-score </td>
-            <td> support </td>
-        </thead>
-        <tr>
-            <td> 0 </td>
-            <td> 0.708 </td>
-            <td> 0.781</td>
-            <td> 0.743</td>
-            <td> 471</td>
-        </tr>
-        <tr>
-            <td> 1 </td>
-            <td> 0.755</td>
-            <td> 0.677</td>
-            <td> 0.714</td>
-            <td> 470 </td>
-        </tr>
-        <tr>
-            <td> accuracy </td>
-            <td>  </td>
-            <td>  </td>
-            <td> 0.729 </td>
-            <td> 941 </td>
-        </tr>
-        <tr>
-            <td> macro avg </td>
-            <td> 0.732 </td>
-            <td> 0.729 </td>
-            <td> 0.728 </td>
-            <td> 941 </td>
-        </tr>
-        <tr>
-            <td> weighted avg </td>
-            <td> 0.732 </td>
-            <td> 0.729</td>
-            <td> 0.728</td>
-            <td> 941</td>
-        </tr>
-        <caption class = "figcaption_class">
-            Tab.3 - Appreciation classification report. Class 0 corresponds to Low Appreciation while class 1 corresponds to High Appreciation.
-        </caption>
-    </table>
-</div>
+<table  class = "custom_table">
+    <thead>
+        <td>  </td>
+        <td> precision </td>
+        <td> recall </td>
+        <td> f1-score </td>
+        <td> support </td>
+    </thead>
+    <tr>
+        <td> 0 </td>
+        <td> 0.816 </td>
+        <td> 0.875</td>
+        <td> 0.844</td>
+        <td> 471</td>
+    </tr>
+    <tr>
+        <td> 1 </td>
+        <td> 0.865</td>
+        <td> 0.802</td>
+        <td> 0.832</td>
+        <td> 470 </td>
+    </tr>
+    <tr>
+        <td> accuracy </td>
+        <td>  </td>
+        <td>  </td>
+        <td> 0.838 </td>
+        <td> 941 </td>
+    </tr>
+    <tr>
+        <td> macro avg </td>
+        <td> 0.840 </td>
+        <td> 0.838 </td>
+        <td> 0.838 </td>
+        <td> 941 </td>
+    </tr>
+    <tr>
+        <td> weighted avg </td>
+        <td> 0.840 </td>
+        <td> 0.838</td>
+        <td> 0.838</td>
+        <td> 941</td>
+    </tr>
+    <caption>
+        Tab.2 - Popularity classification report. Class 0 corresponds to Low Popularity while class 1 corresponds to High Popularity.
+    </caption>
+</table>
+
+
+<table  class = "custom_table">
+    <thead>
+        <td>  </td>
+        <td> precision </td>
+        <td> recall </td>
+        <td> f1-score </td>
+        <td> support </td>
+    </thead>
+    <tr>
+        <td> 0 </td>
+        <td> 0.708 </td>
+        <td> 0.781</td>
+        <td> 0.743</td>
+        <td> 471</td>
+    </tr>
+    <tr>
+        <td> 1 </td>
+        <td> 0.755</td>
+        <td> 0.677</td>
+        <td> 0.714</td>
+        <td> 470 </td>
+    </tr>
+    <tr>
+        <td> accuracy </td>
+        <td>  </td>
+        <td>  </td>
+        <td> 0.729 </td>
+        <td> 941 </td>
+    </tr>
+    <tr>
+        <td> macro avg </td>
+        <td> 0.732 </td>
+        <td> 0.729 </td>
+        <td> 0.728 </td>
+        <td> 941 </td>
+    </tr>
+    <tr>
+        <td> weighted avg </td>
+        <td> 0.732 </td>
+        <td> 0.729</td>
+        <td> 0.728</td>
+        <td> 941</td>
+    </tr>
+    <caption class = "figcaption_class">
+        Tab.3 - Appreciation classification report. Class 0 corresponds to Low Appreciation while class 1 corresponds to High Appreciation.
+    </caption>
+</table>
+
 
 <table class="custom_table">
     <thead>
