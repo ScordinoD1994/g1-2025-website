@@ -345,52 +345,54 @@ Tab.2, Tab.3 and Tab.4 show the classification report for each model while Fig.3
 
 In order to have some insight on the model performances in the various cases, we tried to run a clustering algorithm (<b>Kmeans</b>) using as features the ones defining Popularity and Appreciation scores. This approach results in two macro-clusters. Fig.4 shows distributions for popularity and appreciation for each cluster. As we can see, only popularity can be considered well separated into two classes (High Popularity and Low Popularity), while it is not possible to obtain analogous informations for appreciation. This can justify the worse performance of our model in predicting appreciation or in the multi-class classification task. Tab.5 reports mean and standard deviation for popularity and appreciation for the whole dataset and two clusters.
 
-<div class="full-width-wrapper general_chartClass">
-    <figure>
-    <img src='assets/images/kmeans_clustering_distributions.png' width = 600 style = 'padding: 15px;'>
+
+<figure>
+    <img src='assets/images/kmeans_clustering_distributions_pop.png' width = 600 style = 'padding: 15px;'>
+    <img src='assets/images/kmeans_clustering_distributions_appr.png' width = 600 style = 'padding: 15px;'>
     <figcaption class = "figcaption_class"> Fig.4 - Popularity and appreciation distribution on the whole dataset (white histogram) and for the two clustes. </figcaption>
-    </figure>
-    <table class = "custom_table">
-        <thead>
-            <td>  </td>
-            <td> Mean </td>
-            <td> Std  </td>
-        </thead>
-        <tr>
-            <td> Dataset Popularity </td>
-            <td> 0.403 </td>
-            <td> 0.185 </td>
-        </tr>
-        <tr>
-            <td> Cluster 0 Popularity </td>
-            <td> 0.488 </td>
-            <td> 0.155 </td>
-        </tr>
-        <tr>
-            <td> Cluster 1 Popularity </td>
-            <td> 0.228 </td>
-            <td> 0.097 </td>
-        </tr>
-        <tr>
-            <td> Dataset Appreciation </td>
-            <td> 0.687 </td>
-            <td> 0.148 </td>
-        </tr>
-        <tr>
-            <td> Cluster 0 Appreciation </td>
-            <td> 0.719 </td>
-            <td> 0.135 </td>
-        </tr>
-        <tr>
-            <td> Cluster 1 Appreciation </td>
-            <td> 0.623 </td>
-            <td> 0.153 </td>
-        </tr>
-        <caption class = "figcaption_class">
-            Tab.5 - Mean and standard deviation for popularity and appreciation for the whole dataset and two clusters.
-        </caption>
-    </table>
-</div>
+</figure>
+
+<table class = "custom_table">
+    <thead>
+        <td>  </td>
+        <td> Mean </td>
+        <td> Std  </td>
+    </thead>
+    <tr>
+        <td> Dataset Popularity </td>
+        <td> 0.403 </td>
+        <td> 0.185 </td>
+    </tr>
+    <tr>
+        <td> Cluster 0 Popularity </td>
+        <td> 0.488 </td>
+        <td> 0.155 </td>
+    </tr>
+    <tr>
+        <td> Cluster 1 Popularity </td>
+        <td> 0.228 </td>
+        <td> 0.097 </td>
+    </tr>
+    <tr>
+        <td> Dataset Appreciation </td>
+        <td> 0.687 </td>
+        <td> 0.148 </td>
+    </tr>
+    <tr>
+        <td> Cluster 0 Appreciation </td>
+        <td> 0.719 </td>
+        <td> 0.135 </td>
+    </tr>
+    <tr>
+        <td> Cluster 1 Appreciation </td>
+        <td> 0.623 </td>
+        <td> 0.153 </td>
+    </tr>
+    <caption class = "figcaption_class">
+        Tab.5 - Mean and standard deviation for popularity and appreciation for the whole dataset and two clusters.
+    </caption>
+</table>
+
 
  
 ## Explainability: Using SHAP
