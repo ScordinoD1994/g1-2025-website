@@ -90,7 +90,15 @@ In order to find the best parameters configuration we used <code>Gridsearch</cod
 
 ## Model Performance
 
-Tab.1 repots parameters and performance for the best models.
+Each of the models outperforms the corresponding <code>Dummy Classifier</code> (that would always give the most frequent class as output) which would give the following accuracy values:
+
+<ul class = "in_text_list">
+    <li> Popularity-only model: 50% (since our classes are balanced in this case)</li>
+    <li> Appreciation-only model: 50% (since our classes are balanced in this case) </li>
+    <li> Quadrant model: 33% </li>
+</ul>
+
+Tab.1 repots parameters and performance for the best models. Given this results we can state that our models are indeed learning patterns from data.
 
 <table class = "custom_table">
     <tr>
