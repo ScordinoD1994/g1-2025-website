@@ -81,19 +81,33 @@ All reviews with identified topics (with a confidence level > 0.6) were passed t
 
 The model returned then a sentiment (**positive**, **neutral**, **negative**) for each topic in the review, together with a confidence score. We observed that confidence scores for the returned sentiments were mostly greater than 0.9; lower confidence scores were mostly observed for neutral sentiments in general and for positive and neutral sentiments in the *technical issues* topic.
 
+<figure>
+  <div class = "general_chartClass">
+    <img src='assets/images/neutral_sentiment.png' width = 500>
+  </div>
+  <figcaption class = "figcaption_class"> Fig.1 - An example of sentiment confidence scores on neutral sentiment. </figcaption>
+</figure>
+
 To check the performance of this model for sentiment analysis and to improve the explainability of our results we also extracted supporting sentences for each identified topic. For each extracted topic, the supporting sentences in each review were found with a keyword search. This was implemented using a dictionary containing a list keywords associated to each topic.
 
 <figure>
   <div class = "general_chartClass">
     <img src='assets/images/final output of the text analysis on one review.png' width = 500>
   </div>
-  <figcaption class = "figcaption_class"> Fig.1 - Final output of the text analysis on one review. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.2 - Final output of the text analysis on one review. </figcaption>
 </figure>
 
 
 ## Results
 
-Aggregating the results from all the analysed reviews for each game, we were able to extract the number of mentions of each topic and their associated sentiments. The graph below shows a visualisation of the total mentions per topic, per game, which can be filtered to show the total mentions per topic and game by sentiment.
+Aggregating the results from all the analysed reviews for each game, we were able to extract the number of mentions of each topic and their associated sentiments. The graph below shows a visualisation of the sentiments associated to both users and critics comments. Critics comments tend to be more positive overall in the dataset we have analysed.
+
+<figure>
+  <div class = "general_chartClass">
+    <vegachart schema-url="/g1-2025-website/assets/charts/totalSentimentCounts.json"></vegachart>
+  </div>
+  <figcaption class = "figcaption_class"> Fig.3 - Left: Number of comments per sentiment and reviewer type. Right: percentage of comments by sentiment and reviewer type. </figcaption>
+</figure>
 
 The graph below shows a visualisation of the total mentions per topic, per game, based on the sentiment of the comment (positive, negative or neutral). Both comments from critic and user reviews were included.
 
@@ -101,7 +115,7 @@ The graph below shows a visualisation of the total mentions per topic, per game,
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/AllReviews_countsAndSentiment.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.2 - Total mentions per topic, per game. The dropdown menu can be used to change the sentiment. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.4 - Total mentions per topic, per game. The dropdown menu can be used to change the sentiment. </figcaption>
 </figure>
 
 The most common topic of discussion, both in positive and negative is, probably unsurprisingly, the gameplay. We can also see that the most negative comments are found in technical issues and price and value for money. Excluding the gameplay, it seems that, out of the topics we have analysed, both users and critics are mostly concerned with story and narrative and graphics and visuals, while characters and dialogue and music and sound are of secondary importance.

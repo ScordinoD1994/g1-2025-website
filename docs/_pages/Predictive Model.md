@@ -343,7 +343,7 @@ Tab.2, Tab.3 and Tab.4 show the classification reports for each model, while Fig
 </figure>
 
 
-In order to have some insight on the model performances in the various cases, we tried to run a clustering algorithm (<b>Kmeans</b>) using as features the ones defining Popularity and Appreciation scores. This approach results in two macro-clusters. Fig.4 shows distributions for popularity and appreciation for each cluster. As we can see, only popularity can be considered well separated into two classes (High Popularity and Low Popularity), while it is not possible to obtain an analogous separation level for appreciation. This can justify the worse performance of our model in predicting appreciation or in the multi-class classification task. Tab.5 reports mean and standard deviation for popularity and appreciation for the whole dataset and the two clusters.
+In order to have some insight on the model performances in the multiclass classification task, we ran a clustering algorithm (<b>Kmeans</b>) using as features the ones defining Popularity and Appreciation scores. This approach results in two macro-clusters. Fig.4 shows distributions for popularity and appreciation for each cluster. As we can see, only popularity can be considered well separated into two classes (High Popularity and Low Popularity), while it is not possible to obtain an analogous separation level for appreciation. This can justify the worse predictive performance of our multiclass model. Tab.5 reports mean and standard deviation for popularity and appreciation for the whole dataset and the two clusters.
 
 
 <figure>
