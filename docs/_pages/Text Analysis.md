@@ -126,7 +126,7 @@ A more detailed summary view of all the reviews we have analysed can be had by e
   <div class = "general_chartClass">
     <vegachart schema-url="/g1-2025-website/assets/charts/emojiChart_wholeDataset.json"></vegachart>
   </div>
-  <figcaption class = "figcaption_class"> Fig.3 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. </figcaption>
+  <figcaption class = "figcaption_class"> Fig.5 - Left: Total mention by topic. Right: Sentiment breakdown by topic. The dropdown menu can be used to switch between users and critics. </figcaption>
 </figure>
 
 
