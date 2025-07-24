@@ -527,7 +527,7 @@ Although our predictive model for appreciation was not as performing ad the popu
 
 <h2 id="Predicting both popularity and appreciation"> Predicting both popularity and appreciation </h2>
 
-When trying to predict success by considering popularity and appreciation at the same time, the complexity of the task yields a lower accuracy of 61% on the test set. We present our results grouped into four possible outcomes.
+When trying to predict success by considering popularity and appreciation at the same time, the complexity of the task yields a lower accuracy of 61% on the test set. Nonetheless, this was enough to learn some patterns. We present our results grouped into four possible outcomes.
 
 
 <p class = "custom_p"> Cold Reception: When Games Miss on Both Fronts (Low Popularity and Low Appreciation) </p>
