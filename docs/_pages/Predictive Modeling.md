@@ -347,8 +347,10 @@ In order to have some insight on the model performances in the various cases, we
 
 
 <figure>
-    <img src='assets/images/kmeans_clustering_distributions_pop.png' width = 600 style = 'padding: 15px;'>
-    <img src='assets/images/kmeans_clustering_distributions_appr.png' width = 600 style = 'padding: 15px;'>
+    <div class = "general_chartClass">
+        <img src='assets/images/kmeans_clustering_distributions_pop.png' width = 600 style = 'padding: 15px;'>
+        <img src='assets/images/kmeans_clustering_distributions_appr.png' width = 600 style = 'padding: 15px;'>
+    </div>
     <figcaption class = "figcaption_class"> Fig.4 - Popularity and appreciation distribution on the whole dataset (white histogram) and for the two clustes. </figcaption>
 </figure>
 
