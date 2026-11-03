@@ -1,4 +1,4 @@
-# GAMEBREAKING: *What makes a game successful?*
+# GAMEBREAKING: *Unlocking the data behind a videogame's success*
 
 Team project for the Master in Big Data Analytics & AI for Society (2024-2025, University of Pisa)
 
@@ -21,7 +21,7 @@ This repository hosts the project website showcasing our analysis of 4,878 Steam
 - **Main article** (data journalism): [Gamebreaking Article](https://scordinod1994.github.io/g1-2025-website/)
 - **Technical report:**
   - [Data Gathering](https://scordinod1994.github.io/g1-2025-website/Data%20Gathering.html)
-  - [Predictive Model](https://scordinod101.github.io/g1-2025-website/Predictive%20Model.html)
+  - [Predictive Model](https://scordinod1994.github.io/g1-2025-website/Predictive%20Model.html)
   - [Text Analysis](https://scordinod1994.github.io/g1-2025-website/Text%20Analysis.html)
 
 
