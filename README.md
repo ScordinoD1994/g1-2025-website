@@ -1,23 +1,24 @@
-# SoBigData Master Project Template
-This repository is a template to help you quickly build and publish your project website using Jekyll and GitHub Pages. This template is designed to be simple, customizable, and ready for your Big Data project!
+# GAMEBREAKING: *What makes a game successful?*
 
-## How to get started
+Team project for the Master in Big Data Analytics & AI for Society (2024-2025, University of Pisa)
 
-1. **Create your repository:**  
-   Click **"Use this template"** on GitHub and name your repo `g<groupnumber>-<currentyear>-website` (e.g. `g0-2025-website`).
+## Contributors
+- Gioele Eterno — data acquisition, feature engineering, ML modelling (XGBoost), clustering, sentiment analysis, website content and structure
+- Giancarlo Padula — data acquisition, feature engineering, ML modelling (XGBoost), clustering, sentiment analysis, website content and structure
+- Elvira Papaleo - data acquisition, feature engineering, ML modelling (XGBoost), clustering, sentiment analysis, website content and structure
+- Domenico Scordino — data acquisition, feature engineering, ML modelling (XGBoost), clustering, sentiment analysis, website content and structure
+- Guangrui Shi — data acquisition, feature engineering, ML modelling (XGBoost), clustering, sentiment analysis, website content and structure
 
-2. **Customize your site:**  
-   - Edit `_config.yml` to set your project title, description, and appearance.
-   - Update the navigation bar and footer links as needed.
-   - Add your team members in `_data/members.yml`.
+## Overview
+This repository hosts the project website showcasing our analysis of 4,878 Steam games from multiple sources to predict popularity and appreciation. The site features two complementary sections:
+- **Data journalism article** — narrative presentation of findings for a non-technical audience
+- **Technical report** — detailed methodology on data gathering, XGBoost classification, SHAP interpretability, clustering, and transformer-based text mining
 
-3. **Add your content:**  
-   - Create and edit pages in `docs/_pages/` (e.g. `index.md`, `project.md`, `team.md`).
-   - Add images to `assets/images/` and charts to `assets/charts/`.
+## Links
+- **Main article** (data journalism): [Gamebreaking Article](https://scordinod1994.github.io/g1-2025-website/main_article.html)
+- **Technical report:**
+  - [Data Gathering](https://scordinod1994.github.io/g1-2025-website/Data%20Gathering.html)
+  - [Predictive Model](https://scordinod101.github.io/g1-2025-website/Predictive%20Model.html)
+  - [Text Analysis](https://scordinod1994.github.io/g1-2025-website/Text%20Analysis.html)
 
-4. **Publish your site:**  
-   - Enable GitHub Pages in your repo settings (branch: `main`, folder: `docs`).
-   - Your site will be live at `https://<username>.github.io/<repo>/`.
-
-For detailed instructions, read the template contents.
 
