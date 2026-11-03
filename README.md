@@ -15,8 +15,7 @@ This repository hosts the project website showcasing our analysis of 4,878 Steam
 - **Technical report** — detailed methodology on data gathering, XGBoost classification, SHAP interpretability, clustering, and transformer-based text mining
 
 ## Links
-- **Abstract**: [Gamebreaking Article](https://scordinod1994.github.io/g1-2025-website/)
-- **Main article** (data journalism): [Gamebreaking Article](https://scordinod1994.github.io/g1-2025-website/main_article.html)
+- **Main article** (data journalism): [Gamebreaking Article](https://scordinod1994.github.io/g1-2025-website/)
 - **Technical report:**
   - [Data Gathering](https://scordinod1994.github.io/g1-2025-website/Data%20Gathering.html)
   - [Predictive Model](https://scordinod101.github.io/g1-2025-website/Predictive%20Model.html)
